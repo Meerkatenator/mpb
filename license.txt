@@ -1,0 +1,17 @@
+** WIP ***
+
+MuseScore Pipeband
+License: Creative Commons 0 (CC0)
+
+Sample programming by Kate Dudek
+Samples used include:
+ . Original samples recorded by Guelph Pipe Band 2020 and postprocessed by Jaymee McCarthy and Kate Dudek
+ . Some Original samples from MDL extension recorded by Amir Oosman and S. Christian Collins (snare tap and buzz and buzz roll)
+ . Bagpipe samples from MuseScore_General.sf2
+
+To the extent possible under law, the person who associated CC0 with
+MuseScore Pipeband has waived all copyright and related or neighboring rights
+to MuseScore Pipeband
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.

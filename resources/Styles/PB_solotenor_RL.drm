@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="3.01">
+ 		    <Drum pitch="55">
+			  <head>normal</head>
+			  <line>-1</line>
+			  <voice>0</voice>
+			  <name>HitR</name>
+			  <stem>2</stem>
+			  <shortcut>G</shortcut>
+			</Drum>
+		    <Drum pitch="56">
+			  <head>normal</head>
+			  <line>1</line>
+			  <voice>0</voice>
+			  <name>HitL</name>
+			  <stem>2</stem>
+			  <shortcut>F</shortcut>
+			  </Drum>
+      	    <Drum pitch="0"> <!--unmapped for no sound-->
+			  <head>cross</head>
+  			  <line>-1</line>
+			  <voice>0</voice>
+			  <name>FlourishR</name>
+			  <stem>2</stem>
+			  <shortcut>B</shortcut>
+			</Drum>
+		    <Drum pitch="1"> <!--unmapped for no sound-->
+			  <head>cross</head>
+			  <line>1</line>
+			  <voice>0</voice>
+			  <name>FlourishL</name>
+			  <stem>2</stem>
+			  <shortcut>C</shortcut>
+			</Drum>
+  </museScore>
