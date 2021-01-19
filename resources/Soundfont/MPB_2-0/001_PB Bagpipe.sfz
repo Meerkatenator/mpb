@@ -1,0 +1,155 @@
+// Sfz exported from a sf2 file with Polyphone
+// Name      : MPB Soundfont
+// Author    : Kate Dudek
+// Copyright : Kate Dudek
+// Date      : 2021/01/19
+// Comment   :   This is version 2 of a Soundfont created for pipe band instruments. Bagpipe samples are from MuseScore_General.sf2 Drone samples are from Tyler Bridge but are not yet implemented in an instrument xml definition. Tenor and Bass Drum samples created by Jaymee McCarthy. Snare Drum Samples are from the MDL snare soundfont but will be updated with pipe band snare samples when I can meet postpandemic with a snare drummer to record new samples. 
+
+<group>
+ampeg_release=0.5
+loop_mode=loop_continuous
+resonance=1
+pan=-100
+effect2=3
+effect1=15
+volume=-1.191
+ampeg_attack=0.001
+amplfo_freq=8.176
+fillfo_freq=8.176
+pitchlfo_freq=8.176
+fil_type=lpf_2p
+cutoff=19913
+
+<region>
+sample=samples\Bagpipe A4.wav
+lokey=50 hikey=57
+pitch_keycenter=57
+tune=-7
+offset=0
+end=55291
+loop_start=32595
+loop_end=55237
+
+<region>
+sample=samples\Bagpipe F5.wav
+lokey=58 hikey=65
+pitch_keycenter=65
+tune=-2
+offset=0
+end=84802
+loop_start=35751
+loop_end=84776
+
+<region>
+sample=samples\Bagpipe C6.wav
+lokey=66 hikey=72
+pitch_keycenter=72
+tune=-2
+offset=0
+end=92295
+loop_start=22129
+loop_end=92239
+
+<region>
+sample=samples\Bagpipe D#6.wav
+lokey=73 hikey=75
+pitch_keycenter=75
+tune=-2
+offset=0
+end=70943
+loop_start=35589
+loop_end=70910
+
+<region>
+sample=samples\Bagpipe G6.wav
+lokey=76 hikey=79
+pitch_keycenter=79
+tune=-2
+offset=0
+end=72843
+loop_start=24325
+loop_end=72828
+
+<region>
+sample=samples\Bagpipe D7.wav
+lokey=80 hikey=110
+pitch_keycenter=86
+tune=-2
+offset=0
+end=48473
+loop_start=13527
+loop_end=48460
+
+<group>
+ampeg_release=0.5
+loop_mode=loop_continuous
+fil_type=lpf_2p
+cutoff=9956
+pan=100
+effect2=3
+effect1=15
+volume=-1.191
+ampeg_attack=0.001
+amplfo_freq=8.176
+fillfo_freq=8.176
+pitchlfo_freq=8.176
+
+<region>
+sample=samples\Bagpipe A4.wav
+lokey=50 hikey=57
+pitch_keycenter=57
+tune=-7
+offset=0
+end=55291
+loop_start=32595
+loop_end=55237
+
+<region>
+sample=samples\Bagpipe F5.wav
+lokey=58 hikey=65
+pitch_keycenter=65
+tune=-2
+offset=0
+end=84802
+loop_start=35751
+loop_end=84776
+
+<region>
+sample=samples\Bagpipe C6.wav
+lokey=66 hikey=72
+pitch_keycenter=72
+tune=-2
+offset=0
+end=92295
+loop_start=22129
+loop_end=92239
+
+<region>
+sample=samples\Bagpipe D#6.wav
+lokey=73 hikey=75
+pitch_keycenter=75
+tune=-2
+offset=0
+end=70943
+loop_start=35589
+loop_end=70910
+
+<region>
+sample=samples\Bagpipe G6.wav
+lokey=76 hikey=79
+pitch_keycenter=79
+tune=-2
+offset=0
+end=72843
+loop_start=24325
+loop_end=72828
+
+<region>
+sample=samples\Bagpipe D7.wav
+lokey=80 hikey=110
+pitch_keycenter=86
+tune=-2
+offset=0
+end=48473
+loop_start=13527
+loop_end=48460

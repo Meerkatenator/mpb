@@ -1,0 +1,37 @@
+// Sfz exported from a sf2 file with Polyphone
+// Name      : MPB Soundfont
+// Author    : Kate Dudek
+// Copyright : Kate Dudek
+// Date      : 2021/01/19
+// Comment   :   This is version 2 of a Soundfont created for pipe band instruments. Bagpipe samples are from MuseScore_General.sf2 Drone samples are from Tyler Bridge but are not yet implemented in an instrument xml definition. Tenor and Bass Drum samples created by Jaymee McCarthy. Snare Drum Samples are from the MDL snare soundfont but will be updated with pipe band snare samples when I can meet postpandemic with a snare drummer to record new samples. 
+
+<group>
+lokey=32 hikey=45
+transpose=1
+loop_mode=no_loop
+ampeg_attack=0.001
+amplfo_freq=8.176
+fillfo_freq=8.176
+pitchlfo_freq=8.176
+fil_type=lpf_2p
+cutoff=19913
+
+<region>
+sample=samples\Drone1L.wav
+lokey=32 hikey=32
+pitch_keycenter=19
+pan=-100
+offset=0
+end=5344127
+loop_start=0
+loop_end=5344126
+
+<region>
+sample=samples\Drone1R.wav
+lokey=33 hikey=33
+pitch_keycenter=28
+pan=100
+offset=0
+end=5344127
+loop_start=0
+loop_end=5344126
