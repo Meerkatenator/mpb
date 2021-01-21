@@ -1,7 +1,7 @@
 import json
 import zipfile
 import os
-import hashlib
+import hashlib as hash
 import shutil
 
 def recursive_zip(zipf, directory, folder=""):
@@ -29,7 +29,11 @@ zipName = extensionId + '.muxt'
 zipPath = os.path.join(outdir, zipName)
 myzip = zipfile.ZipFile(zipPath, mode='w')
 recursive_zip(myzip, os.path.abspath('../resources/instruments'), "instruments")
-recursive_zip(myzip, os.path.abspath('../resources/sound'), "sfzs")
+recursive_zip(myzip, os.path.abspath('../resources/pallettes'), "pallettes")
+recursive_zip(myzip, os.path.abspath('../resources/plugins'), "plugins")
+recursive_zip(myzip, os.path.abspath('../resources/scores'), "scores")
+recursive_zip(myzip, os.path.abspath('../resources/sound'), "sound")
+recursive_zip(myzip, os.path.abspath('../resources/styles'), "styles")
 recursive_zip(myzip, os.path.abspath('../resources/templates'), "templates")
 recursive_zip(myzip, os.path.abspath('../resources/workspaces'), "workspaces")
 myzip.write('../resources/metadata.json', 'metadata.json')
@@ -41,11 +45,15 @@ fileSize = os.path.getsize(zipPath)
 print(fileSize)
 
 # compute SHA1 hash
-f = open(zipPath, newline='\n', encoding='utf-8')
-fileread = f.read()
-hashfunc = hashlib.sha1(fileread)
-f.close()
-h = str(hashfunc.hexdigest())
+BLOCKSIZE = 65536
+sha = hash.sha256()
+with open(zipPath, 'rb') as f:
+    file_buffer = f.read(BLOCKSIZE)
+    while len(file_buffer) > 0:
+        sha.update(file_buffer)
+        file_buffer = f.read(BLOCKSIZE)
+    f.close()
+h = str(sha.hexdigest())
 print(h)
 
 ### create details.json
