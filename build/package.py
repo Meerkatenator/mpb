@@ -4,15 +4,12 @@ import os
 import hashlib as hash
 import shutil
 
-def recursive_zip(zipf, directory, folder=""):
-    zipf.write(directory, folder)
-    for item in os.listdir(directory):
-        absolutePath = os.path.join(directory, item)
-        if os.path.isfile(absolutePath) and item != ".DS_Store":
-            zipf.write(absolutePath, folder + os.sep + item)
-        elif os.path.isdir(absolutePath):
-            recursive_zip(zipf, absolutePath, folder + os.sep + item)
-
+def recursive_zip(zipf, path, folder=""):
+    zipf.write(path, folder)
+    print("Zipping", folder)
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            zipf.write(os.path.join(root, file), folder + os.sep + file)
 
 outdir = "out"
 shutil.rmtree(outdir, ignore_errors=True)
@@ -29,13 +26,22 @@ zipName = extensionId + '.muxt'
 zipPath = os.path.join(outdir, zipName)
 myzip = zipfile.ZipFile(zipPath, mode='w')
 recursive_zip(myzip, os.path.abspath('../resources/instruments'), "instruments")
-recursive_zip(myzip, os.path.abspath('../resources/pallettes'), "pallettes")
-recursive_zip(myzip, os.path.abspath('../resources/plugins'), "plugins")
-recursive_zip(myzip, os.path.abspath('../resources/scores'), "scores")
-recursive_zip(myzip, os.path.abspath('../resources/sound'), "sound")
-recursive_zip(myzip, os.path.abspath('../resources/styles'), "styles")
+print("instruments zipped")
+#recursive_zip(myzip, os.path.abspath('../resources/pallettes'), "pallettes")
+#print("pallettes zipped")
+#recursive_zip(myzip, os.path.abspath('../resources/plugins'), "plugins")
+#print("plugins zipped")
+#recursive_zip(myzip, os.path.abspath('../resources/scores'), "scores")
+#print("scores zipped")
+recursive_zip(myzip, os.path.abspath('../resources/soundfonts'), "soundfonts")
+print("sound zipped")
+#recursive_zip(myzip, os.path.abspath('../resources/styles'), "styles")
+#print("styles zipped")
 recursive_zip(myzip, os.path.abspath('../resources/templates'), "templates")
+print("templates zipped")
 recursive_zip(myzip, os.path.abspath('../resources/workspaces'), "workspaces")
+print("workspaces zipped")
+print("Recursive zipping complete")
 myzip.write('../resources/metadata.json', 'metadata.json')
 myzip.close()
 print("Packaging successful")
