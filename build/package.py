@@ -4,12 +4,15 @@ import os
 import hashlib as hash
 import shutil
 
-def recursive_zip(zipf, path, folder=""):
-    zipf.write(path, folder)
+def recursive_zip(zipf, directory, folder=""):
     print("Zipping", folder)
-    for root, dirs, files in os.walk(path):
-        for file in files:
-            zipf.write(os.path.join(root, file), folder + os.sep + file)
+    zipf.write(directory, folder)
+    for item in os.listdir(directory):
+        absolutePath = os.path.join(directory, item)
+        if os.path.isfile(absolutePath) and item != ".DS_Store":
+            zipf.write(absolutePath, folder + os.sep + item)
+        elif os.path.isdir(absolutePath):
+            recursive_zip(zipf, absolutePath, folder + os.sep + item)
 
 outdir = "out"
 shutil.rmtree(outdir, ignore_errors=True)
