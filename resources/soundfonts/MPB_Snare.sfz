@@ -1,0 +1,46 @@
+// *****************************
+// ** MuseScore Drumline v0.5 **
+// **       Solo Snare        **
+// **   SFZ programming by    **
+// **      Zac Jansheski      **
+// *****************************
+
+// ***************
+// ** Dry Crush **
+// ***************
+<group> key=a3  lovel=1  hivel=127  ampeg_release=1.5  group_volume=2
+fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
+//RR1
+<region> sample=MPB_Samples/Snare_Samples/PBSn_buzz_1.ogg  pan=30   seq_position=1  seq_length=1
+
+// ***************
+// ** Fat Crush **
+// ***************
+<group> key=a#3  lovel=1  hivel=127  ampeg_release=1.5  group_volume=1.5
+fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
+<region> sample=MPB_Samples/Snare_Samples/PBSn_buzz_1.ogg  seq_position=1  seq_length=1  volume=2
+
+// *************************
+// ** Sustained Buzz Roll **
+// *************************
+<group> key=b3  ampeg_release=0.5  group_volume=-1
+<region> lovel=1  hivel=127  sample=MPB_Samples/Snare_Samples/PBSn_roll_looped.ogg seq_position=1  seq_length=1
+  loop_mode=loop_continuous  loop_start=45777  loop_end=98857 off_mode=normal
+
+// ************
+// ** RH Hit **
+// ************
+<group> key=g3  lovel=1  hivel=127  loop_mode=one_shot group_volume=6 group=2
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+//RR1
+<region> sample=MPB_Samples/Snare_Samples/PBSn_tap_2.ogg   seq_position=1  seq_length=1
+
+
+// ************
+// ** LH Hit **
+// ************
+
+<group> key=g#3  lovel=1  hivel=127  loop_mode=one_shot group_volume=6 group=2
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+//RR1
+<region> sample=MPB_Samples/Snare_Samples/PBSn_tap_2.ogg   seq_position=1  seq_length=1

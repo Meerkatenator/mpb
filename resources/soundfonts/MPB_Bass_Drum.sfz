@@ -1,0 +1,22 @@
+// *****************************
+// ** MuseScore Drumline v0.5 **
+// **       Solo Snare        **
+// **   SFZ programming by    **
+// **      Zac Jansheski      **
+// *****************************
+
+// ************
+// ** LH Hit **
+// ************
+<group> key=g3  lovel=1  hivel=127  ampeg_release=1.5  group_volume=2
+fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000 loop_mode=one_shot
+//RR1
+<region> sample=MPB_Samples/Bass_Samples/PB_Bass.ogg  pan=30   seq_position=1  seq_length=1
+
+// ************
+// ** LH Hit **
+// ************
+<group> key=g#3  lovel=1  hivel=127  ampeg_release=1.5  group_volume=2
+fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000 loop_mode=one_shot
+//RR1
+<region> sample=MPB_Samples/Bass_Samples/PB_Bass.ogg  pan=30   seq_position=1  seq_length=1

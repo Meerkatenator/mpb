@@ -1,0 +1,45 @@
+// *****************************
+// ** MuseScore Drumline v0.5 **
+// **       Solo Snare        **
+// **   SFZ programming by    **
+// **      Zac Jansheski      **
+// *****************************
+
+
+// ***********
+// ** Notes **
+// ***********
+
+<group> key=a4  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=62 hikey=70 
+//RR1
+<region> sample=MPB_Samples/Bagpipe_Samples/Bagpipe_A4.ogg  pan=30   seq_position=1  seq_length=1
+
+<group> key=c6  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=81 hikey=85
+//RR1
+<region> sample=MPB_Samples/Bagpipe_Samples/Bagpipe_C6.ogg  pan=30   seq_position=1  seq_length=1
+
+<group> key=d#6  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=86 hikey=89
+//RR1
+<region> sample=MPB_Samples/Bagpipe_Samples/Bagpipe_D#6.ogg  pan=30   seq_position=1  seq_length=1
+
+<group> key=d7  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=96 hikey=98
+//RR1
+<region> sample=MPB_Samples/Bagpipe_Samples/Bagpipe_D7.ogg  pan=30   seq_position=1  seq_length=1
+
+<group> key=f5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=71 hikey=80
+//RR1
+<region> sample=MPB_Samples/Bagpipe_Samples/Bagpipe_F5.ogg  pan=30   seq_position=1  seq_length=1
+
+<group> key=g6  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=90 hikey=95
+//RR1
+<region> sample=MPB_Samples/Bagpipe_Samples/Bagpipe_G6.ogg  pan=30   seq_position=1  seq_length=1
+
+
+// ***********
+// ** Drone **
+// ***********
+
+<group> key=a3  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous
+//RR1
+<region> sample=MPB_Samples/Bagpipe_Samples/Drone1L.ogg  pan=30   seq_position=1  seq_length=2
+<region> sample=MPB_Samples/Bagpipe_Samples/Drone1L.ogg  pan=30   seq_position=2  seq_length=2
