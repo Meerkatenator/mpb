@@ -1,12 +1,12 @@
 {
     "mpb": {
-        "description": "MuseScore Pipeband extension provides SF2, templates, custom pallettes, and instrument files to get the best experience when you are scoring for Pipe Bands",
+        "description": "MuseScore Pipeband extension provides soundfont, templates, custom pallettes, and instrument files to get the best experience when you are scoring for Pipe Bands",
         "file_name": "mpb.muxt",
-        "file_size": 26189822,
-        "hash": "180caa614a5184c997ea388dadb1aca412f6c89d2739a9a8ccd4ea0611f813ff",
+        "file_size": 30362033,
+        "hash": "54074a2f9086f9bebefa3af485f0b33a38f5fb47f6e5d52e03d2aec753e31c5a",
         "name": "MuseScore Pipeband",
         "tags": "pipeband, bagpipe, tenordrum, pipes, midsection, flourishing",
-        "version": "0.0.4"
+        "version": "0.0.5"
     },
     "type": "Extensions",
     "version": "2.0"
