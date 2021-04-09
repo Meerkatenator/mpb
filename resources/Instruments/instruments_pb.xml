@@ -1,238 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore>
-    <Genre id="pipeband">
+    <Genre id="pipe-band">
         <name>Pipe Band</name>
     </Genre>
 	<InstrumentGroup id="pipe-band">
         <name>Pipe Band</name>
-			<!--This includes custom instruments for bagpipes, snare drum, tenor mono, tenor corps, and bass drum-->
-			<!--Playback is handled with custom Soundfont: PB_Soundfont.sf2-->
-			<!--Left and right hand notation (Berger Uniline) for snare, tenor mono and bass works-->
-			<!--Bagpipe playback is fixed with PB_OTB.qml plug-in-->
-			<!--Colour notation is added with PB_colournotes.qml plug-in-->
         <Instrument id="bagpipes">
-			<longName>Pipes</longName>
-			<shortName>P</shortName>
-			<description>PB Bagpipes</description>
-			<musicXMLid>wind.pbbagpipes</musicXMLid>
-			<clef>G</clef>
-			<barlineSpan>1</barlineSpan>
-			<aPitchRange>65-79</aPitchRange>
-			<pPitchRange>65-79</pPitchRange>
-			<transposeDiatonic>-1</transposeDiatonic>
-			<transposeChromatic>-2</transposeChromatic>
-			<stem>2</stem>
-			<Channel>
-				<program value="1"/> <!--PB Bagpipe-->
-			</Channel>
-			<genre>pipeband</genre>
-			<genre>common</genre>
+            <longName>Pipes</longName>
+            <shortName>P</shortName>
+            <description>PB Bagpipes</description>
+            <musicXMLid>wind.pbbagpipes</musicXMLid>
+            <clef>G</clef>
+            <barlineSpan>1</barlineSpan>
+            <aPitchRange>65-80</aPitchRange>
+            <pPitchRange>65-80</pPitchRange>
+            <stem>2</stem>
+            <Channel>
+                <program value="0"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <genre>pipeband</genre>
+            <genre>common</genre>
         </Instrument>
-<!--		<Instrument id="bagpipe-drones">
-			<longName>Drones</longName>
-			<shortName>D</shortName>
-			<description>PB Drones</description>
-			<musicXMLid>wind.pipes.bagpipedrones</musicXMLid>
-			<clef>F</clef>
-			<barlineSpan>1</barlineSpan>
-			<aPitchRange>32-65</aPitchRange>
-			<pPitchRange>32-65</pPitchRange>
-			<transposeDiatonic>-1</transposeDiatonic>
-			<transposeChromatic>-2</transposeChromatic>
-			<stem>2</stem>
-			<Channel>
-				<program value="11"/> 
-			</Channel>
-			<genre>pipeband</genre>
-			<genre>common</genre>
-        </Instrument> -->
-		<Instrument id="pipe-band-snare">
-			<longName>Snare</longName>
-			<shortName>S</shortName>
-			<description>PB Snare Drum</description>
-			<clef>PERC</clef>
+        <Instrument id="pipe-band-snare">
+            <longName>Snare</longName>
+            <shortName>S</shortName>
+            <description>PB Snare Drum</description>
+            <clef>PERC</clef>
             <musicXMLid>drum.pbsnare-drum</musicXMLid>
             <stafftype staffTypePreset="perc1Line">percussion</stafftype>
             <barlineSpan>1</barlineSpan>
             <drumset>1</drumset>
             <singleNoteDynamics>0</singleNoteDynamics>
-			<Drum pitch="55"> <!--MDL Snare Samples-->
-				<head>normal</head>
-				<line>-1</line>
-				<voice>0</voice>
-				<name>tapR</name>
-				<stem>2</stem>
-				<shortcut>G</shortcut>
-				<variants>
+            <Drum pitch="60">
+                <head>normal</head>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Hit R</name>
+                <stem>2</stem>
+                <shortcut>G</shortcut>
+                <variants>
                     <variant pitch="57">
-                        <tremolo>r8</tremolo> <!--buzz-->
+                        <tremolo>r8</tremolo>
                     </variant>
-                    <variant pitch="59">
-                        <tremolo>r16</tremolo> <!--roll-->
-                    </variant>			
-                    <variant pitch="59">
+                    <variant pitch="57">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="57">
                         <articulation>sforzato</articulation>
                         <tremolo>r16</tremolo>
                     </variant>
-                   <variant pitch="59">
+                   <variant pitch="57">
                         <articulation>tenuto</articulation>
                         <tremolo>r16</tremolo>
                     </variant>
-                    <variant pitch="59">
+                    <variant pitch="57">
                         <articulation>marcato</articulation>
                         <tremolo>r16</tremolo>
                     </variant>
-                    <variant pitch="59">
+                    <variant pitch="57">
                         <articulation>portato</articulation>
                         <tremolo>r16</tremolo>
                     </variant>
-                    <variant pitch="59">
+                    <variant pitch="57">
                         <tremolo>r32</tremolo>
                     </variant>
-                    <variant pitch="59">
-					    <articulation>marcato</articulation>
+                    <variant pitch="57">
+                        <articulation>marcato</articulation>
                         <tremolo>r32</tremolo>
-                    </variant>	
-					<variant pitch="59">
+                    </variant>
+                    <variant pitch="57">
                         <articulation>sforzato</articulation>
                         <tremolo>r32</tremolo>
                     </variant>
-					<variant pitch="59">
+                    <variant pitch="57">
                         <articulation>tenuto</articulation>
                         <tremolo>r32</tremolo>
                     </variant>
-					<variant pitch="59">
+                    <variant pitch="57">
                         <articulation>portato</articulation>
                         <tremolo>r32</tremolo>
-                    </variant>					
+                    </variant>
                 </variants>
-			 </Drum>
-			 <Drum pitch="56"> <!--MDL Snare Samples-->
-				<head>normal</head>
-				<line>1</line>
-				<voice>0</voice>
-				<name>tapL</name>
-				<stem>2</stem>
-				<shortcut>F</shortcut>
-				<variants>
-					<variant pitch="58">
-                        <tremolo>r8</tremolo> <!--buzz-->
-                    </variant> 
-                    <variant pitch="60">
-                        <tremolo>r16</tremolo> <!--roll-->
-                    </variant>			
-					<variant pitch="60">
+             </Drum>
+            <Drum pitch="59">
+                <head>normal</head>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Hit L</name>
+                <stem>2</stem>
+                <shortcut>F</shortcut>
+                <variants>
+                    <variant pitch="58">
+                        <tremolo>r8</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="58">
                         <articulation>sforzato</articulation>
                         <tremolo>r16</tremolo>
                     </variant>
-					<variant pitch="60">
+                   <variant pitch="58">
                         <articulation>tenuto</articulation>
                         <tremolo>r16</tremolo>
                     </variant>
-					<variant pitch="60">
+                    <variant pitch="58">
                         <articulation>marcato</articulation>
                         <tremolo>r16</tremolo>
                     </variant>
-					<variant pitch="60">
+                    <variant pitch="58">
                         <articulation>portato</articulation>
                         <tremolo>r16</tremolo>
                     </variant>
-					<variant pitch="60">
+                    <variant pitch="58">
                         <tremolo>r32</tremolo>
                     </variant>
-					<variant pitch="60">
-					    <articulation>marcato</articulation>
-                        <tremolo>r32</tremolo> 
-                    </variant>	
-					<variant pitch="60">
+                    <variant pitch="58">
+                        <articulation>marcato</articulation>
+                        <tremolo>r32</tremolo>
+                    </variant>
+                    <variant pitch="58">
                         <articulation>sforzato</articulation>
                         <tremolo>r32</tremolo>
                     </variant>
-					<variant pitch="60">
+                    <variant pitch="58">
                         <articulation>tenuto</articulation>
                         <tremolo>r32</tremolo>
                     </variant>
-					<variant pitch="60">
+                    <variant pitch="58">
                         <articulation>portato</articulation>
                         <tremolo>r32</tremolo>
-                    </variant>					
+                    </variant>
                 </variants>
-			</Drum>		
-			<Channel>
-				<controller ctrl="0" value="1"/>
-				<program value="9"/> <!--PB Snare-->
-			</Channel>
-			<genre>pipeband</genre>
-			<genre>common</genre>
-		</Instrument>
-		<Instrument id="pb-mono-tenor-drum">
-			<longName>Solo Tenor</longName>
-		  <shortName>T</shortName>
-		  <description>PB Monolinear Tenor Drum</description>
-		  <musicXMLid>drum.pbsolotenor</musicXMLid>
-		  <clef>PERC</clef>
-		  <stafftype staffTypePreset="perc1Line">percussion</stafftype>
-		  <barlineSpan>1</barlineSpan>
-		  <drumset>1</drumset>
-		  <singleNoteDynamics>0</singleNoteDynamics>
-		    <Drum pitch="55">
-			  <head>normal</head>
-			  <line>-1</line>
-			  <voice>0</voice>
-			  <name>HitR</name>
-			  <stem>2</stem>
-			  <shortcut>G</shortcut>
-			</Drum>
-		    <Drum pitch="56">
-			  <head>normal</head>
-			  <line>1</line>
-			  <voice>0</voice>
-			  <name>HitL</name>
-			  <stem>2</stem>
-			  <shortcut>F</shortcut>
-			  </Drum>
-      	    <Drum pitch="0"> <!--unmapped for no sound-->
-			  <head>cross</head>
-  			  <line>-1</line>
-			  <voice>0</voice>
-			  <name>FlourishR</name>
-			  <stem>2</stem>
-			  <shortcut>B</shortcut>
-			</Drum>
-		    <Drum pitch="1"> <!--unmapped for no sound-->
-			  <head>cross</head>
-			  <line>1</line>
-			  <voice>0</voice>
-			  <name>FlourishL</name>
-			  <stem>2</stem>
-			  <shortcut>C</shortcut>
-			</Drum>
-		  <Channel>
-				<controller ctrl="0" value="1"/>
-				<program value="3"/> <!--PB Tenor hiA, change in mixer for alternate pitches-->
-		  </Channel>
-			<genre>pipeband</genre>
-			<genre>common</genre>
-		</Instrument>
-            <Instrument id="pipeband-tenor-corps">
-				<longName>Tenors</longName>
-				<shortName>T</shortName>
-				<description>PB Tenor Corps</description>
-				<musicXMLid>drum.pbtenors</musicXMLid>
-				<clef>F</clef>
-				<barlineSpan>1</barlineSpan>
-				<stem>2</stem>
-				<aPitchRange>38-60</aPitchRange>
-				<pPitchRange>36-62</pPitchRange>
-				<transposeDiatonic>-1</transposeDiatonic>
-				<transposeChromatic>-2</transposeChromatic>
-				<singleNoteDynamics>0</singleNoteDynamics>
-				<Channel>
-					<program value="2"/> <!--PB Tenor Corps-->
-				</Channel>
-				<genre>pipeband</genre>
-				<genre>common</genre>
+             </Drum>
+            <Channel>
+                <program value="3"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <genre>pipeband</genre>
+            <genre>common</genre>
             </Instrument>
+            <Instrument id="pb-mono-tenor-drum">
+                <longName>Berger Tenor</longName>
+              <shortName>T</shortName>
+              <description>PB Berger Tenor Drum</description>
+              <musicXMLid>drum.pbbergertenor</musicXMLid>
+              <clef>PERC</clef>
+              <stafftype staffTypePreset="perc1Line">percussion</stafftype>
+              <barlineSpan>1</barlineSpan>
+              <drumset>1</drumset>
+              <singleNoteDynamics>0</singleNoteDynamics>
+                <Drum pitch="55">
+                  <head>normal</head>
+                  <line>-1</line>
+                  <voice>0</voice>
+                  <name>HitR</name>
+                  <stem>2</stem>
+                  <shortcut>G</shortcut>
+                </Drum>
+                <Drum pitch="56">
+                  <head>normal</head>
+                  <line>1</line>
+                  <voice>0</voice>
+                  <name>HitL</name>
+                  <stem>2</stem>
+                  <shortcut>F</shortcut>
+                  </Drum>
+                  <Drum pitch="0"> <!--unmapped for no sound-->
+                  <head>cross</head>
+                    <line>-1</line>
+                  <voice>0</voice>
+                  <name>FlourishR</name>
+                  <stem>2</stem>
+                  <shortcut>B</shortcut>
+                </Drum>
+                <Drum pitch="1"> <!--unmapped for no sound-->
+                  <head>cross</head>
+                  <line>1</line>
+                  <voice>0</voice>
+                  <name>FlourishL</name>
+                  <stem>2</stem>
+                  <shortcut>C</shortcut>
+                </Drum>
+                <Channel>
+                    <program value="2"/>
+                    <synti>Zerberus</synti>
+                </Channel>
+                <genre>pipeband</genre>
+                <genre>common</genre>
+            </Instrument>
+        <Instrument id="pipeband-tenor-corps">
+            <longName>Tonal Tenors</longName>
+            <shortName>T</shortName>
+            <description>MPB Tonal Tenors</description>
+            <musicXMLid>drum.pbtonaltenors</musicXMLid>
+            <clef>F</clef>
+            <aPitchRange>43-59</aPitchRange>
+            <pPitchRange>43-59</pPitchRange>
+            <barlineSpan>1</barlineSpan>
+            <singleNoteDynamics>0</singleNoteDynamics>
+            <Channel name="Tonal Tenor Hits">
+                <program value="4"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Tonal Tenor Rolls">
+                <program value="5"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <genre>pipeband</genre>
+            <genre>common</genre>
+        </Instrument>
 		<Instrument id="pipeband-bass-drum">
 			<longName>Bass</longName>
 			<shortName>B</shortName>
@@ -243,27 +221,140 @@
 			<barlineSpan>1</barlineSpan>
 			<drumset>1</drumset>
 			<singleNoteDynamics>0</singleNoteDynamics>
-		    <Drum pitch="55">
+		    <Drum pitch="60">
 			  <head>normal</head>
 			  <line>-1</line>
 			  <voice>0</voice>
-			  <name>HitR</name>
+			  <name>Hit R</name>
 			  <stem>2</stem>
 			  <shortcut>G</shortcut>
+              <variants>
+                  <variant pitch="58">
+                      <tremolo>r16</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>sforzato</articulation>
+                      <tremolo>r16</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>tenuto</articulation>
+                      <tremolo>r16</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>marcato</articulation>
+                      <tremolo>r16</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>staccato</articulation>
+                      <tremolo>r16</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>staccatissimo</articulation>
+                      <tremolo>r16</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>portato</articulation>
+                      <tremolo>r16</tremolo>
+                   </variant>
+                  <variant pitch="62">
+                      <articulation>staccato</articulation>
+                   </variant>
+              </variants>
 			</Drum>
-		    <Drum pitch="56">
-			  <head>normal</head>
-			  <line>1</line>
-			  <voice>0</voice>
-			  <name>HitL</name>
-			  <stem>2</stem>
-			  <shortcut>F</shortcut>
-			</Drum>
-			  
-			<Channel>
-				<controller ctrl="0" value="1"/>
-				<program value="10"/> <!--PB Bass-->
-			</Channel>
+              <Drum pitch="59">
+                <head>normal</head>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Hit L</name>
+                <stem>2</stem>
+                <shortcut>F</shortcut>
+                <variants>
+                    <variant pitch="57">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                     </variant>
+                    <variant pitch="62">
+                        <articulation>staccato</articulation>
+                     </variant>
+                </variants>
+              </Drum>
+              <Drum>
+                  <Drum pitch="61">
+                  <head>withx</head>
+                  <line>0</line>
+                  <voice>0</voice>
+                  <name>Mute</name>
+                  <stem>2</stem>
+              </Drum>
+            <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzato">
+                <velocity>120</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>120</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>105</velocity>
+                <gateTime>80</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>105</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="staccato">
+                <velocity>90</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>75</gateTime>
+            </Articulation>
+            <Articulation name="plusstop">
+                <velocity>80</velocity>
+                <gateTime>80</gateTime>
+            </Articulation>
+            <Channel>
+                <program value="1"/>
+                <controller ctrl="7" value="60"/>
+                <controller ctrl="10" value="120"/>
+                <synti>Zerberus</synti>
+            </Channel>
 			<genre>pipeband</genre>
 			<genre>common</genre>
 		</Instrument>		
