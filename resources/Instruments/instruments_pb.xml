@@ -12,8 +12,8 @@
             <musicXMLid>wind.pbbagpipes</musicXMLid>
             <clef>G</clef>
             <barlineSpan>1</barlineSpan>
-            <aPitchRange>65-80</aPitchRange>
-            <pPitchRange>65-80</pPitchRange>
+            <aPitchRange>65-81</aPitchRange>
+            <pPitchRange>65-81</pPitchRange>
             <stem>2</stem>
             <Channel>
                 <program value="0"/>
