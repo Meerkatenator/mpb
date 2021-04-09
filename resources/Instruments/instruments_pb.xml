@@ -142,7 +142,7 @@
             <genre>common</genre>
             </Instrument>
             <Instrument id="pb-mono-tenor-drum">
-                <longName>Berger Tenor</longName>
+                <longName>Tenor (mono)</longName>
               <shortName>T</shortName>
               <description>PB Berger Tenor Drum</description>
               <musicXMLid>drum.pbbergertenor</musicXMLid>
@@ -167,7 +167,7 @@
                   <stem>2</stem>
                   <shortcut>F</shortcut>
                   </Drum>
-                  <Drum pitch="0"> <!--unmapped for no sound-->
+                <Drum pitch="0"> <!--unmapped for no sound-->
                   <head>cross</head>
                     <line>-1</line>
                   <voice>0</voice>
@@ -191,7 +191,7 @@
                 <genre>common</genre>
             </Instrument>
         <Instrument id="pipeband-tenor-corps">
-            <longName>Tonal Tenors</longName>
+            <longName>Tenors (tonal)</longName>
             <shortName>T</shortName>
             <description>MPB Tonal Tenors</description>
             <musicXMLid>drum.pbtonaltenors</musicXMLid>
@@ -229,6 +229,33 @@
 			  <stem>2</stem>
 			  <shortcut>G</shortcut>
               <variants>
+                  <variant pitch="58">
+                      <tremolo>r32</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>sforzato</articulation>
+                      <tremolo>r32</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>tenuto</articulation>
+                      <tremolo>r32</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>marcato</articulation>
+                      <tremolo>r32</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>staccato</articulation>
+                      <tremolo>r32</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>staccatissimo</articulation>
+                      <tremolo>r32</tremolo>
+                  </variant>
+                  <variant pitch="58">
+                      <articulation>portato</articulation>
+                      <tremolo>r32</tremolo>
+                   </variant>
                   <variant pitch="58">
                       <tremolo>r16</tremolo>
                   </variant>
@@ -270,6 +297,33 @@
                 <shortcut>F</shortcut>
                 <variants>
                     <variant pitch="57">
+                        <tremolo>r32</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r32</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r32</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>marcato</articulation>
+                        <tremolo>r32</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccato</articulation>
+                        <tremolo>r32</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r32</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>portato</articulation>
+                        <tremolo>r32</tremolo>
+                    </variant>
+                    <variant pitch="57">
                         <tremolo>r16</tremolo>
                     </variant>
                     <variant pitch="57">
@@ -298,15 +352,23 @@
                      </variant>
                     <variant pitch="62">
                         <articulation>staccato</articulation>
-                     </variant>
+                    </variant>
                 </variants>
-              </Drum>
-              <Drum>
+            </Drum>
+            <Drum>
                   <Drum pitch="61">
-                  <head>withx</head>
+                  <head>slash</head>
                   <line>0</line>
                   <voice>0</voice>
-                  <name>Mute</name>
+                  <name>Dampen (Mute)</name>
+                  <stem>2</stem>
+            </Drum>
+			<Drum>
+                  <Drum pitch="62">
+                  <head>normal</head>
+                  <line>0</line>
+                  <voice>0</voice>
+                  <name>Muted Hit (Stuff)</name>
                   <stem>2</stem>
               </Drum>
             <Articulation>
@@ -314,19 +376,19 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="sforzato">
-                <velocity>120</velocity>
+                <velocity>127</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="sforzatoStaccato">
-                <velocity>120</velocity>
+                <velocity>127</velocity>
                 <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="marcato">
-                <velocity>127</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcatoStaccato">
-                <velocity>127</velocity>
+                <velocity>115</velocity>
                 <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="tenuto">
