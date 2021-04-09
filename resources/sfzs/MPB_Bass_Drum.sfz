@@ -281,10 +281,10 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 // ** Muted Hit (Stuff)**
 // **********************
 <group> key=d4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=1112
-<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_1.ogg    seq_position=1    seq_length=17
-<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_2.ogg    seq_position=2    seq_length=17
-<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_3.ogg    seq_position=3    seq_length=17
-<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_4.ogg    seq_position=4    seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_1.ogg    seq_position=1    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_2.ogg    seq_position=2    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_3.ogg    seq_position=3    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_4.ogg    seq_position=4    seq_length=4
 
 
 //<group> key=d4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=1112
