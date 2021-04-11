@@ -1,0 +1,28 @@
+//------------------------------------------------------------------------------
+// MPB Bagpipe Drones Soundfont
+// Author    : Zac Jansheski and Kate Dudek
+// Copyright : Zac Jansheski and Kate Dudek
+// Date      : 2021/04/07
+// Comment   : Bagpipe and Drone Samples created by Tyler Bridge
+//             
+//------------------------------------------------------------------------------
+
+// ***********
+// ** Drone **
+// ***********
+
+//Drones Strike (no sample yet)
+//<group> key=g#3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2220 off_by=2221
+//RR1
+//<region> sample=MPB_Samples/Bagpipes/Drones_strike.ogg  pan=30   seq_position=1  seq_length=1
+
+//Drones In
+<group> key=a3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2221 off_by=2224
+//RR1
+<region> sample=MPB_Samples/Bagpipes/Drones_in.ogg  pan=30   seq_position=1  seq_length=1
+
+Drones Cut-off (silence)
+<group> key=a#3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2224
+//RR1
+<region> sample=MPB_Samples/Bagpipes/Drones_silence.ogg  pan=30   seq_position=1  seq_length=1
+
