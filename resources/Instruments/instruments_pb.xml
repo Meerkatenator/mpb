@@ -12,76 +12,20 @@
             <musicXMLid>wind.pbbagpipes</musicXMLid>
             <clef>G</clef>
             <barlineSpan>1</barlineSpan>
-            <aPitchRange>67-81</aPitchRange>
-            <pPitchRange>67-81</pPitchRange>
+            <aPitchRange>67-81</aPitchRange> <!--67-81-->
+            <pPitchRange>56-81</pPitchRange> <!--56-58 = drones-->
             <stem>2</stem>
-            <Channel>
+            <Channel name="Bagpipe Chanter">
                 <program value="0"/>
                 <synti>Zerberus</synti>
             </Channel>
+            <Channel name="Bagpipe Drones">
+                <program value="6"/>
+                <synti>Zerberus</synti>
+            </Channel>			
             <genre>pipeband</genre>
             <genre>common</genre>
         </Instrument>
-<!--        <Instrument id="bagpipe-drones">
-            <longName>Drones test</longName>
-            <shortName>D</shortName>
-            <description>PB Bagpipes Drones</description>
-            <musicXMLid>wind.pbbagpipes</musicXMLid>
-            <clef>G</clef>
-            <barlineSpan>1</barlineSpan>
-            <aPitchRange>56-58</aPitchRange>
-            <pPitchRange>56-58</pPitchRange>
-            <stem>2</stem>
-            <Channel>
-                <program value="0"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <genre>pipeband</genre>
-            <genre>common</genre>
-        </Instrument>	-->	
-<!--        <Instrument id="bagpipe_drones">
-            <longName>Bagpipe Drones1</longName>
-            <shortName>D</shortName>
-            <description>PB Bagpipe Drones</description>
-			<clef>PERC</clef>
-            <musicXMLid>wind.pbbagpipedrones</musicXMLid>
-			<stafftype staffTypePreset="perc1Line">percussion</stafftype>
-			<barlineSpan>1</barlineSpan>
-			<drumset>1</drumset>
-			<singleNoteDynamics>0</singleNoteDynamics>
-            <Drum>
-                <Drum pitch="56"> 
-                <head>cross</head>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Drones Strike</name>
-                <stem>2</stem>
-            </Drum> 
-			<Drum>
-                <Drum pitch="57">
-                <head>normal</head>
-                <line>0</line>
-                <voice>0</voice>
-                <name>DronesIn</name>
-                <stem>2</stem>
-                <shortcut>D</shortcut>				
-            </Drum>
-			<Drum>
-                <Drum pitch="58">
-                <head>slash</head>
-                <line>0</line>
-                <voice>0</voice>
-                <name>DronesCutoff</name>
-                <stem>2</stem>
-				<shortcut>C</shortcut>
-            </Drum>	
-            <Channel>
-                <program value="6"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <genre>pipeband</genre>
-            <genre>common</genre>
-        </Instrument> -->
         <Instrument id="pipe-band-snare">
             <longName>Snare</longName>
             <shortName>S</shortName>
@@ -480,46 +424,5 @@
 			<genre>pipeband</genre>
 			<genre>common</genre>
 		</Instrument>	
-<!--        <Instrument id="pb-bagpipe-drones">
-			<longName>Drones Tester</longName>
-			<shortName>D</shortName>
-			<description>PB Drones</description>
-			<musicXMLid>drum.pbdrones</musicXMLid>
-			<clef>PERC</clef>
-			<stafftype staffTypePreset="perc1Line">percussion</stafftype>
-			<barlineSpan>1</barlineSpan>
-			<drumset>1</drumset>
-			<singleNoteDynamics>0</singleNoteDynamics>
-			<Drum pitch="56">
-			  <head>withx</head>
-			  <line>0</line>
-			  <voice>0</voice>
-			  <name>DroneStrike</name>
-			  <stem>2</stem>
-			  <shortcut>E</shortcut>
-			</Drum>
-			<Drum pitch="57">
-			  <head>normal</head>
-			  <line>0</line>
-			  <voice>0</voice>
-			  <name>DronesIn</name>
-			  <stem>2</stem>
-			  <shortcut>F</shortcut>
-			  </Drum>
-			<Drum pitch="58"> 
-			  <head>slash</head>
-			  <line>0</line>
-			  <voice>0</voice>
-			  <name>DronesCutOff</name>
-			  <stem>2</stem>
-			  <shortcut>C</shortcut>
-			</Drum>
-			<Channel>
-				<program value="6"/>
-				<synti>Zerberus</synti>
-			</Channel>
-			<genre>pipeband</genre>
-			<genre>common</genre>
-		</Instrument> -->
     </InstrumentGroup>
 </museScore>
