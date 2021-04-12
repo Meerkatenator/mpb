@@ -14,17 +14,17 @@
 // *****************************************************************************
 
 // Tenor Visual LH
-<group> lovel=76  hivel=127 key=a3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=6
+<group> lovel=0  hivel=127 key=a3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=6
 <region> sample=MPB_Samples/Tenor_14x12/Tenor_silence.ogg   lokey=g2 hikey=b3 pitch_keycenter=a3 seq_length=10 seq_position=1
 
 // Tenor Visual RH
-<group> lovel=76  hivel=127 key=a#3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=6
+<group> lovel=0  hivel=127 key=a#3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=6
 <region> sample=MPB_Samples/Tenor_14x12/Tenor_silence.ogg   lokey=g#3 hikey=b3 pitch_keycenter=a3 seq_length=10 seq_position=1
 
 // Tenor Ghost LH
-<group> lovel=76  hivel=127 key=g3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=6
+<group> lovel=0  hivel=127 key=g3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=6
 <region> sample=MPB_Samples/Tenor_14x12/Tenor_silence.ogg   lokey=g2 hikey=b3 pitch_keycenter=a3 seq_length=10 seq_position=1
 
 // Tenor Ghost RH
-<group> lovel=76  hivel=127 key=g#3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=6
+<group> lovel=0  hivel=127 key=g#3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=6
 <region> sample=MPB_Samples/Tenor_14x12/Tenor_silence.ogg   lokey=g#3 hikey=b3 pitch_keycenter=a3 seq_length=10 seq_position=1

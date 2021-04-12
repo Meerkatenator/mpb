@@ -261,55 +261,54 @@
                         <articulation>portato</articulation>
                         <tremolo>r32</tremolo>
                     </variant>
-                    <variant pitch="61">
+                    <variant pitch="62">
                       <articulation>staccato</articulation>
                     </variant>
-                    <variant pitch="61">
+                    <variant pitch="62">
                       <articulation>staccatissimo</articulation>
                   </variant>					
                 </variants>				  
                 </Drum>
-<!--                <Drum>
-                  <Drum pitch="61">
+                  <Drum pitch="63">
                   <head>slash</head>
                   <line>0</line>
                   <voice>0</voice>
                   <name>Dampen (Mute)</name>
                   <stem>2</stem>
-                </Drum>	-->			
-<!--                <Drum pitch="49">
+                </Drum>		
+                <Drum pitch="49">
                   <head>slash</head>
                   <line>1</line>
                   <voice>0</voice>
                   <name>GhostL</name>
                   <stem>2</stem>
                   <shortcut>A</shortcut>
-                </Drum> -->
-<!--                <Drum pitch="50"> 
+                </Drum>
+                <Drum pitch="50"> 
                   <head>slash</head>
                   <line>-1</line>
                   <voice>0</voice>
                   <name>GhostR</name>
                   <stem>2</stem>
                   <shortcut>D</shortcut>
-                </Drum> -->
-<!--                <Drum pitch="51">
+                </Drum>
+                <Drum pitch="51">
                   <head>cross</head>
                   <line>1</line>
                   <voice>0</voice>
                   <name>FlourishL</name>
                   <stem>2</stem>
                   <shortcut>B</shortcut>
-                </Drum>-->
-<!--                <Drum pitch="52">
+                </Drum>
+                <Drum pitch="52">
                   <head>cross</head>
                   <line>-1</line>
                   <voice>0</voice>
                   <name>FlourishR</name>
                   <stem>2</stem>
                   <shortcut>C</shortcut>
-                </Drum>-->				
-                <Channel name="Uniline Tenor A3"> <!-- add channels for different pitches: F#3, E3, D3, C#3, A2) -->
+                </Drum>				
+                <Channel name="Uniline Tenor A3">
                     <program value="8"/>
                     <synti>Zerberus</synti>
                 </Channel>
@@ -327,17 +326,9 @@
             <barlineSpan>1</barlineSpan>
             <singleNoteDynamics>0</singleNoteDynamics>
             <Channel name="Tonal Tenor Hits">
-                <program value="4"/>
+                <program value="3"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Tonal Tenor Rolls">
-                <program value="5"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Tonal Tenor Visual">
-                <program value="7"/>
-                <synti>Zerberus</synti>
-            </Channel>			
             <genre>pipeband</genre>
             <genre>common</genre>
         </Instrument>
@@ -485,7 +476,6 @@
                     </variant>
                 </variants>
             </Drum>
-            <Drum>
                   <Drum pitch="61">
                   <head>slash</head>
                   <line>0</line>
@@ -493,7 +483,6 @@
                   <name>Dampen (Mute)</name>
                   <stem>2</stem>
             </Drum>
-			<Drum>
                   <Drum pitch="62">
                   <head>normal</head>
                   <line>0</line>
@@ -542,7 +531,7 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="1"/>
+                <program value="5"/>
                 <controller ctrl="7" value="60"/>
                 <controller ctrl="10" value="120"/>
                 <synti>Zerberus</synti>
