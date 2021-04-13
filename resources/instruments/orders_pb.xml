@@ -8,10 +8,10 @@
         <instrument id="pipe-band-snare">
             <family id="pipe-band-snare">pipe-band-snare</family>
         </instrument>
-        <instrument id="pb-mono-tenor-drum">
-            <family id="pb-mono-tenor-drum">pb-mono-tenor-drum</family>
+        <instrument id="pb-uniline-tenor-drum">
+            <family id="pb-uniline-tenor-drum">pb-uniline-tenor-drum</family>
         </instrument>
-		        <instrument id="pipeband-tenor-corps">
+		<instrument id="pipeband-tenor-corps">
             <family id="pipeband-tenor-corps">pipeband-tenor-corps</family>
         </instrument>
         <instrument id="pipeband-bass-drum">
@@ -24,7 +24,7 @@
             <family>pipe-band-snare</family>
         </section>
 		<section id="midsection">
-		    <family>pb-mono-tenor-drum</family>
+		    <family>pb-uniline-tenor-drum</family>
             <family>pipeband-tenor-corps</family>
             <family>pipeband-bass-drum</family>
         </section>
