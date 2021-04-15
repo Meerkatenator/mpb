@@ -263,18 +263,18 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 // ** Mute **
 // **********
 
-//<group> key=c#4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=1112
-//<region> sample=MPB_Samples/Bass_Drum/Bass_mute_1.ogg   seq_position=1   seq_length=11
-//<region> sample=MPB_Samples/Bass_Drum/Bass_mute_2.ogg   seq_position=2   seq_length=11
-//<region> sample=MPB_Samples/Bass_Drum/Bass_mute_3.ogg   seq_position=3   seq_length=11
-//<region> sample=MPB_Samples/Bass_Drum/Bass_mute_4.ogg   seq_position=4   seq_length=11
-//<region> sample=MPB_Samples/Bass_Drum/Bass_mute_5.ogg   seq_position=5   seq_length=11
-//<region> sample=MPB_Samples/Bass_Drum/Bass_mute_6.ogg   seq_position=6   seq_length=11
-//<region> sample=MPB_Samples/Bass_Drum/Bass_mute_7.ogg   seq_position=7   seq_length=11
-//<region> sample=MPB_Samples/Bass_Drum/Bass_mute_8.ogg   seq_position=8   seq_length=11
-//<region> sample=MPB_Samples/Bass_Drum/Bass_mute_9.ogg   seq_position=9   seq_length=11
-//<region> sample=MPB_Samples/Bass_Drum/Bass_mute_10.ogg  seq_position=10  seq_length=11
-//<region> sample=MPB_Samples/Bass_Drum/Bass_mute_11.ogg  seq_position=11  seq_length=11
+<group> key=c#4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=1112
+<region> sample=MPB_Samples/Bass_Drum/Bass_mute_1.ogg   seq_position=1   seq_length=11
+<region> sample=MPB_Samples/Bass_Drum/Bass_mute_2.ogg   seq_position=2   seq_length=11
+<region> sample=MPB_Samples/Bass_Drum/Bass_mute_3.ogg   seq_position=3   seq_length=11
+<region> sample=MPB_Samples/Bass_Drum/Bass_mute_4.ogg   seq_position=4   seq_length=11
+<region> sample=MPB_Samples/Bass_Drum/Bass_mute_5.ogg   seq_position=5   seq_length=11
+<region> sample=MPB_Samples/Bass_Drum/Bass_mute_6.ogg   seq_position=6   seq_length=11
+<region> sample=MPB_Samples/Bass_Drum/Bass_mute_7.ogg   seq_position=7   seq_length=11
+<region> sample=MPB_Samples/Bass_Drum/Bass_mute_8.ogg   seq_position=8   seq_length=11
+<region> sample=MPB_Samples/Bass_Drum/Bass_mute_9.ogg   seq_position=9   seq_length=11
+<region> sample=MPB_Samples/Bass_Drum/Bass_mute_10.ogg  seq_position=10  seq_length=11
+<region> sample=MPB_Samples/Bass_Drum/Bass_mute_11.ogg  seq_position=11  seq_length=11
 
 
 // **********************
@@ -288,23 +288,23 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 
 
 //<group> key=d4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=1112
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_1.ogg    seq_position=1    seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_2.ogg    seq_position=2    seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_3.ogg    seq_position=3    seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_4.ogg    seq_position=4    seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_5.ogg    seq_position=5    seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_6.ogg    seq_position=6    seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_7.ogg    seq_position=7    seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_8.ogg    seq_position=8    seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_9.ogg    seq_position=9    seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_10.ogg   seq_position=10   seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=11   seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=12   seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=13   seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=14   seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=15   seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=16   seq_length=17
-//<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=17   seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_1.ogg    seq_position=1    seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_2.ogg    seq_position=2    seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_3.ogg    seq_position=3    seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_4.ogg    seq_position=4    seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_5.ogg    seq_position=5    seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_6.ogg    seq_position=6    seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_7.ogg    seq_position=7    seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_8.ogg    seq_position=8    seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_9.ogg    seq_position=9    seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_10.ogg   seq_position=10   seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=11   seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=12   seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=13   seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=14   seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=15   seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=16   seq_length=17
+<region> sample=MPB_Samples/Bass_Drum/Bass_hit_muted_11.ogg   seq_position=17   seq_length=17
 
 
 
