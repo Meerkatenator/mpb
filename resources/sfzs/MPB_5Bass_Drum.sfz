@@ -8,7 +8,7 @@
 // ************
 // ** LH Hit **
 // ************
-<group> key=b3  lovel=0  hivel=82  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+<group> key=b3  lovel=0  hivel=82  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_7.ogg    seq_position=1  seq_length=6
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_8.ogg    seq_position=2  seq_length=6
@@ -17,7 +17,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_11.ogg   seq_position=5  seq_length=6
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_12.ogg   seq_position=6  seq_length=6
 
-<group> key=b3  lovel=83  hivel=110  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+<group> key=b3  lovel=83  hivel=110  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_9.ogg   seq_position=1   seq_length=8
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_10.ogg   seq_position=2  seq_length=8
@@ -28,7 +28,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_15.ogg   seq_position=7  seq_length=8
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_16.ogg   seq_position=8  seq_length=8
 
-<group> key=b3  lovel=111  hivel=127  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+<group> key=b3  lovel=111  hivel=127  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_10.ogg   seq_position=2  seq_length=8
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_11.ogg   seq_position=3  seq_length=8
@@ -42,7 +42,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 // ************
 // ** RH Hit **
 // ************
-<group> key=c4  lovel=0  hivel=82  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+<group> key=c4  lovel=0  hivel=82  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_1.ogg   seq_position=1   seq_length=6
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_2.ogg   seq_position=2   seq_length=6
@@ -51,7 +51,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_5.ogg   seq_position=5   seq_length=6
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_6.ogg   seq_position=6   seq_length=6
 
-<group> key=c4  lovel=83  hivel=110  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+<group> key=c4  lovel=83  hivel=110  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_1.ogg   seq_position=1   seq_length=8
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_2.ogg   seq_position=2   seq_length=8
@@ -62,7 +62,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_7.ogg   seq_position=7   seq_length=8
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_8.ogg   seq_position=8   seq_length=8
 
-<group> key=c4  lovel=111  hivel=127  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+<group> key=c4  lovel=111  hivel=127  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_1.ogg   seq_position=1   seq_length=9
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_2.ogg   seq_position=2   seq_length=9
@@ -78,7 +78,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 // ** LH Roll **
 // *************
 
-<group> key=a3  group_volume=6 group=1111 off_by=1112
+<group> key=a3  group_volume=10 group=1111 off_by=1112
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 ampeg_attack=0.5
 ampeg_decay=0
@@ -124,7 +124,7 @@ loop_xfade=11
 // ** RH Roll **
 // *************
 
-<group> key=a#3 group_volume=6 group=1111 off_by=1112
+<group> key=a#3 group_volume=10 group=1111 off_by=1112
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 ampeg_attack=0.5
 ampeg_decay=0
