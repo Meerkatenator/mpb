@@ -392,10 +392,10 @@
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitR_p_4.ogg  seq_length=10 seq_position=7
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitR_p_5.ogg  seq_length=10 seq_position=9
 
-// 18x14 Tenor LH B
+// 20x14 Tenor LH B
 <group> lovel=76  hivel=127 key=b2 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=6 tune=245 transpose=0 
-<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_8.ogg  seq_length=10 seq_position=2
-<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_9.ogg  seq_length=10 seq_position=4
+<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_6.ogg  seq_length=10 seq_position=2
+<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_7.ogg  seq_length=10 seq_position=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_8.ogg  seq_length=10 seq_position=6
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_9.ogg  seq_length=10 seq_position=8
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_10.ogg seq_length=10 seq_position=10
@@ -438,8 +438,8 @@
 
 // 20x14 Tenor LH low A
 <group> lovel=76  hivel=127 key=a2 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=6 tune=70 transpose=0 
-<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_8.ogg  seq_length=10 seq_position=2
-<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_9.ogg  seq_length=10 seq_position=4
+<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_6.ogg  seq_length=10 seq_position=2
+<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_7.ogg  seq_length=10 seq_position=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_8.ogg  seq_length=10 seq_position=6
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_9.ogg  seq_length=10 seq_position=8
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_10.ogg seq_length=10 seq_position=10
@@ -482,8 +482,8 @@
 
 // 20x14 Tenor LH low G
 <group> lovel=76  hivel=127 key=g2 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=6 tune=-130 transpose=0 
-<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_8.ogg  seq_length=10 seq_position=2
-<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_9.ogg  seq_length=10 seq_position=4
+<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_6.ogg  seq_length=10 seq_position=2
+<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_7.ogg  seq_length=10 seq_position=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_8.ogg  seq_length=10 seq_position=6
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_9.ogg  seq_length=10 seq_position=8
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_HitL_f_10.ogg seq_length=10 seq_position=10
