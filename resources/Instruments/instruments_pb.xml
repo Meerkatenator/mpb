@@ -188,7 +188,7 @@
             <genre>common</genre>
             </Instrument>
             <Instrument id="pb-uniline-tenor-drum">
-                <longName>Tenor (Uniline)</longName>
+                <longName>Tenor (uniline)</longName>
                 <shortName>T</shortName>
                 <description>PB Uniline (Berger) Tenor Drum</description>
                 <musicXMLid>drum.pbbergertenor</musicXMLid>
