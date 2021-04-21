@@ -9,7 +9,7 @@
 // ** LH Hit **
 // ************
 <group> key=b3  lovel=0  hivel=82  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=70 transpose=0
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_7.ogg    seq_position=1  seq_length=6
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_8.ogg    seq_position=2  seq_length=6
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_9.ogg    seq_position=3  seq_length=6
@@ -18,7 +18,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_12.ogg   seq_position=6  seq_length=6
 
 <group> key=b3  lovel=83  hivel=110  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=70 transpose=0
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_9.ogg   seq_position=1   seq_length=8
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_10.ogg   seq_position=2  seq_length=8
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_11.ogg   seq_position=3  seq_length=8
@@ -29,7 +29,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_16.ogg   seq_position=8  seq_length=8
 
 <group> key=b3  lovel=111  hivel=127  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=70 transpose=0
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_10.ogg   seq_position=2  seq_length=8
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_11.ogg   seq_position=3  seq_length=8
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_12.ogg   seq_position=4  seq_length=8
@@ -43,7 +43,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 // ** RH Hit **
 // ************
 <group> key=c4  lovel=0  hivel=82  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=70 transpose=0
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_1.ogg   seq_position=1   seq_length=6
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_2.ogg   seq_position=2   seq_length=6
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_3.ogg   seq_position=3   seq_length=6
@@ -52,7 +52,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_6.ogg   seq_position=6   seq_length=6
 
 <group> key=c4  lovel=83  hivel=110  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=70 transpose=0
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_1.ogg   seq_position=1   seq_length=8
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_2.ogg   seq_position=2   seq_length=8
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_3.ogg   seq_position=3   seq_length=8
@@ -63,7 +63,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_8.ogg   seq_position=8   seq_length=8
 
 <group> key=c4  lovel=111  hivel=127  ampeg_release=0.5  group_volume=10 loop_mode=one_shot group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=70 transpose=0
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_1.ogg   seq_position=1   seq_length=9
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_2.ogg   seq_position=2   seq_length=9
 <region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_3.ogg   seq_position=3   seq_length=9
@@ -79,7 +79,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 // *************
 
 <group> key=a3  group_volume=10 group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=70 transpose=0
 ampeg_attack=0.5
 ampeg_decay=0
 ampeg_release=0.35
@@ -125,7 +125,7 @@ loop_xfade=11
 // *************
 
 <group> key=a#3 group_volume=10 group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=70 transpose=0
 ampeg_attack=0.5
 ampeg_decay=0
 ampeg_release=0.35
@@ -164,90 +164,6 @@ loop_xfade=11
 <region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_4.ogg   seq_position=4 seq_length=4
   loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
 
-
-// ************************
-// ** LH Crescendo Roll **
-// ************************
-
-<group> key=g3  ampeg_attack=0.5  ampeg_release=0.5  group_volume=0 group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
-
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_1.ogg   seq_position=1 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_2.ogg   seq_position=2 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_3.ogg   seq_position=3 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_4.ogg   seq_position=4 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_5.ogg   seq_position=5 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_6.ogg   seq_position=6 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_7.ogg   seq_position=7 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-
-
-// ************************
-// ** RH Crescendo Roll **
-// ************************
-
-<group> key=g#3  ampeg_attack=0.5  ampeg_release=0.5  group_volume=0 group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
-
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_1.ogg   seq_position=1 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_2.ogg   seq_position=2 seq_length=7
-  loop_mode=one_shot loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_3.ogg   seq_position=3 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_4.ogg   seq_position=4 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_5.ogg   seq_position=5 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_6.ogg   seq_position=6 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_cres_7.ogg   seq_position=7 seq_length=7
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-
-
-
-// ************************
-// ** LH Decrescendo Roll **
-// ************************
-
-<group> key=f3  ampeg_attack=0.5  ampeg_release=0.5  group_volume=0 group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
-
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_decres_1.ogg   seq_position=1 seq_length=5
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_decres_2.ogg   seq_position=2 seq_length=5
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_decres_3.ogg   seq_position=3 seq_length=5
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_decres_4.ogg   seq_position=4 seq_length=5
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_decres_5.ogg   seq_position=5 seq_length=5
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-
-
-// ************************
-// ** LH Decrescendo Roll **
-// ************************
-
-<group> key=f#3  ampeg_attack=0.5  ampeg_release=0.5  group_volume=0 group=1111 off_by=1112
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
-
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_decres_1.ogg   seq_position=1 seq_length=5
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_decres_2.ogg   seq_position=2 seq_length=5
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_decres_3.ogg   seq_position=3 seq_length=5
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_decres_4.ogg   seq_position=4 seq_length=5
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
-<region> lovel=0  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_decres_5.ogg   seq_position=5 seq_length=5
-  loop_mode=one_shot  loop_start=25777  loop_end=68857 off_mode=normal
 
 // ************
 // ** Dampen **

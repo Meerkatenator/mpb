@@ -20,7 +20,7 @@
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Bagpipe Drones">
-                <program value="6"/>
+                <program value="1"/>
                 <synti>Zerberus</synti>
             </Channel>			
             <genre>pipeband</genre>
@@ -137,9 +137,49 @@
                         <tremolo>r32</tremolo>
                     </variant>
                 </variants>
-             </Drum>
-            <Channel>
-                <program value="1"/>
+            </Drum>
+			<Articulation>
+				<velocity>100</velocity>
+				<gateTime>100</gateTime>
+			</Articulation>
+			<Articulation name="sforzato">
+				<velocity>127</velocity>
+				<gateTime>100</gateTime>
+			</Articulation>
+			<Articulation name="sforzatoStaccato">
+				<velocity>127</velocity>
+				<gateTime>50</gateTime>
+			</Articulation>
+			<Articulation name="marcato">
+				<velocity>115</velocity>
+				<gateTime>100</gateTime>
+			</Articulation>
+			<Articulation name="marcatoStaccato">
+				<velocity>115</velocity>
+				<gateTime>50</gateTime>
+			</Articulation>
+			<Articulation name="tenuto">
+				<velocity>105</velocity>
+				<gateTime>80</gateTime>
+			</Articulation>
+			<Articulation name="tenutoStaccato">
+				<velocity>105</velocity>
+				<gateTime>50</gateTime>
+			</Articulation>
+			<Articulation name="staccato">
+				<velocity>90</velocity>
+				<gateTime>50</gateTime>
+			</Articulation>
+			<Articulation name="portato">
+				<velocity>100</velocity>
+				<gateTime>75</gateTime>
+			</Articulation>
+			<Articulation name="plusstop">
+				<velocity>80</velocity>
+				<gateTime>80</gateTime>
+			</Articulation>            
+			<Channel>
+                <program value="2"/>
                 <synti>Zerberus</synti>
             </Channel>
             <genre>pipeband</genre>
@@ -308,11 +348,71 @@
                   <name>FlourishR</name>
                   <stem>2</stem>
                   <shortcut>B</shortcut>
-                </Drum>-->				
-                <Channel name="Uniline Tenor A3"> <!-- add channels for different pitches: F#3, E3, D3, C#3, A2) -->
-                    <program value="8"/>
+                </Drum>
+				<Articulation>
+					<velocity>100</velocity>
+					<gateTime>100</gateTime>
+				</Articulation>
+				<Articulation name="sforzato">
+					<velocity>127</velocity>
+					<gateTime>100</gateTime>
+				</Articulation>
+				<Articulation name="sforzatoStaccato">
+					<velocity>127</velocity>
+					<gateTime>50</gateTime>
+				</Articulation>
+				<Articulation name="marcato">
+					<velocity>115</velocity>
+					<gateTime>100</gateTime>
+				</Articulation>
+				<Articulation name="marcatoStaccato">
+					<velocity>115</velocity>
+					<gateTime>50</gateTime>
+				</Articulation>
+				<Articulation name="tenuto">
+					<velocity>105</velocity>
+					<gateTime>80</gateTime>
+				</Articulation>
+				<Articulation name="tenutoStaccato">
+					<velocity>105</velocity>
+					<gateTime>50</gateTime>
+				</Articulation>
+				<Articulation name="staccato">
+					<velocity>90</velocity>
+					<gateTime>50</gateTime>
+				</Articulation>
+				<Articulation name="portato">
+					<velocity>100</velocity>
+					<gateTime>75</gateTime>
+				</Articulation>
+				<Articulation name="plusstop">
+					<velocity>80</velocity>
+					<gateTime>80</gateTime>
+				</Articulation>				
+                <Channel name="Mono Tenor A3">
+                    <program value="3"/>
                     <synti>Zerberus</synti>
                 </Channel>
+                <Channel name="Mono Tenor F#3">
+                    <program value="4"/>
+                    <synti>Zerberus</synti>
+                </Channel>
+                <Channel name="Mono Tenor E3">
+                    <program value="5"/>
+                    <synti>Zerberus</synti>
+                </Channel>
+                <Channel name="Mono Tenor D3">
+                    <program value="6"/>
+                    <synti>Zerberus</synti>
+                </Channel>
+                <Channel name="Mono Tenor C#3">
+                    <program value="7"/>
+                    <synti>Zerberus</synti>
+                </Channel>
+                <Channel name="Mono Tenor A2">
+                    <program value="8"/>
+                    <synti>Zerberus</synti>
+                </Channel>				
                 <genre>pipeband</genre>
                 <genre>common</genre>
             </Instrument>
@@ -327,15 +427,15 @@
             <barlineSpan>1</barlineSpan>
             <singleNoteDynamics>0</singleNoteDynamics>
             <Channel name="Tonal Tenor Hits">
-                <program value="3"/>
+                <program value="9"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Tonal Tenor Rolls">
-                <program value="4"/>
+                <program value="10"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Tonal Tenor Visual">
-                <program value="7"/>
+                <program value="11"/>
                 <synti>Zerberus</synti>
             </Channel>			
             <genre>pipeband</genre>
@@ -498,7 +598,7 @@
                   <voice>0</voice>
                   <name>Muted Hit (Stuff)</name>
                   <stem>2</stem>
-              </Drum>
+            </Drum>
             <Articulation>
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
@@ -540,7 +640,7 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="5"/>
+                <program value="12"/>
                 <controller ctrl="7" value="60"/>
                 <controller ctrl="10" value="120"/>
                 <synti>Zerberus</synti>
