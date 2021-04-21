@@ -12,29 +12,8 @@
             <musicXMLid>wind.pbbagpipes</musicXMLid>
             <clef>G</clef>
             <barlineSpan>1</barlineSpan>
-            <aPitchRange>67-81</aPitchRange> <!--67-81-->
-            <pPitchRange>56-81</pPitchRange> <!--56-58 = drones-->
-            <stem>2</stem>
-            <Channel name="Bagpipe Chanter">
-                <program value="13"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Bagpipe Drones">
-                <program value="14"/>
-                <synti>Zerberus</synti>
-            </Channel>			
-            <genre>pipeband</genre>
-            <genre>common</genre>
-        </Instrument>
-        <Instrument id="bagpipesT">
-            <longName>PipesT</longName>
-            <shortName>P</shortName>
-            <description>PB Bagpipes</description>
-            <musicXMLid>wind.pbbagpipes</musicXMLid>
-            <clef>G</clef>
-            <barlineSpan>1</barlineSpan>
             <aPitchRange>69-83</aPitchRange> <!--67-81 non-transposing-->
-            <pPitchRange>58-83</pPitchRange> <!--56-58 = drones-->
+            <pPitchRange>58-83</pPitchRange> <!--56-58 = drones (58-60 for MS4)-->
             <transposeDiatonic>1</transposeDiatonic> <!--delete for MS4 non-transposing-->
             <transposeChromatic>2</transposeChromatic> <!--delete for MS4 non-transposing-->			
             <stem>2</stem>
@@ -43,7 +22,7 @@
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Bagpipe Drones">
-                <program value="6"/>
+                <program value="1"/>
                 <synti>Zerberus</synti>
             </Channel>			
             <genre>pipeband</genre>
@@ -445,37 +424,53 @@
             <description>MPB Tonal Tenors</description>
             <musicXMLid>drum.pbtonaltenors</musicXMLid>
             <clef>F</clef>
-            <aPitchRange>43-59</aPitchRange>
-            <pPitchRange>43-59</pPitchRange>
-            <barlineSpan>1</barlineSpan>
-            <singleNoteDynamics>0</singleNoteDynamics>
-            <Channel name="Tonal Tenor Hits">
-                <program value="9"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Tonal Tenor Rolls">
-                <program value="10"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Tonal Tenor Visual">
-                <program value="11"/>
-                <synti>Zerberus</synti>
-            </Channel>			
-            <genre>pipeband</genre>
-            <genre>common</genre>
-        </Instrument>
-        <Instrument id="pipeband-tenor-corpsT">
-            <longName>Tenors (tonal)T</longName>
-            <shortName>T</shortName>
-            <description>MPB Tonal Tenors</description>
-            <musicXMLid>drum.pbtonaltenors</musicXMLid>
-            <clef>F</clef>
-            <aPitchRange>45-61</aPitchRange> <!-- 43-59 non-transposed -->
-            <pPitchRange>45-61</pPitchRange> <!-- 43-59 non-transposed -->
+            <aPitchRange>45-61</aPitchRange> <!-- 43-59 non-transposed for ms4-->
+            <pPitchRange>45-61</pPitchRange> <!-- 43-59 non-transposed for ms4-->
             <transposeDiatonic>1</transposeDiatonic> <!--delete for MS4 non-transposing-->
             <transposeChromatic>2</transposeChromatic> <!--delete for MS4 non-transposing-->			
             <barlineSpan>1</barlineSpan>
-            <singleNoteDynamics>0</singleNoteDynamics>
+			<stem>2</stem>
+            <singleNoteDynamics>1</singleNoteDynamics>
+			<Articulation>
+				<velocity>100</velocity>
+				<gateTime>100</gateTime>
+			</Articulation>
+			<Articulation name="sforzato">
+				<velocity>127</velocity>
+				<gateTime>100</gateTime>
+			</Articulation>
+			<Articulation name="sforzatoStaccato">
+				<velocity>127</velocity>
+				<gateTime>50</gateTime>
+			</Articulation>
+			<Articulation name="marcato">
+				<velocity>115</velocity>
+				<gateTime>100</gateTime>
+			</Articulation>
+			<Articulation name="marcatoStaccato">
+				<velocity>115</velocity>
+				<gateTime>50</gateTime>
+			</Articulation>
+			<Articulation name="tenuto">
+				<velocity>105</velocity>
+				<gateTime>80</gateTime>
+			</Articulation>
+			<Articulation name="tenutoStaccato">
+				<velocity>105</velocity>
+				<gateTime>50</gateTime>
+			</Articulation>
+			<Articulation name="staccato">
+				<velocity>90</velocity>
+				<gateTime>50</gateTime>
+			</Articulation>
+			<Articulation name="portato">
+				<velocity>100</velocity>
+				<gateTime>75</gateTime>
+			</Articulation>
+			<Articulation name="plusstop">
+				<velocity>80</velocity>
+				<gateTime>80</gateTime>
+			</Articulation>							
             <Channel name="Tonal Tenor Hits">
                 <program value="9"/>
                 <synti>Zerberus</synti>
