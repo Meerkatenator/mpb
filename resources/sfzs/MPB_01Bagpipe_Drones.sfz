@@ -12,18 +12,18 @@
 // ***********
 
 //Drones Strike (no sample yet)
-//<group> key=g#3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2220 off_by=2221
+//<group> key=f#3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2220 off_by=2221
 //RR1
 //<region> sample=MPB_Samples/Bagpipes/Drones_strike.ogg  pan=30   seq_position=1  seq_length=1
 
 //Drones In 
 //really a3
-<group> key=b3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2221 off_by=2224
+<group> key=g3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2221 off_by=2224
 //RR1
 <region> sample=MPB_Samples/Bagpipes/Drones_in.ogg  pan=30   seq_position=1  seq_length=1
 
 //Drones Cut-off (silence)
-<group> key=b#3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2224
+<group> key=g#3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2224
 //really a#3
 //RR1
 <region> sample=MPB_Samples/Bagpipes/Drones_silence.ogg  pan=30   seq_position=1  seq_length=1
