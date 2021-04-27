@@ -426,8 +426,8 @@
             <clef>F</clef>
             <aPitchRange>39-55</aPitchRange> <!-- 43-59 non-transposed for ms4-->
             <pPitchRange>39-55</pPitchRange> <!-- 43-59 non-transposed for ms4-->
-            <transposeDiatonic>1</transposeDiatonic> <!--delete for MS4 non-transposing-->
-            <transposeChromatic>2</transposeChromatic> <!--delete for MS4 non-transposing-->			
+            <transposeDiatonic>-1</transposeDiatonic> <!--delete for MS4 non-transposing-->
+            <transposeChromatic>-2</transposeChromatic> <!--delete for MS4 non-transposing-->			
             <barlineSpan>1</barlineSpan>
 			<stem>2</stem>
             <singleNoteDynamics>1</singleNoteDynamics>
@@ -481,6 +481,10 @@
             </Channel>
             <Channel name="Tonal Tenor Visual">
                 <program value="11"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Tonal Tenor Dampen">
+                <program value="12"/>
                 <synti>Zerberus</synti>
             </Channel>			
             <genre>pipeband</genre>
@@ -685,13 +689,54 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="12"/>
-                <controller ctrl="7" value="60"/>
-                <controller ctrl="10" value="120"/>
+                <program value="13"/>
                 <synti>Zerberus</synti>
             </Channel>
 			<genre>pipeband</genre>
 			<genre>common</genre>
 		</Instrument>	
+<!--        <Instrument id="Metronome">
+			<longName>Metronome</longName>
+			<shortName>M</shortName>
+			<description>MPB Metronome</description>
+			<musicXMLid>MPB.metronome</musicXMLid>
+			<stafftype staffTypePreset="perc1Line">percussion</stafftype>
+			<clef>PERC</clef>
+			<singleNoteDynamics>0</singleNoteDynamics>
+			<barlineSpan>1</barlineSpan>
+			<drumset>1</drumset>
+			<Drum pitch="21">
+				<head>fa</head>
+				<line>0</line>
+				<voice>0</voice>
+				<name>Click</name>
+				<variants>
+					<variant pitch="22">
+						<articulation>sforzato</articulation>
+					</variant>
+				</variants>
+				<stem>1</stem>
+				<shortcut>A</shortcut>
+			</Drum>
+			<Drum pitch="22">
+				<head>fa</head>
+				<line>-1</line>
+				<voice>0</voice>
+				<name>Accented Click</name>
+				<stem>1</stem>
+				<shortcut>B</shortcut>
+			</Drum>
+			<Channel name="Metronome">
+				<program value="20"/>
+				<synti>Zerberus</synti>
+			</Channel>
+			<genre>common</genre>
+			<genre>jazz</genre>
+			<genre>orchestra</genre>
+			<genre>popular</genre>
+			<genre>concertband</genre>
+			<genre>pipeband</genre>
+			<genre>marching</genre>
+		</Instrument> -->		
     </InstrumentGroup>
 </museScore>

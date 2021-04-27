@@ -1,6 +1,6 @@
 
 //------------------------------------------------------------------------------
-// MPB Tonal Tenor Soundfont
+// MPB Tonal Tenor Soundfont - Rolls
 // Author    : Zac Jansheski and Kate Dudek
 // Copyright : Zac Jansheski and Kate Dudek
 // Date      : 2021/03/19
@@ -67,21 +67,21 @@
 <region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_p_4.ogg  seq_length=4 seq_position=4
 
 // 16x12 F (really f3 not d#3)
-<group> lovel=76 hivel=127 key=d#3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=280 transpose=0
-<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_f_1.ogg  seq_length=2 seq_position=1
-<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_f_3.ogg  seq_length=2 seq_position=2
+//<group> lovel=76 hivel=127 key=d#3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=280 transpose=0
+//<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_f_1.ogg  seq_length=2 seq_position=1
+//<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_f_3.ogg  seq_length=2 seq_position=2
 
-<group> lovel=35 hivel=75 key=d#3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=280 transpose=0
-<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_m_1.ogg  seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_m_2.ogg  seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_m_3.ogg  seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_m_4.ogg  seq_length=4 seq_position=4
+//<group> lovel=35 hivel=75 key=d#3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=280 transpose=0
+//<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_m_1.ogg  seq_length=4 seq_position=1
+//<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_m_2.ogg  seq_length=4 seq_position=2
+//<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_m_3.ogg  seq_length=4 seq_position=3
+//<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_m_4.ogg  seq_length=4 seq_position=4
 
-<group> lovel=0 hivel=34 key=d#3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=280 transpose=0
-<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_p_1.ogg  seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_p_2.ogg  seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_p_3.ogg  seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_p_4.ogg  seq_length=4 seq_position=4
+//<group> lovel=0 hivel=34 key=d#3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=280 transpose=0
+//<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_p_1.ogg  seq_length=4 seq_position=1
+//<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_p_2.ogg  seq_length=4 seq_position=2
+//<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_p_3.ogg  seq_length=4 seq_position=3
+//<region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_Roll_p_4.ogg  seq_length=4 seq_position=4
 
 
 // 16x14  E (really e3 not d3)
@@ -142,23 +142,23 @@
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_4.ogg seq_length=4 seq_position=4
 
 // 18x14 C (really c3 not a#2)
-<group> lovel=76 hivel=127 key=a#2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=160 transpose=0 
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_1.ogg seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_2.ogg seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_3.ogg seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_4.ogg seq_length=4 seq_position=4
+//<group> lovel=76 hivel=127 key=a#2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=160 transpose=0 
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_1.ogg seq_length=4 seq_position=1
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_2.ogg seq_length=4 seq_position=2
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_3.ogg seq_length=4 seq_position=3
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_4.ogg seq_length=4 seq_position=4
 
-<group> lovel=35 hivel=75 key=a#2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=160 transpose=0 
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_1.ogg seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_2.ogg seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_3.ogg seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_4.ogg seq_length=4 seq_position=4
+//<group> lovel=35 hivel=75 key=a#2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=160 transpose=0 
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_1.ogg seq_length=4 seq_position=1
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_2.ogg seq_length=4 seq_position=2
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_3.ogg seq_length=4 seq_position=3
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_4.ogg seq_length=4 seq_position=4
 
-<group> lovel=0 hivel=34 key=a#2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=160 transpose=0 
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_1.ogg seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_2.ogg seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_3.ogg seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_4.ogg seq_length=4 seq_position=4
+//<group> lovel=0 hivel=34 key=a#2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=160 transpose=0 
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_1.ogg seq_length=4 seq_position=1
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_2.ogg seq_length=4 seq_position=2
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_3.ogg seq_length=4 seq_position=3
+//<region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_4.ogg seq_length=4 seq_position=4
 
 // 20x14 B (really b2 not a2)
 <group> lovel=76 hivel=127 key=a2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=245 transpose=0
