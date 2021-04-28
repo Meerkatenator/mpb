@@ -19,56 +19,56 @@
 <region> sample=MPB_Samples/Tenor_14x12/Tenor_14x12_mute_3.ogg seq_length=4 seq_position=4
 
 // 14x12 high G (really g3 not f3)
-<group> lovel=0 hivel=127 key=f3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=-190 transpose=0
+<group> lovel=0 hivel=127 key=f3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=-144 transpose=0
 <region> sample=MPB_Samples/Tenor_14x12/Tenor_14x12_mute_4.ogg  seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_14x12/Tenor_14x12_mute_1.ogg  seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_14x12/Tenor_14x12_mute_2.ogg  seq_length=4 seq_position=3
 <region> sample=MPB_Samples/Tenor_14x12/Tenor_14x12_mute_3.ogg  seq_length=4 seq_position=4
 
 // 16x12 F(#) (really f#3 not e3)
-<group> lovel=0 hivel=127 key=e3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=280 transpose=0
+<group> lovel=0 hivel=127 key=e3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=264 transpose=0
 <region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_mute_1.ogg  seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_mute_2.ogg  seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_mute_3.ogg  seq_length=4 seq_position=3
 <region> sample=MPB_Samples/Tenor_16x12/Tenor_16x12_mute_4.ogg  seq_length=4 seq_position=4
 
 // 16x14  E (really e3 not d3)
-<group> lovel=0 hivel=127 key=d3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=230 transpose=0
+<group> lovel=0 hivel=127 key=d3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=172 transpose=0
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_mute_1.ogg  seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_mute_2.ogg  seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_mute_3.ogg  seq_length=4 seq_position=3
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_mute_4.ogg  seq_length=4 seq_position=4
 
 // 18x14 D (really d3 not c3)
-<group> lovel=0 hivel=127 key=c3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=213 transpose=0
+<group> lovel=0 hivel=127 key=c3 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=248 transpose=0
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_mute_1.ogg seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_mute_2.ogg seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_mute_3.ogg seq_length=4 seq_position=3
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_mute_4.ogg seq_length=4 seq_position=4
 
 // 18x14 C(#) (really c#3 not b2)
-<group> lovel=0 hivel=127 key=b2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=160 transpose=0 
+<group> lovel=0 hivel=127 key=b2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=136 transpose=0 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_mute_1.ogg seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_mute_2.ogg seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_mute_3.ogg seq_length=4 seq_position=3
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_mute_4.ogg seq_length=4 seq_position=4
 
 // 20x14 B (really b2 not a2)
-<group> lovel=0 hivel=127 key=a2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=245 transpose=0
+<group> lovel=0 hivel=127 key=a2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=304 transpose=0
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_1.ogg seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_2.ogg seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_3.ogg seq_length=4 seq_position=3
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_4.ogg seq_length=4 seq_position=4
 
 // 20x14 low A (really a2 not g2)
-<group> lovel=0 hivel=127 key=g2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=70 transpose=0
+<group> lovel=0 hivel=127 key=g2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=110 transpose=0
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_1.ogg seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_2.ogg seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_3.ogg seq_length=4 seq_position=3
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_4.ogg seq_length=4 seq_position=4
 
 // 20x14 low G (really g2 not f2)
-<group> lovel=0 hivel=127 key=f2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=-130 transpose=0 
+<group> lovel=0 hivel=127 key=f2 loop_mode=loop_sustain loop_start=50000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=6 tune=-94 transpose=0 
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_1.ogg seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_2.ogg seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_3.ogg seq_length=4 seq_position=3

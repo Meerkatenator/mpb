@@ -695,7 +695,7 @@
 			<genre>pipeband</genre>
 			<genre>common</genre>
 		</Instrument>	
-<!--        <Instrument id="Metronome">
+        <Instrument id="Metronome">
 			<longName>Metronome</longName>
 			<shortName>M</shortName>
 			<description>MPB Metronome</description>
@@ -727,7 +727,7 @@
 				<shortcut>B</shortcut>
 			</Drum>
 			<Channel name="Metronome">
-				<program value="20"/>
+				<program value="2"/>
 				<synti>Zerberus</synti>
 			</Channel>
 			<genre>common</genre>
@@ -737,6 +737,6 @@
 			<genre>concertband</genre>
 			<genre>pipeband</genre>
 			<genre>marching</genre>
-		</Instrument> -->		
+		</Instrument>		
     </InstrumentGroup>
 </museScore>
