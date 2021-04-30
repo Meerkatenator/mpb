@@ -8,6 +8,9 @@
         <instrument id="pipe-band-snare">
             <family id="pipe-band-snare">pipe-band-snare</family>
         </instrument>
+        <instrument id="pipe-band-practice-pad">
+            <family id="pipe-band-snare">pipe-band-snare</family>
+        </instrument>		
         <instrument id="pb-uniline-tenor-drum">
             <family id="pb-uniline-tenor-drum">pb-uniline-tenor-drum</family>
         </instrument>
