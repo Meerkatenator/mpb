@@ -8,6 +8,9 @@
         <instrument id="pipe-band-snare">
             <family id="pipe-band-snare">pipe-band-snare</family>
         </instrument>
+        <instrument id="pipe-band-snare-line">
+            <family id="pipe-band-snare-line">pipe-band-snare-line</family>
+        </instrument>
         <instrument id="pipe-band-practice-pad">
             <family id="pipe-band-snare">pipe-band-snare</family>
         </instrument>		
