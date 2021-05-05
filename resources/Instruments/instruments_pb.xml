@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore>
-    <Genre id="pipe-band">
+    <Genre id="pipeband">
         <name>Pipe Band</name>
     </Genre>
-	<InstrumentGroup id="pipe-band">
+	<InstrumentGroup id="pipeband">
         <name>Pipe Band</name>
         <Instrument id="bagpipes">
-            <longName>Pipes</longName>
+            <longName>Bagpipes</longName>
             <shortName>P</shortName>
-            <description>PB Bagpipes</description>
+            <description>MPB Bagpipes One Player</description>
             <musicXMLid>wind.pbbagpipes</musicXMLid>
             <clef>G</clef>
             <barlineSpan>1</barlineSpan>
-            <aPitchRange>65-79</aPitchRange> <!--67-81 non-transposing-->
-            <pPitchRange>54-79</pPitchRange> <!--56-58 = drones (58-60 for MS4)-->
+            <aPitchRange>65-91</aPitchRange> <!--67-81 non-transposing, adding extra octave for 8va pipe corps-->
+            <pPitchRange>54-91</pPitchRange> <!--56-58 = drones (58-60 for MS4)-->
             <transposeDiatonic>-1</transposeDiatonic> <!--delete for MS4 non-transposing-->
             <transposeChromatic>-2</transposeChromatic> <!--delete for MS4 non-transposing-->			
             <stem>2</stem>
@@ -24,11 +24,50 @@
             <Channel name="Bagpipe Drones">
                 <program value="1"/>
                 <synti>Zerberus</synti>
+            </Channel>	
+            <Channel name="Bagpipe Chanter (Corps)">
+                <program value="17"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Drones (Corps)">
+                <program value="18"/>
+                <synti>Zerberus</synti>
             </Channel>			
             <genre>pipeband</genre>
             <genre>common</genre>
-        </Instrument>	
-        <Instrument id="pipe-band-snare">
+        </Instrument>
+        <Instrument id="bagpipe-section">
+            <longName>Bagpipe Section</longName>
+            <shortName>P</shortName>
+            <description>MPB Bagpipes Section</description>
+            <musicXMLid>wind.pbbagpipes</musicXMLid>
+            <clef>G</clef>
+            <barlineSpan>1</barlineSpan>
+            <aPitchRange>65-79</aPitchRange> <!--67-81 non-transposing-->
+            <pPitchRange>54-79</pPitchRange> <!--56-58 = drones (58-60 for MS4)-->
+            <transposeDiatonic>-1</transposeDiatonic> <!--delete for MS4 non-transposing-->
+            <transposeChromatic>-2</transposeChromatic> <!--delete for MS4 non-transposing-->			
+            <stem>2</stem>
+            <Channel name="Bagpipe Chanter (Corps)">
+                <program value="17"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Drones (Corps)">
+                <program value="18"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Chanter">
+                <program value="0"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Drones">
+                <program value="1"/>
+                <synti>Zerberus</synti>
+            </Channel>			
+            <genre>pipeband</genre>
+            <genre>common</genre>
+        </Instrument>		
+        <Instrument id="pipeband-snare">
             <longName>Snare</longName>
             <shortName>S</shortName>
             <description>PB Snare Drum</description>
@@ -185,13 +224,13 @@
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Snare Line">
-                <program value="15"/>
+                <program value="16"/>
                 <synti>Zerberus</synti>
             </Channel>
 			<genre>pipeband</genre>
 			<genre>common</genre>
 		</Instrument>
-        <Instrument id="pipe-band-snare-line">
+        <Instrument id="pipeband-snare-line">
             <longName>Snare Line</longName>
             <shortName>S</shortName>
             <description>PB Snare Line</description>
@@ -344,7 +383,7 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel name="Snare Line">
-                <program value="15"/>
+                <program value="16"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Solo Snare Drum">
@@ -354,7 +393,7 @@
             <genre>pipeband</genre>
             <genre>common</genre>
         </Instrument>
-		<Instrument id="pipe-band-practice-pad">
+		<Instrument id="pipeband-practice-pad">
 			<longName>Practice Pad</longName>
 			<shortName>S</shortName>
 			<description>PB Practice Pad</description>
@@ -513,7 +552,7 @@
 				<genre>pipeband</genre>
 				<genre>common</genre>
 			</Instrument>
-            <Instrument id="pb-uniline-tenor-drum">
+        <Instrument id="pb-uniline-tenor-drum">
                 <longName>Tenor (uniline)</longName>
                 <shortName>T</shortName>
                 <description>PB Uniline (Berger) Tenor Drum</description>

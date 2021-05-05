@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore>
-    <Order id="pipe-band">
+    <Order id="pipeband">
         <name>Pipe Band</name>
         <instrument id="bagpipes">
             <family id="bagpipes">bagpipes</family>
         </instrument>
-        <instrument id="pipe-band-snare">
-            <family id="pipe-band-snare">pipe-band-snare</family>
+        <instrument id="bagpipe-section">
+            <family id="bagpipes">bagpipes</family>
+        </instrument>		
+        <instrument id="pipeband-snare">
+            <family id="pipeband-snare">pipeband-snare</family>
         </instrument>
-        <instrument id="pipe-band-snare-line">
-            <family id="pipe-band-snare-line">pipe-band-snare-line</family>
+        <instrument id="pipeband-snare-line">
+            <family id="pipeband-snare">pipeband-snare</family>
         </instrument>
-        <instrument id="pipe-band-practice-pad">
-            <family id="pipe-band-snare">pipe-band-snare</family>
+        <instrument id="pipeband-practice-pad">
+            <family id="pipeband-snare">pipeband-snare</family>
         </instrument>		
         <instrument id="pb-uniline-tenor-drum">
             <family id="pb-uniline-tenor-drum">pb-uniline-tenor-drum</family>
@@ -27,7 +30,7 @@
             <family>bagpipes</family>
         </section>
         <section id="snares" thinBrackets="false">
-            <family>pipe-band-snare</family>
+            <family>pipeband-snare</family>
         </section>
 		<section id="midsection">
 		    <family>pb-uniline-tenor-drum</family>
