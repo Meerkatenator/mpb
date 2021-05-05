@@ -7,7 +7,6 @@
 //             
 //------------------------------------------------------------------------------
 
-
 // ******************
 // ** Single Piper **
 // ******************
@@ -66,68 +65,5 @@
 //RR1
 <region> sample=MPB_Samples/Bagpipes/1_bagpipe_Low_G.ogg  pan=30   seq_position=1  seq_length=1
 
-
-// ************************
-// ** Pipe Section (15ma) **
-// ************************
-//really a7
-<group> key=g7  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=g7 hikey=g7 group=2222 off_by=2222
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_High_A.ogg  pan=30   seq_position=1  seq_length=1
-
-//really g#7
-<group> key=f#7  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=f#7 hikey=f#7 group=2222 off_by=2222
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_G_sharp.ogg  pan=30   seq_position=1  seq_length=1
-
-//really g7
-<group> key=f7  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=f7 hikey=f7 group=2222 off_by=2222
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_High_G.ogg  pan=30   seq_position=1  seq_length=1
-
-//really f#7
-<group> key=e7  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=e7 hikey=e7 group=2222 off_by=2222 tune=100
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_F_natural.ogg  pan=30   seq_position=1  seq_length=1
-
-//really f7
-<group> key=d#7  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=d#7 hikey=d#7 group=2222 off_by=2222
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_F_natural.ogg  pan=30   seq_position=1  seq_length=1
-
-//really e7
-<group> key=d7  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=d7 hikey=d7 group=2222 off_by=2222
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_E.ogg  pan=30   seq_position=1  seq_length=1
-
-//really d7
-<group> key=c7  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=c7 hikey=c7 group=2222 off_by=2222
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_D.ogg  pan=30   seq_position=1  seq_length=1
-
-//really c#7
-<group> key=b6  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=b6 hikey=b6 group=2222 off_by=2222
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_C_sharp.ogg  pan=30   seq_position=1  seq_length=1
-
-//really c7
-<group> key=a#6  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=a#6 hikey=a#6 group=2222 off_by=2222
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_C_natural.ogg  pan=30   seq_position=1  seq_length=1
-
-//really b6
-<group> key=a6  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=a6 hikey=a6 group=2222 off_by=2222
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_B.ogg  pan=30   seq_position=1  seq_length=1
-
-//really a6
-<group> key=g6  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=g6 hikey=g#6 group=2222 off_by=2222
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_Low_A.ogg  pan=30   seq_position=1  seq_length=1
-
-//really g6
-<group> key=f6  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=f6 hikey=f#6 group=2222 off_by=2222
-//RR1
-<region> sample=MPB_Samples/Pipe_Corps/Pipe_Section_Low_G.ogg  pan=30   seq_position=1  seq_length=1
 
 

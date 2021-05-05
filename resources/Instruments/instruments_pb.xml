@@ -12,24 +12,24 @@
             <musicXMLid>wind.pbbagpipes</musicXMLid>
             <clef>G</clef>
             <barlineSpan>1</barlineSpan>
-            <aPitchRange>65-103</aPitchRange> <!--67-81 non-transposing, adding extra octave for 8va pipe corps-->
-            <pPitchRange>30-103</pPitchRange> <!--56-58 = drones (58-60 for MS4)-->
+            <aPitchRange>65-79</aPitchRange> <!--67-81 non-transposing-->
+            <pPitchRange>30-79</pPitchRange> <!--56-58 = drones (58-60 for MS4)-->
             <transposeDiatonic>-1</transposeDiatonic> <!--delete for MS4 non-transposing-->
             <transposeChromatic>-2</transposeChromatic> <!--delete for MS4 non-transposing-->			
             <stem>2</stem>
-            <Channel name="Bagpipe Chanter">
+            <Channel name="One Bagpipe Chanter">
                 <program value="0"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Bagpipe Drones">
+            <Channel name="One Bagpipe Drones">
                 <program value="1"/>
                 <synti>Zerberus</synti>
             </Channel>	
-            <Channel name="Bagpipe Chanter (Corps)">
+            <Channel name="Bagpipe Section Chanter">
                 <program value="17"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Bagpipe Drones (Corps)">
+            <Channel name="Bagpipe Section Drones">
                 <program value="18"/>
                 <synti>Zerberus</synti>
             </Channel>			
@@ -48,19 +48,19 @@
             <transposeDiatonic>-1</transposeDiatonic> <!--delete for MS4 non-transposing-->
             <transposeChromatic>-2</transposeChromatic> <!--delete for MS4 non-transposing-->			
             <stem>2</stem>
-            <Channel name="Bagpipe Chanter (Corps)">
+            <Channel name="Bagpipe Section Chanter">
                 <program value="17"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Bagpipe Drones (Corps)">
+            <Channel name="Bagpipe Section Drones">
                 <program value="18"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Bagpipe Chanter">
+            <Channel name="One Bagpipe Chanter">
                 <program value="0"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Bagpipe Drones">
+            <Channel name="One Bagpipe Drones">
                 <program value="1"/>
                 <synti>Zerberus</synti>
             </Channel>			
