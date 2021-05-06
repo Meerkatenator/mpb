@@ -1,0 +1,12 @@
+# Backup files
+.mscbackup
+.*.mscx,
+.*.mscz,
+*~
+
+# Compiled bytecode
+*.pyc
+__pycache__
+
+# System files
+.DS_Store
