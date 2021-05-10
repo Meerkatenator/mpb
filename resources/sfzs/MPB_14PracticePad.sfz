@@ -13,7 +13,7 @@
 <group> key=c4  lovel=0  hivel=42  loop_mode=one_shot group_volume=6 
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 //RR1
-<region> sample=MPB_Samples/Practice_Pad/PBPad_Tap_RH_p_1.ogg   seq_position=1  seq_length=1
+<region> sample=MPB_Samples/Practice_Pad/PBPad_Tap_LH_p_1.ogg   seq_position=1  seq_length=1
 
 <group> key=c4  lovel=43  hivel=79  loop_mode=one_shot group_volume=6 
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
@@ -29,7 +29,7 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <group> key=c4  lovel=100  hivel=127  loop_mode=one_shot group_volume=6 
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 //RR1
-<region> sample=MPB_Samples/Practice_Pad/PBPad_Tap_RH_f_1.ogg   seq_position=1  seq_length=1
+<region> sample=MPB_Samples/Practice_Pad/PBPad_Tap_LH_f_1.ogg   seq_position=1  seq_length=1
 
 
 // ************
@@ -81,7 +81,7 @@ fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 // ***************
 // **  LH Buzz  **
 // ***************
-<group> key=g3  lovel=1  hivel=127 group=3333 off_by=3333 ampeg_release=1.5  group_volume=6
+<group> key=g3  lovel=1  hivel=42 group=3333 off_by=3333 ampeg_release=1.5  group_volume=6
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 //RR1
 <region> sample=MPB_Samples/Practice_Pad/PBPad_Buzz_LH_p_1.ogg   seq_position=1  seq_length=1
@@ -107,7 +107,7 @@ fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <group> key=a#3  lovel=0  hivel=42 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=9
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 //RR1
-<region> sample=MPB_Samples/Practice_Pad/PBPad_Roll_RH_p_1.ogg   seq_position=1  seq_length=1
+<region> sample=MPB_Samples/Practice_Pad/PBPad_Roll_LH_p_1.ogg   seq_position=1  seq_length=1
 
 <group> key=a#3  lovel=43  hivel=79 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=9
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
@@ -122,12 +122,12 @@ fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <group> key=a#3  lovel=100  hivel=127 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=9
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 //RR1
-<region> sample=MPB_Samples/Practice_Pad/PBPad_Roll_RH_ff_1.ogg   seq_position=1  seq_length=1
+<region> sample=MPB_Samples/Practice_Pad/PBPad_Roll_LH_ff_1.ogg   seq_position=1  seq_length=1
 
 // ***************
 // **  LH Roll  **
 // ***************
-<group> key=a3  lovel=1  hivel=127 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=9
+<group> key=a3  lovel=1  hivel=42 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=9
 //RR1
 <region> sample=MPB_Samples/Practice_Pad/PBPad_Roll_LH_p_1.ogg   seq_position=1  seq_length=1
 
@@ -170,7 +170,7 @@ fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 // **********************
 // **  LH Stroke Roll  **
 // **********************
-<group> key=f3  lovel=1  hivel=127 loop_mode=one_shot group=3333 off_by=3333 ampeg_release=0.5  group_volume=1
+<group> key=f3  lovel=1  hivel=42 loop_mode=one_shot group=3333 off_by=3333 ampeg_release=0.5  group_volume=1
 <region> sample=MPB_Samples/Practice_Pad/PBPad_StrokeRoll_LH_p_1.ogg   seq_position=1  seq_length=1
 
 <group> key=f3  lovel=43  hivel=79 loop_mode=one_shot group=3333 off_by=3333 ampeg_release=0.5  group_volume=1
