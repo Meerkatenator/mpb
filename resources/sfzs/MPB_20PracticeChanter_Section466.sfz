@@ -1,0 +1,73 @@
+//------------------------------------------------------------------------------
+// MPB Pipe Corps Soundfont
+// Author    : Zac Jansheski and Kate Dudek
+// Copyright : Zac Jansheski and Kate Dudek
+// Date      : 2021/05/05
+// Comment   : Bagpipe and Drone Samples created by Tyler Bridge
+//             
+//------------------------------------------------------------------------------
+
+// ******************
+// ** Pipe Section **
+// ******************
+//really a5
+<group> key=g5  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=g5 hikey=g5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_High_A_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+//really g#5
+<group> key=f#5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=f#5 hikey=f#5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_G_sharp_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+//really g5
+<group> key=f5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=f5 hikey=f5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_High_G_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+//really f#5
+<group> key=e5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=e5 hikey=e5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_F_sharp_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+//really f5
+<group> key=d#5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=d#5 hikey=d#5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_F_natural_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+//really e5
+<group> key=d5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=c#5 hikey=d5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_E_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+//really d5
+<group> key=c5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=c5 hikey=c5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_D_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+//really c#5
+<group> key=b4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=b4 hikey=b4 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_C_sharp_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+//really c5
+<group> key=a#4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=a#4 hikey=a#4 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_C_natural_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+//really b4
+<group> key=a4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=a4 hikey=a4 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_B_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+//really a4
+<group> key=g4  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=g4 hikey=g#4 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_Low_A_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+//really g4
+<group> key=f4  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=f4 hikey=f#4 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A466/PC_Section_Low_G_A466.ogg  pan=30   seq_position=1  seq_length=1
+
+

@@ -1,0 +1,69 @@
+//------------------------------------------------------------------------------
+// MPB Practice Chanter (A440) Soundfont
+// Author    : Zac Jansheski and Kate Dudek
+// Copyright : Zac Jansheski and Kate Dudek
+// Date      : 2021/05/05
+// Comment   : Samples created by Tyler Bridge
+//             
+//------------------------------------------------------------------------------
+
+// ******************
+// ** Single Piper **
+// ******************
+//really a5
+<group> key=g5  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=g5 hikey=g5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A440/PC_high_A_A440.ogg  pan=30   seq_position=1  seq_length=1
+
+//really g#5
+<group> key=f#5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=f#5 hikey=f#5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A440/PC_G_sharp_A440.ogg  pan=30   seq_position=1  seq_length=1
+
+//really g5
+<group> key=f5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=f5 hikey=f5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A440/PC_High_G_A440.ogg  pan=30   seq_position=1  seq_length=1
+
+//really f#5
+<group> key=e5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=e5 hikey=e#5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A440/PC_F_sharp_A440.ogg  pan=30   seq_position=1  seq_length=1
+
+//really e5
+<group> key=d5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=c#5 hikey=d5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A440/PC_E_A440.ogg  pan=30   seq_position=1  seq_length=1
+
+//really d5
+<group> key=c5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=c5 hikey=c5 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A440/PC_D_A440.ogg  pan=30   seq_position=1  seq_length=1
+
+//really c#5
+<group> key=b4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=b4 hikey=b4 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A440/PC_C_sharp_A440.ogg  pan=30   seq_position=1  seq_length=1
+
+//really c5
+<group> key=a#4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=a#4 hikey=a#4 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A440/PC_C_natural_A440.ogg  pan=30   seq_position=1  seq_length=1
+
+//really b4
+<group> key=a4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=a4 hikey=a4 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A440/PC_B_A440.ogg  pan=30   seq_position=1  seq_length=1
+
+//really a4
+<group> key=g4  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=g4 hikey=g#4 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A440/PC_Low_A_A440.ogg  pan=30   seq_position=1  seq_length=1
+
+//really g4
+<group> key=f4  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=f4 hikey=f#4 group=2222 off_by=2222
+//RR1
+<region> sample=MPB_Samples/Bagpipes_PC_A440/PC_Low_G_A440.ogg  pan=30   seq_position=1  seq_length=1
+
+
+

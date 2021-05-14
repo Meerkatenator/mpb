@@ -17,20 +17,84 @@
             <transposeDiatonic>-1</transposeDiatonic> <!--delete for MS4 non-transposing-->
             <transposeChromatic>-2</transposeChromatic> <!--delete for MS4 non-transposing-->			
             <stem>2</stem>
-            <Channel name="One Bagpipe Chanter">
+            <Channel name="One Bagpipe Chanter (A478 - Modern Pitch)">
                 <program value="0"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="One Bagpipe Drones">
+            <Channel name="One Bagpipe Drones (A478 - Modern Pitch)">
                 <program value="1"/>
                 <synti>Zerberus</synti>
             </Channel>	
-            <Channel name="Bagpipe Section Chanter">
+            <Channel name="One Bagpipe Chanter (A466 - Bb)">
+                <program value="26"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Bagpipe Drones (A466 - Bb)">
+                <program value="27"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Bagpipe Chanter (A440)">
+                <program value="30"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Bagpipe Drones (A440)">
+                <program value="31"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Section Chanters (A478 - Modern Pitch)">
                 <program value="17"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Bagpipe Section Drones">
+            <Channel name="Bagpipe Section Drones (A478 - Modern Pitch)">
                 <program value="18"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Section Chanters (A466 - Bb)">
+                <program value="28"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Section Drones (A466 - Bb)">
+                <program value="29"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Section Chanters (A440)">
+                <program value="32"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Section Drones (A440)">
+                <program value="33"/>
+                <synti>Zerberus</synti>
+            </Channel>			
+            <Channel name="One Practice Chanter (A466)">
+                <program value="15"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Practice Chanter Drone (A466)">
+                <program value="19"/>
+                <synti>Zerberus</synti>
+            </Channel>	
+            <Channel name="Practice Chanters Section (A466)">
+                <program value="20"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Practice Chanter Section Drone (A466)">
+                <program value="21"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Practice Chanter (A440)">
+                <program value="30"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Practice Chanter Drone (A440)">
+                <program value="31"/>
+                <synti>Zerberus</synti>
+            </Channel>	
+            <Channel name="Practice Chanters Section (A440)">
+                <program value="32"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Practice Chanter Section Drone (A440)">
+                <program value="33"/>
                 <synti>Zerberus</synti>
             </Channel>			
             <genre>pipeband</genre>
@@ -48,20 +112,84 @@
             <transposeDiatonic>-1</transposeDiatonic> <!--delete for MS4 non-transposing-->
             <transposeChromatic>-2</transposeChromatic> <!--delete for MS4 non-transposing-->			
             <stem>2</stem>
-            <Channel name="Bagpipe Section Chanter">
+            <Channel name="Bagpipe Section Chanters (A478 - Modern Pitch)">
                 <program value="17"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Bagpipe Section Drones">
+            <Channel name="Bagpipe Section Drones (A478 - Modern Pitch)">
                 <program value="18"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="One Bagpipe Chanter">
+            <Channel name="Bagpipe Section Chanters (A466 - Bb)">
+                <program value="28"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Section Drones (A466 - Bb)">
+                <program value="29"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Section Chanters (A440)">
+                <program value="32"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Bagpipe Section Drones (A440)">
+                <program value="33"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Bagpipe Chanter (A478 - Modern Pitch)">
                 <program value="0"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="One Bagpipe Drones">
+            <Channel name="One Bagpipe Drones (A478 - Modern Pitch)">
                 <program value="1"/>
+                <synti>Zerberus</synti>
+            </Channel>	
+            <Channel name="One Bagpipe Chanter (A466 - Bb)">
+                <program value="26"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Bagpipe Drones (A466 - Bb)">
+                <program value="27"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Bagpipe Chanter (A440)">
+                <program value="30"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Bagpipe Drones (A440)">
+                <program value="31"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Practice Chanter (A466)">
+                <program value="15"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Practice Chanter Drone (A466)">
+                <program value="19"/>
+                <synti>Zerberus</synti>
+            </Channel>	
+            <Channel name="Practice Chanters Section (A466)">
+                <program value="20"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Practice Chanter Section Drone (A466)">
+                <program value="21"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Practice Chanter (A440)">
+                <program value="30"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="One Practice Chanter Drone (A440)">
+                <program value="31"/>
+                <synti>Zerberus</synti>
+            </Channel>	
+            <Channel name="Practice Chanters Section (A440)">
+                <program value="32"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Practice Chanter Section Drone (A440)">
+                <program value="33"/>
                 <synti>Zerberus</synti>
             </Channel>			
             <genre>pipeband</genre>
