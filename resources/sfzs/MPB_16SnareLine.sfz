@@ -29,8 +29,8 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
 
 <group> key=c4  lovel=100  hivel=127  loop_mode=one_shot group_volume=3
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
-<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_f_1.ogg   seq_position=1  seq_length=2
-<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_f_2.ogg   seq_position=2  seq_length=2
+<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_ff_1.ogg   seq_position=1  seq_length=2
+<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_ff_2.ogg   seq_position=2  seq_length=2
 
 
 // ************
@@ -38,21 +38,21 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
 // ************
 <group> key=b3  lovel=0  hivel=42  loop_mode=one_shot group_volume=3
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
-<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_LH_p_1.ogg   seq_position=1  seq_length=3
-<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_LH_p_2.ogg   seq_position=2  seq_length=3
-<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_LH_p_3.ogg   seq_position=3  seq_length=3
+<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_p_1.ogg   seq_position=1  seq_length=3
+<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_p_2.ogg   seq_position=2  seq_length=3
+<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_p_3.ogg   seq_position=3  seq_length=3
 
 <group> key=b3  lovel=43  hivel=79  loop_mode=one_shot group_volume=3
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
 
-<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_LH_m_1.ogg   seq_position=1  seq_length=1
-<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_LH_m_2.ogg   seq_position=2  seq_length=2
+<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_m_1.ogg   seq_position=1  seq_length=1
+<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_m_2.ogg   seq_position=2  seq_length=2
 
 <group> key=b3  lovel=80  hivel=99  loop_mode=one_shot group_volume=3
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
-<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_LH_f_1.ogg   seq_position=1  seq_length=3
-<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_LH_f_2.ogg   seq_position=2  seq_length=3
-<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_LH_f_3.ogg   seq_position=3  seq_length=3
+<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_f_1.ogg   seq_position=1  seq_length=3
+<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_f_2.ogg   seq_position=2  seq_length=3
+<region> sample=MPB_Samples/Snare_Line/PBSnare_Tap_RH_f_3.ogg   seq_position=3  seq_length=3
 
 <group> key=b3  lovel=100  hivel=127  loop_mode=one_shot group_volume=3
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
