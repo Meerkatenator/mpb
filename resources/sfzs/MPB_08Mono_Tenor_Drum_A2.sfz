@@ -140,19 +140,19 @@ xfout_locc1=127
  ************
 
 <group> key=c#4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=8889 tune=110
-<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute.ogg     seq_position=1   seq_length=4
+<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_4.ogg     seq_position=1   seq_length=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_1.ogg   seq_position=2   seq_length=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_2.ogg   seq_position=3   seq_length=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_3.ogg   seq_position=4   seq_length=4
 
 <group> key=d4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=8889 tune=110
-<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute.ogg     seq_position=1   seq_length=4
+<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_4.ogg     seq_position=1   seq_length=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_1.ogg   seq_position=2   seq_length=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_2.ogg   seq_position=3   seq_length=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_3.ogg   seq_position=4   seq_length=4
 
 <group> key=d#4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=8889 tune=110
-<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute.ogg     seq_position=1   seq_length=4
+<region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_4.ogg     seq_position=1   seq_length=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_1.ogg   seq_position=2   seq_length=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_2.ogg   seq_position=3   seq_length=4
 <region> sample=MPB_Samples/Tenor_20x14/Tenor_20x14_mute_3.ogg   seq_position=4   seq_length=4

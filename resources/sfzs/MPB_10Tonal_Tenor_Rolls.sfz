@@ -60,7 +60,7 @@
 // **************
 // ***   F#   ***
 // **************
-// 16x12 F(#) (really f#3 not e3) NOTE: using 14x12 for forte roll hance different tuning
+// 16x12 F(#) (really f#3 not e3) NOTE: using 14x12 for forte roll hence different tuning
 <group> lovel=76 hivel=127 key=e3 loop_mode=loop_sustain loop_start=70000 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 group_volume=6 tune=-256 transpose=0
 <region> sample=MPB_Samples/Tenor_14x12/Tenor_14x12_Roll_f_1.ogg  seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_14x12/Tenor_14x12_Roll_f_2.ogg  seq_length=4 seq_position=2
