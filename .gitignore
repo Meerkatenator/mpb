@@ -4,6 +4,9 @@
 .*.mscz,
 *~
 
+# Generated files
+/build/out
+
 # Compiled bytecode
 *.pyc
 __pycache__
