@@ -7,11 +7,11 @@
 // Comment   : key= assignment is moved up one WT to account for xml transposition            
 //------------------------------------------------------------------------------
 
-// ***********
+// ************
 // ** Drones **
-// ***********
+// ************
 
-//Drones Strike (no sample yet)
+//Drones Strike 
 <group> key=f#3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2220 off_by=2221
 <region> sample=MPB_Samples/Bagpipes_PC_A440/PC_Drones_A440.ogg  pan=30   seq_position=1  seq_length=1
 

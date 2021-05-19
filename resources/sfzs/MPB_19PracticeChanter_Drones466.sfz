@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------------
-// MPB Bagpipe Drones Soundfont
+// MPB Bagpipe Practice Drones Soundfont
 // Author    : Zac Jansheski and Kate Dudek
 // Copyright : Zac Jansheski and Kate Dudek
 // Date      : 2021/05/05
@@ -7,9 +7,9 @@
 // Comment   : key= assignment is moved up one WT to account for xml transposition            
 //------------------------------------------------------------------------------
 
-// ***********
+// ************
 // ** Drones **
-// ***********
+// ************
 
 //Drones Strike (no sample yet)
 <group> key=f#3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2220 off_by=2221
