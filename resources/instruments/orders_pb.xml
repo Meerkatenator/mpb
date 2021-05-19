@@ -5,18 +5,9 @@
         <instrument id="bagpipes">
             <family id="bagpipes">bagpipes</family>
         </instrument>
-        <instrument id="bagpipe-section">
-            <family id="bagpipes">bagpipes</family>
-        </instrument>		
         <instrument id="pipeband-snare">
             <family id="pipeband-snare">pipeband-snare</family>
         </instrument>
-        <instrument id="pipeband-snare-line">
-            <family id="pipeband-snare">pipeband-snare</family>
-        </instrument>
-        <instrument id="pipeband-practice-pad">
-            <family id="pipeband-snare">pipeband-snare</family>
-        </instrument>		
         <instrument id="pb-uniline-tenor-drum">
             <family id="pb-uniline-tenor-drum">pb-uniline-tenor-drum</family>
         </instrument>

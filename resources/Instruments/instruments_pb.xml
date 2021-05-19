@@ -12,189 +12,54 @@
             <musicXMLid>wind.pbbagpipes</musicXMLid>
             <clef>G</clef>
             <barlineSpan>1</barlineSpan>
-            <aPitchRange>65-79</aPitchRange> <!--67-81 non-transposing-->
-            <pPitchRange>30-79</pPitchRange> <!--56-58 = drones (58-60 for MS4)-->
-            <transposeDiatonic>-1</transposeDiatonic> <!--delete for MS4 non-transposing-->
-            <transposeChromatic>-2</transposeChromatic> <!--delete for MS4 non-transposing-->			
+            <aPitchRange>56-79</aPitchRange> <!--67-81 non-transposing-->
+            <pPitchRange>56-79</pPitchRange> <!--56-58 = drones -->
+            <transposeDiatonic>-1</transposeDiatonic> 
+            <transposeChromatic>-2</transposeChromatic> 		
             <stem>2</stem>
-            <Channel name="One Bagpipe Chanter (A478 - Modern Pitch)">
+            <Channel name="Bagpipes A478"> <!-- default-->
                 <program value="0"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="One Bagpipe Drones (A478 - Modern Pitch)">
-                <program value="1"/>
-                <synti>Zerberus</synti>
-            </Channel>	
-            <Channel name="One Bagpipe Chanter (A466 - Bb)">
-                <program value="26"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Bagpipe Drones (A466 - Bb)">
-                <program value="27"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Bagpipe Chanter (A440)">
-                <program value="30"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Bagpipe Drones (A440)">
-                <program value="31"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Bagpipe Section Chanters (A478 - Modern Pitch)">
+            <Channel name="Bagpipes Section A478">
                 <program value="17"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Bagpipe Section Drones (A478 - Modern Pitch)">
-                <program value="18"/>
+            <Channel name="Bagpipes A466">
+                <program value="26"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Bagpipe Section Chanters (A466 - Bb)">
+            <Channel name="Bagpipes Section A466">
                 <program value="28"/>
                 <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Bagpipe Section Drones (A466 - Bb)">
-                <program value="29"/>
+            </Channel>		
+            <Channel name="Bagpipes A440">
+                <program value="22"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Bagpipe Section Chanters (A440)">
-                <program value="32"/>
+            <Channel name="Bagpipes Section A440">
+                <program value="24"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="Bagpipe Section Drones (A440)">
-                <program value="33"/>
-                <synti>Zerberus</synti>
-            </Channel>			
-            <Channel name="One Practice Chanter (A466)">
+            <Channel name="Practice Chanter A466"> 
                 <program value="15"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="One Practice Chanter Drone (A466)">
-                <program value="19"/>
-                <synti>Zerberus</synti>
-            </Channel>	
-            <Channel name="Practice Chanters Section (A466)">
+            <Channel name="Practice Chanters Section A466">
                 <program value="20"/>
                 <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Practice Chanter Section Drone (A466)">
-                <program value="21"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Practice Chanter (A440)">
+            </Channel>	
+            <Channel name="Practice Chanter A440"> 
                 <program value="30"/>
                 <synti>Zerberus</synti>
             </Channel>
-            <Channel name="One Practice Chanter Drone (A440)">
-                <program value="31"/>
-                <synti>Zerberus</synti>
-            </Channel>	
-            <Channel name="Practice Chanters Section (A440)">
+            <Channel name="Practice Chanters Section A440">
                 <program value="32"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Practice Chanter Section Drone (A440)">
-                <program value="33"/>
                 <synti>Zerberus</synti>
             </Channel>			
             <genre>pipeband</genre>
             <genre>common</genre>
         </Instrument>
-        <Instrument id="bagpipe-section">
-            <longName>Bagpipe Section</longName>
-            <shortName>P</shortName>
-            <description>MPB Bagpipes Section</description>
-            <musicXMLid>wind.pbbagpipes</musicXMLid>
-            <clef>G</clef>
-            <barlineSpan>1</barlineSpan>
-            <aPitchRange>65-79</aPitchRange> <!--67-81 non-transposing-->
-            <pPitchRange>54-79</pPitchRange> <!--56-58 = drones (58-60 for MS4)-->
-            <transposeDiatonic>-1</transposeDiatonic> <!--delete for MS4 non-transposing-->
-            <transposeChromatic>-2</transposeChromatic> <!--delete for MS4 non-transposing-->			
-            <stem>2</stem>
-            <Channel name="Bagpipe Section Chanters (A478 - Modern Pitch)">
-                <program value="17"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Bagpipe Section Drones (A478 - Modern Pitch)">
-                <program value="18"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Bagpipe Section Chanters (A466 - Bb)">
-                <program value="28"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Bagpipe Section Drones (A466 - Bb)">
-                <program value="29"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Bagpipe Section Chanters (A440)">
-                <program value="32"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Bagpipe Section Drones (A440)">
-                <program value="33"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Bagpipe Chanter (A478 - Modern Pitch)">
-                <program value="0"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Bagpipe Drones (A478 - Modern Pitch)">
-                <program value="1"/>
-                <synti>Zerberus</synti>
-            </Channel>	
-            <Channel name="One Bagpipe Chanter (A466 - Bb)">
-                <program value="26"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Bagpipe Drones (A466 - Bb)">
-                <program value="27"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Bagpipe Chanter (A440)">
-                <program value="30"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Bagpipe Drones (A440)">
-                <program value="31"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Practice Chanter (A466)">
-                <program value="15"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Practice Chanter Drone (A466)">
-                <program value="19"/>
-                <synti>Zerberus</synti>
-            </Channel>	
-            <Channel name="Practice Chanters Section (A466)">
-                <program value="20"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Practice Chanter Section Drone (A466)">
-                <program value="21"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Practice Chanter (A440)">
-                <program value="30"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="One Practice Chanter Drone (A440)">
-                <program value="31"/>
-                <synti>Zerberus</synti>
-            </Channel>	
-            <Channel name="Practice Chanters Section (A440)">
-                <program value="32"/>
-                <synti>Zerberus</synti>
-            </Channel>
-            <Channel name="Practice Chanter Section Drone (A440)">
-                <program value="33"/>
-                <synti>Zerberus</synti>
-            </Channel>			
-            <genre>pipeband</genre>
-            <genre>common</genre>
-        </Instrument>		
         <Instrument id="pipeband-snare">
             <longName>Snare</longName>
             <shortName>S</shortName>
@@ -308,7 +173,7 @@
                 </variants>
 			</Drum>
 			<Articulation>
-				<velocity>100</velocity>
+				<velocity>80</velocity>
 				<gateTime>100</gateTime>
 			</Articulation>
 			<Articulation name="sforzato">
@@ -355,168 +220,17 @@
                 <program value="16"/>
                 <synti>Zerberus</synti>
             </Channel>
+            <Channel name="Practice Pad">
+                <program value="14"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <Channel name="Practice Pad Section">
+                <program value="34"/>
+                <synti>Zerberus</synti>
+            </Channel>			
 			<genre>pipeband</genre>
 			<genre>common</genre>
 		</Instrument>
-		<Instrument id="pipeband-practice-pad">
-			<longName>Practice Pad</longName>
-			<shortName>S</shortName>
-			<description>PB Practice Pad</description>
-			<clef>PERC</clef>
-			<musicXMLid>drum.pbsnare-drum</musicXMLid>
-			<stafftype staffTypePreset="perc1Line">percussion</stafftype>
-			<barlineSpan>1</barlineSpan>
-			<drumset>1</drumset>
-			<singleNoteDynamics>0</singleNoteDynamics>
-				<Drum pitch="59">
-					<head>normal</head>
-					<line>1</line>
-					<voice>0</voice>
-					<name>Hit L</name>
-					<stem>2</stem>
-					<shortcut>F</shortcut>
-					<variants>
-						<variant pitch="55">
-							<tremolo>r8</tremolo>
-						</variant>
-						<variant pitch="57">
-							<tremolo>r16</tremolo>
-						</variant>
-						<variant pitch="53">
-							<articulation>sforzato</articulation>
-							<tremolo>r16</tremolo>
-						</variant>
-					   <variant pitch="57">
-							<articulation>tenuto</articulation>
-							<tremolo>r16</tremolo>
-						</variant>
-						<variant pitch="53">
-							<articulation>marcato</articulation>
-							<tremolo>r16</tremolo>
-						</variant>
-						<variant pitch="57">
-							<articulation>portato</articulation>
-							<tremolo>r16</tremolo>
-						</variant>
-						<variant pitch="57">
-							<tremolo>r32</tremolo>
-						</variant>
-						<variant pitch="53">
-							<articulation>marcato</articulation>
-							<tremolo>r32</tremolo>
-						</variant>
-						<variant pitch="53">
-							<articulation>sforzato</articulation>
-							<tremolo>r32</tremolo>
-						</variant>
-						<variant pitch="57">
-							<articulation>tenuto</articulation>
-							<tremolo>r32</tremolo>
-						</variant>
-						<variant pitch="57">
-							<articulation>portato</articulation>
-							<tremolo>r32</tremolo>
-						</variant>
-					</variants>
-				</Drum>
-				<Drum pitch="60">
-					<head>normal</head>
-					<line>-1</line>
-					<voice>0</voice>
-					<name>Hit R</name>
-					<stem>2</stem>
-					<shortcut>G</shortcut>
-					<variants>
-						<variant pitch="56">
-							<tremolo>r8</tremolo>
-						</variant>
-						<variant pitch="58">
-							<tremolo>r16</tremolo>
-						</variant>
-						<variant pitch="54">
-							<articulation>sforzato</articulation>
-							<tremolo>r16</tremolo>
-						</variant>
-					   <variant pitch="58">
-							<articulation>tenuto</articulation>
-							<tremolo>r16</tremolo>
-						</variant>
-						<variant pitch="54">
-							<articulation>marcato</articulation>
-							<tremolo>r16</tremolo>
-						</variant>
-						<variant pitch="58">
-							<articulation>portato</articulation>
-							<tremolo>r16</tremolo>
-						</variant>
-						<variant pitch="58">
-							<tremolo>r32</tremolo>
-						</variant>
-						<variant pitch="54">
-							<articulation>marcato</articulation>
-							<tremolo>r32</tremolo>
-						</variant>
-						<variant pitch="54">
-							<articulation>sforzato</articulation>
-							<tremolo>r32</tremolo>
-						</variant>
-						<variant pitch="58">
-							<articulation>tenuto</articulation>
-							<tremolo>r32</tremolo>
-						</variant>
-						<variant pitch="58">
-							<articulation>portato</articulation>
-							<tremolo>r32</tremolo>
-						</variant>
-					</variants>
-				</Drum>
-				<Articulation>
-					<velocity>100</velocity>
-					<gateTime>100</gateTime>
-				</Articulation>
-				<Articulation name="sforzato">
-					<velocity>127</velocity>
-					<gateTime>100</gateTime>
-				</Articulation>
-				<Articulation name="sforzatoStaccato">
-					<velocity>127</velocity>
-					<gateTime>50</gateTime>
-				</Articulation>
-				<Articulation name="marcato">
-					<velocity>115</velocity>
-					<gateTime>100</gateTime>
-				</Articulation>
-				<Articulation name="marcatoStaccato">
-					<velocity>115</velocity>
-					<gateTime>50</gateTime>
-				</Articulation>
-				<Articulation name="tenuto">
-					<velocity>105</velocity>
-					<gateTime>80</gateTime>
-				</Articulation>
-				<Articulation name="tenutoStaccato">
-					<velocity>105</velocity>
-					<gateTime>50</gateTime>
-				</Articulation>
-				<Articulation name="staccato">
-					<velocity>90</velocity>
-					<gateTime>50</gateTime>
-				</Articulation>
-				<Articulation name="portato">
-					<velocity>100</velocity>
-					<gateTime>75</gateTime>
-				</Articulation>
-				<Articulation name="plusstop">
-					<velocity>80</velocity>
-					<gateTime>80</gateTime>
-				</Articulation>            
-				<Channel>
-					<program value="14"/>
-					<synti>Zerberus</synti>
-				</Channel>
-				<genre>pipeband</genre>
-				<genre>common</genre>
-			</Instrument>
         <Instrument id="pb-uniline-tenor-drum">
                 <longName>Tenor (uniline)</longName>
                 <shortName>T</shortName>
@@ -744,6 +458,10 @@
                 <Channel name="Mono Tenor A2">
                     <program value="8"/>
                     <synti>Zerberus</synti>
+                </Channel>
+                <Channel name="Practice Pad">
+                    <program value="14"/>
+                    <synti>Zerberus</synti>
                 </Channel>				
                 <genre>pipeband</genre>
                 <genre>common</genre>
@@ -756,8 +474,8 @@
             <clef>F</clef>
             <aPitchRange>39-55</aPitchRange> <!-- 43-59 non-transposed for ms4-->
             <pPitchRange>39-55</pPitchRange> <!-- 43-59 non-transposed for ms4-->
-            <transposeDiatonic>-1</transposeDiatonic> <!--delete for MS4 non-transposing-->
-            <transposeChromatic>-2</transposeChromatic> <!--delete for MS4 non-transposing-->			
+            <transposeDiatonic>-1</transposeDiatonic> 
+            <transposeChromatic>-2</transposeChromatic> 			
             <barlineSpan>1</barlineSpan>
 			<stem>2</stem>
             <singleNoteDynamics>1</singleNoteDynamics>
