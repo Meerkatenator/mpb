@@ -95,31 +95,31 @@ xfout_locc1=127
 //loop_xfade=11
 
 <region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_1.ogg   seq_position=1 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 <region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_2.ogg   seq_position=2 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 <region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_3.ogg   seq_position=3 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 <region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_4.ogg   seq_position=4 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 
 <region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_1.ogg   seq_position=1 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 <region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_2.ogg   seq_position=2 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 <region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_3.ogg   seq_position=3 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 <region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_4.ogg   seq_position=4 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 
 <region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_1.ogg   seq_position=1 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 <region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_2.ogg   seq_position=2 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 <region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_3.ogg   seq_position=3 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 <region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_4.ogg   seq_position=4 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=168857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
 
 
 
@@ -141,31 +141,31 @@ xfout_locc1=127
 //loop_xfade=11
 
 <region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_1.ogg   seq_position=1 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 <region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_2.ogg   seq_position=2 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 <region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_3.ogg   seq_position=3 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 <region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_4.ogg   seq_position=4 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 
 <region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_1.ogg   seq_position=1 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 <region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_2.ogg   seq_position=2 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 <region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_3.ogg   seq_position=3 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 <region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_4.ogg   seq_position=4 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 
 <region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_1.ogg   seq_position=1 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 <region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_2.ogg   seq_position=2 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 <region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_3.ogg   seq_position=3 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 <region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_4.ogg   seq_position=4 seq_length=4
-  loop_mode=loop_continuous  loop_start=25777  loop_end=68857 off_mode=normal
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
 
 
 // ************

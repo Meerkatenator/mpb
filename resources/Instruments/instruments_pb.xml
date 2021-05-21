@@ -12,8 +12,8 @@
             <musicXMLid>wind.pbbagpipes</musicXMLid>
             <clef>G</clef>
             <barlineSpan>1</barlineSpan>
-            <aPitchRange>56-79</aPitchRange> <!--67-81 non-transposing-->
-            <pPitchRange>56-79</pPitchRange> <!--56-58 = drones -->
+            <aPitchRange>30-79</aPitchRange> <!--67-81 non-transposing-->
+            <pPitchRange>30-79</pPitchRange> <!--56-58 = drones -->
             <transposeDiatonic>-1</transposeDiatonic> 
             <transposeChromatic>-2</transposeChromatic> 		
             <stem>2</stem>
