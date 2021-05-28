@@ -30,8 +30,8 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
 
 <group> key=c4  lovel=114  hivel=127  loop_mode=one_shot group_volume=6 
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
-<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_f_1.ogg   seq_position=1  seq_length=2
-<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_f_2.ogg   seq_position=2  seq_length=2
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_ff_1.ogg   seq_position=1  seq_length=2
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_ff_2.ogg   seq_position=2  seq_length=2
 
 
 // ************
