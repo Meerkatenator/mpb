@@ -22,39 +22,39 @@
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Bagpipes Section A478">
-                <program value="17"/>
+                <program value="1"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Bagpipes A466">
-                <program value="26"/>
+                <program value="2"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Bagpipes Section A466">
-                <program value="28"/>
+                <program value="3"/>
                 <synti>Zerberus</synti>
             </Channel>		
             <Channel name="Bagpipes A440">
-                <program value="22"/>
+                <program value="4"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Bagpipes Section A440">
-                <program value="24"/>
+                <program value="5"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Practice Chanter A466"> 
-                <program value="15"/>
+                <program value="6"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Practice Chanters Section A466">
-                <program value="20"/>
+                <program value="7"/>
                 <synti>Zerberus</synti>
             </Channel>	
             <Channel name="Practice Chanter A440"> 
-                <program value="30"/>
+                <program value="8"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Practice Chanters Section A440">
-                <program value="32"/>
+                <program value="9"/>
                 <synti>Zerberus</synti>
             </Channel>			
             <genre>pipeband</genre>
@@ -213,19 +213,19 @@
 				<gateTime>80</gateTime>
 			</Articulation>
             <Channel name="Solo Snare Drum">
-                <program value="2"/>
+                <program value="10"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Snare Line">
-                <program value="16"/>
+                <program value="11"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Practice Pad">
-                <program value="14"/>
+                <program value="12"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Practice Pad Section">
-                <program value="34"/>
+                <program value="13"/>
                 <synti>Zerberus</synti>
             </Channel>			
 			<genre>pipeband</genre>
@@ -436,31 +436,31 @@
 					<gateTime>80</gateTime>
 				</Articulation>				
                 <Channel name="Mono Tenor A3">
-                    <program value="3"/>
+                    <program value="14"/>
                     <synti>Zerberus</synti>
                 </Channel>
                 <Channel name="Mono Tenor F#3">
-                    <program value="4"/>
+                    <program value="15"/>
                     <synti>Zerberus</synti>
                 </Channel>
                 <Channel name="Mono Tenor E3">
-                    <program value="5"/>
+                    <program value="16"/>
                     <synti>Zerberus</synti>
                 </Channel>
                 <Channel name="Mono Tenor D3">
-                    <program value="6"/>
+                    <program value="17"/>
                     <synti>Zerberus</synti>
                 </Channel>
                 <Channel name="Mono Tenor C#3">
-                    <program value="7"/>
+                    <program value="18"/>
                     <synti>Zerberus</synti>
                 </Channel>
                 <Channel name="Mono Tenor A2">
-                    <program value="8"/>
+                    <program value="19"/>
                     <synti>Zerberus</synti>
                 </Channel>
                 <Channel name="Practice Pad">
-                    <program value="14"/>
+                    <program value="12"/>
                     <synti>Zerberus</synti>
                 </Channel>				
                 <genre>pipeband</genre>
@@ -520,19 +520,19 @@
 				<gateTime>80</gateTime>
 			</Articulation>							
             <Channel name="Tonal Tenor Hits">
-                <program value="9"/>
+                <program value="20"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Tonal Tenor Rolls">
-                <program value="10"/>
+                <program value="21"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Tonal Tenor Visual">
-                <program value="11"/>
+                <program value="22"/>
                 <synti>Zerberus</synti>
             </Channel>
             <Channel name="Tonal Tenor Dampen">
-                <program value="12"/>
+                <program value="23"/>
                 <synti>Zerberus</synti>
             </Channel>			
             <genre>pipeband</genre>
@@ -737,7 +737,7 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="13"/>
+                <program value="24"/>
                 <synti>Zerberus</synti>
             </Channel>
 			<genre>pipeband</genre>
@@ -775,7 +775,7 @@
 				<shortcut>B</shortcut>
 			</Drum>
 			<Channel name="Metronome">
-				<program value="2"/>
+				<program value="10"/>
 				<synti>Zerberus</synti>
 			</Channel>
 			<genre>common</genre>
