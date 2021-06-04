@@ -179,6 +179,7 @@ xfout_locc1=127
 <region> sample=MPB_Samples/Bass_Drum/Bass_dampen_4.ogg   seq_position=4   seq_length=4
 
 
+
 // **********************
 // ** Muted Hit (Stuff)**
 // **********************
@@ -188,7 +189,11 @@ xfout_locc1=127
 <region> sample=MPB_Samples/Bass_Drum/Bass_stuff_3.ogg    seq_position=3    seq_length=4
 <region> sample=MPB_Samples/Bass_Drum/Bass_stuff_4.ogg    seq_position=4    seq_length=4
 
-
+<group> key=d#4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=8889 tune=110
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_1.ogg    seq_position=1    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_2.ogg    seq_position=2    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_3.ogg    seq_position=3    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_4.ogg    seq_position=4    seq_length=4
 
 
 
