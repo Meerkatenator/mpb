@@ -102,15 +102,15 @@ fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000 group=3333 off_by=3333
 // ***************
 // **  RH Roll  **
 // ***************
-<group> key=a#3  lovel=0  hivel=42 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=8
+<group> key=a#3  lovel=0  hivel=42 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=9
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_Roll_RH_p_1.ogg   seq_position=1  seq_length=1
 
-<group> key=a#3  lovel=43  hivel=90 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=8
+<group> key=a#3  lovel=43  hivel=90 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=9
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_Roll_RH_m_1.ogg   seq_position=1  seq_length=1
 
-<group> key=a#3  lovel=91  hivel=119 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=8
+<group> key=a#3  lovel=91  hivel=119 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=9
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_Roll_RH_f_1.ogg   seq_position=1  seq_length=1
 
@@ -121,19 +121,19 @@ fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 // ***************
 // **  LH Roll  **
 // ***************
-<group> key=a3  lovel=0  hivel=42 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=8
+<group> key=a3  lovel=0  hivel=42 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=9
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_Roll_RH_p_1.ogg   seq_position=1  seq_length=1
 
-<group> key=a3  lovel=43  hivel=90 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=8
+<group> key=a3  lovel=43  hivel=90 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=9
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_Roll_RH_m_1.ogg   seq_position=1  seq_length=1
 
-<group> key=a3  lovel=91  hivel=119 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=8
+<group> key=a3  lovel=91  hivel=119 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=9
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_Roll_RH_f_1.ogg   seq_position=1  seq_length=1
 
-<group> key=a3  lovel=120  hivel=127 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=-2
+<group> key=a3  lovel=120  hivel=127 loop_mode=loop_sustain group=3333 off_by=3333 ampeg_release=0.5  group_volume=2
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_Roll_RH_ff_1.ogg   seq_position=1  seq_length=1
 
@@ -141,19 +141,19 @@ fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 // **********************
 // **  RH Stroke Roll  **
 // **********************
-<group> key=f#3  lovel=0  hivel=42 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=6
+<group> key=f#3  lovel=0  hivel=42 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=4
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_StrokeRoll_LH_p_1.ogg   seq_position=1  seq_length=1
 
-<group> key=f#3  lovel=43  hivel=90 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=5
+<group> key=f#3  lovel=43  hivel=90 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=4
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_StrokeRoll_LH_m_1.ogg   seq_position=1  seq_length=1
 
-<group> key=f#3  lovel=91  hivel=119 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=5
+<group> key=f#3  lovel=91  hivel=119 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=4
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_StrokeRoll_LH_f_1.ogg   seq_position=1  seq_length=1
 
-<group> key=f#3  lovel=120  hivel=127 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=5
+<group> key=f#3  lovel=120  hivel=127 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=4
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_StrokeRoll_LH_ff_1.ogg   seq_position=1  seq_length=1
 
@@ -162,19 +162,19 @@ fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 // **********************
 // **  LH Stroke Roll  **
 // **********************
-<group> key=f3  lovel=0  hivel=42 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=5
+<group> key=f3  lovel=0  hivel=42 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=4
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_StrokeRoll_LH_p_1.ogg   seq_position=1  seq_length=1
 
-<group> key=f3  lovel=43  hivel=90 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=5
+<group> key=f3  lovel=43  hivel=90 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=4
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_StrokeRoll_LH_m_1.ogg   seq_position=1  seq_length=1
 
-<group> key=f3  lovel=91  hivel=119 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=5
+<group> key=f3  lovel=91  hivel=119 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=4
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_StrokeRoll_LH_f_1.ogg   seq_position=1  seq_length=1
 
-<group> key=f3  lovel=120  hivel=127 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=5
+<group> key=f3  lovel=120  hivel=127 loop_mode=one_shot  group=3333 off_by=3333 ampeg_release=0.5  group_volume=4
 fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_StrokeRoll_LH_ff_1.ogg   seq_position=1  seq_length=1
 
