@@ -172,6 +172,20 @@
                     </variant>
                 </variants>
 			</Drum>
+            <Drum pitch="48">
+                <head>cross</head>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Backstick R</name>
+                <stem>2</stem>
+            </Drum>
+            <Drum pitch="47">
+                <head>cross</head>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Backstick L</name>
+                <stem>2</stem>
+            </Drum>
 			<Articulation>
 				<velocity>80</velocity>
 				<gateTime>100</gateTime>
