@@ -78,19 +78,21 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Bagpipes</trackName>
-      <Instrument id="bagpipes">
-        <longName>Bagpipes</longName>
-        <shortName>P</shortName>
-        <trackName>Bagpipes</trackName>
-        <minPitchP>30</minPitchP>
-        <maxPitchP>79</maxPitchP>
-        <minPitchA>30</minPitchA>
-        <maxPitchA>79</maxPitchA>
+      <trackName>Tenors (tonal)</trackName>
+      <Instrument id="pipeband-tenor-corps">
+        <longName>Tenors (tonal)</longName>
+        <shortName>T</shortName>
+        <trackName>Tenors (tonal)</trackName>
+        <minPitchP>39</minPitchP>
+        <maxPitchP>55</maxPitchP>
+        <minPitchA>39</minPitchA>
+        <maxPitchA>55</maxPitchA>
         <transposeDiatonic>-1</transposeDiatonic>
         <transposeChromatic>-2</transposeChromatic>
-        <instrumentId>wind.pbbagpipes</instrumentId>
+        <instrumentId>drum.pbtonaltenors</instrumentId>
+        <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -100,75 +102,67 @@
           <gateTime>33</gateTime>
           </Articulation>
         <Articulation name="staccato">
-          <velocity>100</velocity>
+          <velocity>90</velocity>
           <gateTime>50</gateTime>
           </Articulation>
         <Articulation name="portato">
           <velocity>100</velocity>
-          <gateTime>67</gateTime>
+          <gateTime>75</gateTime>
           </Articulation>
         <Articulation name="tenuto">
-          <velocity>100</velocity>
-          <gateTime>100</gateTime>
+          <velocity>105</velocity>
+          <gateTime>80</gateTime>
           </Articulation>
         <Articulation name="marcato">
-          <velocity>120</velocity>
-          <gateTime>67</gateTime>
+          <velocity>115</velocity>
+          <gateTime>100</gateTime>
           </Articulation>
         <Articulation name="sforzato">
-          <velocity>150</velocity>
+          <velocity>127</velocity>
           <gateTime>100</gateTime>
           </Articulation>
         <Articulation name="sforzatoStaccato">
-          <velocity>150</velocity>
+          <velocity>127</velocity>
           <gateTime>50</gateTime>
           </Articulation>
         <Articulation name="marcatoStaccato">
-          <velocity>120</velocity>
+          <velocity>115</velocity>
           <gateTime>50</gateTime>
           </Articulation>
         <Articulation name="marcatoTenuto">
           <velocity>120</velocity>
           <gateTime>100</gateTime>
           </Articulation>
-        <Channel name="Bagpipes A478">
-          <program value="0"/>
+        <Articulation name="tenutoStaccato">
+          <velocity>105</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="plusstop">
+          <velocity>80</velocity>
+          <gateTime>80</gateTime>
+          </Articulation>
+        <Channel name="Tonal Tenor Hits">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="20"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Bagpipes Section A478">
-          <program value="1"/>
+        <Channel name="Tonal Tenor Rolls">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="21"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Bagpipes A466">
-          <program value="2"/>
+        <Channel name="Tonal Tenor Visual">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="22"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Bagpipes Section A466">
-          <program value="3"/>
-          <synti>Zerberus</synti>
-          </Channel>
-        <Channel name="Bagpipes A440">
-          <program value="4"/>
-          <synti>Zerberus</synti>
-          </Channel>
-        <Channel name="Bagpipes Section A440">
-          <program value="5"/>
-          <synti>Zerberus</synti>
-          </Channel>
-        <Channel name="Practice Chanter A466">
-          <program value="6"/>
-          <synti>Zerberus</synti>
-          </Channel>
-        <Channel name="Practice Chanters Section A466">
-          <program value="7"/>
-          <synti>Zerberus</synti>
-          </Channel>
-        <Channel name="Practice Chanter A440">
-          <program value="8"/>
-          <synti>Zerberus</synti>
-          </Channel>
-        <Channel name="Practice Chanters Section A440">
-          <program value="9"/>
+        <Channel name="Tonal Tenor Dampen">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="23"/>
           <synti>Zerberus</synti>
           </Channel>
         </Instrument>
@@ -179,7 +173,7 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <text>Bagpipes Template</text>
+          <text>Tonal Tenor Drums (Bass Clef) Template</text>
           </Text>
         <Text>
           <style>Subtitle</style>
@@ -192,9 +186,6 @@
         </VBox>
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>2</accidental>
-            </KeySig>
           <TimeSig>
             <sigN>4</sigN>
             <sigD>4</sigD>

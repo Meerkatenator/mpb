@@ -75,22 +75,176 @@
       </Order>
     <Part>
       <Staff id="1">
-        <StaffType group="pitched">
-          <name>stdNormal</name>
+        <StaffType group="percussion">
+          <name>perc1Line</name>
+          <lines>1</lines>
+          <keysig>0</keysig>
           </StaffType>
+        <defaultClef>PERC</defaultClef>
         </Staff>
-      <trackName>Bagpipes</trackName>
-      <Instrument id="bagpipes">
-        <longName>Bagpipes</longName>
-        <shortName>P</shortName>
-        <trackName>Bagpipes</trackName>
-        <minPitchP>30</minPitchP>
-        <maxPitchP>79</maxPitchP>
-        <minPitchA>30</minPitchA>
-        <maxPitchA>79</maxPitchA>
-        <transposeDiatonic>-1</transposeDiatonic>
-        <transposeChromatic>-2</transposeChromatic>
-        <instrumentId>wind.pbbagpipes</instrumentId>
+      <trackName>Tenor (uniline)</trackName>
+      <Instrument id="pb-uniline-tenor-drum">
+        <longName>Tenor (uniline)</longName>
+        <shortName>T</shortName>
+        <trackName>Tenor (uniline)</trackName>
+        <instrumentId>drum.pbbergertenor</instrumentId>
+        <useDrumset>1</useDrumset>
+        <Drum pitch="49">
+          <head>slash</head>
+          <line>1</line>
+          <voice>0</voice>
+          <name>GhostL</name>
+          <stem>2</stem>
+          <shortcut>A</shortcut>
+          </Drum>
+        <Drum pitch="50">
+          <head>slash</head>
+          <line>-1</line>
+          <voice>0</voice>
+          <name>GhostR</name>
+          <stem>2</stem>
+          <shortcut>D</shortcut>
+          </Drum>
+        <Drum pitch="51">
+          <head>cross</head>
+          <line>1</line>
+          <voice>0</voice>
+          <name>FlourishL</name>
+          <stem>2</stem>
+          <shortcut>C</shortcut>
+          </Drum>
+        <Drum pitch="52">
+          <head>cross</head>
+          <line>-1</line>
+          <voice>0</voice>
+          <name>FlourishR</name>
+          <stem>2</stem>
+          <shortcut>B</shortcut>
+          </Drum>
+        <Drum pitch="59">
+          <head>normal</head>
+          <line>1</line>
+          <voice>0</voice>
+          <name>HitL</name>
+          <stem>2</stem>
+          <shortcut>F</shortcut>
+          <variants>
+            <variant pitch="57">
+              <tremolo>r8</tremolo>
+              </variant>
+            <variant pitch="57">
+              <tremolo>r16</tremolo>
+              </variant>
+            <variant pitch="57">
+              <articulation>sforzato</articulation>
+              <tremolo>r16</tremolo>
+              </variant>
+            <variant pitch="57">
+              <articulation>tenuto</articulation>
+              <tremolo>r16</tremolo>
+              </variant>
+            <variant pitch="57">
+              <articulation>marcato</articulation>
+              <tremolo>r16</tremolo>
+              </variant>
+            <variant pitch="57">
+              <articulation>portato</articulation>
+              <tremolo>r16</tremolo>
+              </variant>
+            <variant pitch="57">
+              <tremolo>r32</tremolo>
+              </variant>
+            <variant pitch="57">
+              <articulation>marcato</articulation>
+              <tremolo>r32</tremolo>
+              </variant>
+            <variant pitch="57">
+              <articulation>sforzato</articulation>
+              <tremolo>r32</tremolo>
+              </variant>
+            <variant pitch="57">
+              <articulation>tenuto</articulation>
+              <tremolo>r32</tremolo>
+              </variant>
+            <variant pitch="57">
+              <articulation>portato</articulation>
+              <tremolo>r32</tremolo>
+              </variant>
+            <variant pitch="61">
+              <articulation>staccato</articulation>
+              </variant>
+            <variant pitch="61">
+              <articulation>staccatissimo</articulation>
+              </variant>
+            </variants>
+          </Drum>
+        <Drum pitch="60">
+          <head>normal</head>
+          <line>-1</line>
+          <voice>0</voice>
+          <name>HitR</name>
+          <stem>2</stem>
+          <shortcut>G</shortcut>
+          <variants>
+            <variant pitch="58">
+              <tremolo>r8</tremolo>
+              </variant>
+            <variant pitch="58">
+              <tremolo>r16</tremolo>
+              </variant>
+            <variant pitch="58">
+              <articulation>sforzato</articulation>
+              <tremolo>r16</tremolo>
+              </variant>
+            <variant pitch="58">
+              <articulation>tenuto</articulation>
+              <tremolo>r16</tremolo>
+              </variant>
+            <variant pitch="58">
+              <articulation>marcato</articulation>
+              <tremolo>r16</tremolo>
+              </variant>
+            <variant pitch="58">
+              <articulation>portato</articulation>
+              <tremolo>r16</tremolo>
+              </variant>
+            <variant pitch="58">
+              <tremolo>r32</tremolo>
+              </variant>
+            <variant pitch="58">
+              <articulation>marcato</articulation>
+              <tremolo>r32</tremolo>
+              </variant>
+            <variant pitch="58">
+              <articulation>sforzato</articulation>
+              <tremolo>r32</tremolo>
+              </variant>
+            <variant pitch="58">
+              <articulation>tenuto</articulation>
+              <tremolo>r32</tremolo>
+              </variant>
+            <variant pitch="58">
+              <articulation>portato</articulation>
+              <tremolo>r32</tremolo>
+              </variant>
+            <variant pitch="62">
+              <articulation>staccato</articulation>
+              </variant>
+            <variant pitch="62">
+              <articulation>staccatissimo</articulation>
+              </variant>
+            </variants>
+          </Drum>
+        <Drum pitch="63">
+          <head>slash</head>
+          <line>0</line>
+          <voice>0</voice>
+          <name>Dampen (Mute)</name>
+          <stem>2</stem>
+          <shortcut>E</shortcut>
+          </Drum>
+        <clef>PERC</clef>
+        <singleNoteDynamics>0</singleNoteDynamics>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -100,75 +254,71 @@
           <gateTime>33</gateTime>
           </Articulation>
         <Articulation name="staccato">
-          <velocity>100</velocity>
+          <velocity>90</velocity>
           <gateTime>50</gateTime>
           </Articulation>
         <Articulation name="portato">
           <velocity>100</velocity>
-          <gateTime>67</gateTime>
+          <gateTime>75</gateTime>
           </Articulation>
         <Articulation name="tenuto">
-          <velocity>100</velocity>
-          <gateTime>100</gateTime>
+          <velocity>105</velocity>
+          <gateTime>80</gateTime>
           </Articulation>
         <Articulation name="marcato">
-          <velocity>120</velocity>
-          <gateTime>67</gateTime>
+          <velocity>115</velocity>
+          <gateTime>100</gateTime>
           </Articulation>
         <Articulation name="sforzato">
-          <velocity>150</velocity>
+          <velocity>127</velocity>
           <gateTime>100</gateTime>
           </Articulation>
         <Articulation name="sforzatoStaccato">
-          <velocity>150</velocity>
+          <velocity>127</velocity>
           <gateTime>50</gateTime>
           </Articulation>
         <Articulation name="marcatoStaccato">
-          <velocity>120</velocity>
+          <velocity>115</velocity>
           <gateTime>50</gateTime>
           </Articulation>
         <Articulation name="marcatoTenuto">
           <velocity>120</velocity>
           <gateTime>100</gateTime>
           </Articulation>
-        <Channel name="Bagpipes A478">
-          <program value="0"/>
+        <Articulation name="tenutoStaccato">
+          <velocity>105</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="plusstop">
+          <velocity>80</velocity>
+          <gateTime>80</gateTime>
+          </Articulation>
+        <Channel name="Mono Tenor A3">
+          <program value="14"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Bagpipes Section A478">
-          <program value="1"/>
+        <Channel name="Mono Tenor F#3">
+          <program value="15"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Bagpipes A466">
-          <program value="2"/>
+        <Channel name="Mono Tenor E3">
+          <program value="16"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Bagpipes Section A466">
-          <program value="3"/>
+        <Channel name="Mono Tenor D3">
+          <program value="17"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Bagpipes A440">
-          <program value="4"/>
+        <Channel name="Mono Tenor C#3">
+          <program value="18"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Bagpipes Section A440">
-          <program value="5"/>
+        <Channel name="Mono Tenor A2">
+          <program value="19"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Practice Chanter A466">
-          <program value="6"/>
-          <synti>Zerberus</synti>
-          </Channel>
-        <Channel name="Practice Chanters Section A466">
-          <program value="7"/>
-          <synti>Zerberus</synti>
-          </Channel>
-        <Channel name="Practice Chanter A440">
-          <program value="8"/>
-          <synti>Zerberus</synti>
-          </Channel>
-        <Channel name="Practice Chanters Section A440">
-          <program value="9"/>
+        <Channel name="Practice Pad">
+          <program value="12"/>
           <synti>Zerberus</synti>
           </Channel>
         </Instrument>
@@ -179,7 +329,7 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <text>Bagpipes Template</text>
+          <text>Uniline Tenor Template</text>
           </Text>
         <Text>
           <style>Subtitle</style>
@@ -192,9 +342,6 @@
         </VBox>
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>2</accidental>
-            </KeySig>
           <TimeSig>
             <sigN>4</sigN>
             <sigD>4</sigD>
