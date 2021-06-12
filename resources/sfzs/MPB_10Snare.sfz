@@ -185,4 +185,55 @@ fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> key=a0   sample=MPB_samples/Auxiliary/metronome_1.ogg
 <region> key=a#0  sample=MPB_samples/Auxiliary/metronome_2.ogg
 
+// ************
+// ** RH Tap **
+// ************
 
+<group> key=c3  lovel=0  hivel=42  loop_mode=one_shot group_volume=4 transpose=-1 tune=-50
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_p_1.ogg   seq_position=1  seq_length=3
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_p_2.ogg   seq_position=2  seq_length=3
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_p_3.ogg   seq_position=3  seq_length=3
+
+<group> key=c3  lovel=43  hivel=90  loop_mode=one_shot group_volume=4 transpose=-1 tune=-50
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_m_1.ogg   seq_position=1  seq_length=2
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_m_2.ogg   seq_position=2  seq_length=2
+
+<group> key=c3  lovel=91  hivel=119  loop_mode=one_shot group_volume=4 transpose=-1 tune=-50
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_f_1.ogg   seq_position=1  seq_length=3
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_f_2.ogg   seq_position=2  seq_length=3
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_f_3.ogg   seq_position=3  seq_length=3
+
+<group> key=c3  lovel=120  hivel=127  loop_mode=one_shot group_volume=4 transpose=-1 tune=-50
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_ff_1.ogg   seq_position=1  seq_length=2
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_ff_2.ogg   seq_position=2  seq_length=2
+
+
+// ************
+// ** LH Tap **
+// ************
+
+<group> key=b2  lovel=0  hivel=42  loop_mode=one_shot group_volume=4 transpose=-1 tune=-50
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_p_1.ogg   seq_position=1  seq_length=3
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_p_2.ogg   seq_position=2  seq_length=3
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_p_3.ogg   seq_position=3  seq_length=3
+
+<group> key=b2  lovel=43  hivel=90  loop_mode=one_shot group_volume=4 transpose=-1 tune=-50
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_m_1.ogg   seq_position=1  seq_length=1
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_m_2.ogg   seq_position=2  seq_length=2
+
+<group> key=b2  lovel=91  hivel=119  loop_mode=one_shot group_volume=4 transpose=-1 tune=-50
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_f_1.ogg   seq_position=1  seq_length=3
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_f_2.ogg   seq_position=2  seq_length=3
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_f_3.ogg   seq_position=3  seq_length=3
+
+<group> key=b2  lovel=120  hivel=127  loop_mode=one_shot group_volume=4 transpose=-1 tune=-50
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_ff_1.ogg   seq_position=1  seq_length=2
+<region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_ff_2.ogg   seq_position=2  seq_length=2

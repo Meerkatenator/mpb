@@ -133,60 +133,80 @@
           </Articulation>
         <Channel name="Bagpipes A478">
           <program value="0"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>0</midiChannel>
           </Channel>
         <Channel name="Bagpipes Section A478">
           <program value="1"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>1</midiChannel>
           </Channel>
         <Channel name="Bagpipes A466">
           <program value="2"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>2</midiChannel>
           </Channel>
         <Channel name="Bagpipes Section A466">
           <program value="3"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>3</midiChannel>
           </Channel>
         <Channel name="Bagpipes A440">
           <program value="4"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>4</midiChannel>
           </Channel>
         <Channel name="Bagpipes Section A440">
           <program value="5"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>5</midiChannel>
           </Channel>
         <Channel name="Practice Chanter A466">
           <program value="6"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>6</midiChannel>
           </Channel>
         <Channel name="Practice Chanters Section A466">
           <program value="7"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>7</midiChannel>
           </Channel>
         <Channel name="Practice Chanter A440">
           <program value="8"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>8</midiChannel>
           </Channel>
         <Channel name="Practice Chanters Section A440">
           <program value="9"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>10</midiChannel>
@@ -311,6 +331,20 @@
               </variant>
             </variants>
           </Drum>
+            <Drum pitch="48">
+                <head>cross</head>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Backstick R</name>
+                <stem>2</stem>
+            </Drum>
+            <Drum pitch="47">
+                <head>cross</head>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Backstick L</name>
+                <stem>2</stem>
+            </Drum>
         <clef>PERC</clef>
         <singleNoteDynamics>0</singleNoteDynamics>
         <Articulation>
@@ -363,24 +397,32 @@
           </Articulation>
         <Channel name="Solo Snare Drum">
           <program value="10"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="100"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>9</midiChannel>
           </Channel>
         <Channel name="Snare Line">
           <program value="11"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="100"/>
           <synti>Zerberus</synti>
           <midiPort>1</midiPort>
           <midiChannel>9</midiChannel>
           </Channel>
         <Channel name="Practice Pad">
           <program value="12"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="100"/>
           <synti>Zerberus</synti>
           <midiPort>2</midiPort>
           <midiChannel>9</midiChannel>
           </Channel>
         <Channel name="Practice Pad Section">
           <program value="13"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="100"/>
           <synti>Zerberus</synti>
           <midiPort>3</midiPort>
           <midiChannel>9</midiChannel>
@@ -458,6 +500,8 @@
         <Channel name="Tonal Tenor Hits">
           <controller ctrl="32" value="17"/>
           <program value="20"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="60"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>11</midiChannel>
@@ -465,6 +509,8 @@
         <Channel name="Tonal Tenor Rolls">
           <controller ctrl="32" value="17"/>
           <program value="21"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="60"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>12</midiChannel>
@@ -472,6 +518,8 @@
         <Channel name="Tonal Tenor Visual">
           <controller ctrl="32" value="17"/>
           <program value="22"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="60"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>13</midiChannel>
@@ -479,6 +527,8 @@
         <Channel name="Tonal Tenor Dampen">
           <controller ctrl="32" value="17"/>
           <program value="23"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="60"/>
           <synti>Zerberus</synti>
           <midiPort>0</midiPort>
           <midiChannel>14</midiChannel>
@@ -701,6 +751,8 @@
           </Articulation>
         <Channel>
           <program value="24"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="100"/>
           <synti>Zerberus</synti>
           <midiPort>11</midiPort>
           <midiChannel>9</midiChannel>

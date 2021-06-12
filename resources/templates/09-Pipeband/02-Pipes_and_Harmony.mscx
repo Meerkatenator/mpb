@@ -133,42 +133,62 @@
           </Articulation>
         <Channel name="Bagpipes A478">
           <program value="0"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Bagpipes Section A478">
           <program value="1"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Bagpipes A466">
           <program value="2"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Bagpipes Section A466">
           <program value="3"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Bagpipes A440">
           <program value="4"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Bagpipes Section A440">
           <program value="5"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Practice Chanter A466">
           <program value="6"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Practice Chanters Section A466">
           <program value="7"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Practice Chanter A440">
           <program value="8"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Practice Chanters Section A440">
           <program value="9"/>
+                <controller ctrl="7" value="100"/>
+                <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
           </Channel>
         </Instrument>
@@ -233,42 +253,62 @@
           </Articulation>
         <Channel name="Bagpipes A478">
           <program value="0"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="80"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Bagpipes Section A478">
           <program value="1"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="80"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Bagpipes A466">
           <program value="2"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="80"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Bagpipes Section A466">
           <program value="3"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="80"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Bagpipes A440">
           <program value="4"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="80"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Bagpipes Section A440">
           <program value="5"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="80"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Practice Chanter A466">
           <program value="6"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="80"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Practice Chanters Section A466">
           <program value="7"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="80"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Practice Chanter A440">
           <program value="8"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="80"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Practice Chanters Section A440">
           <program value="9"/>
+                <controller ctrl="7" value="90"/>
+                <controller ctrl="10" value="80"/>
           <synti>Zerberus</synti>
           </Channel>
         </Instrument>
