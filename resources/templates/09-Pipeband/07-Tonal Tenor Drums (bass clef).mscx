@@ -141,28 +141,42 @@
           <velocity>80</velocity>
           <gateTime>80</gateTime>
           </Articulation>
-        <Channel name="Tonal Tenor Hits">
-          <controller ctrl="0" value="0"/>
+        <Channel name="Tonal Tenor Hits (A478)">
           <controller ctrl="32" value="17"/>
           <program value="20"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Tonal Tenor Rolls">
-          <controller ctrl="0" value="0"/>
+        <Channel name="Tonal Tenor Rolls (A478)">
           <controller ctrl="32" value="17"/>
           <program value="21"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Tonal Tenor Visual">
-          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="22"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Tonal Tenor Dampen">
-          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="23"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Tonal Tenor Hits (A466)">
+          <program value="31"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Tonal Tenor Rolls (A466)">
+          <program value="32"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Tonal Tenor Hits (A440)">
+          <controller ctrl="32" value="17"/>
+          <program value="40"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Tonal Tenor Rolls (A440)">
+          <controller ctrl="32" value="17"/>
+          <program value="41"/>
           <synti>Zerberus</synti>
           </Channel>
         </Instrument>
@@ -186,6 +200,9 @@
         </VBox>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <sigN>4</sigN>
             <sigD>4</sigD>

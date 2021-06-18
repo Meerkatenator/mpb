@@ -133,63 +133,83 @@
           </Articulation>
         <Channel name="Bagpipes A478">
           <program value="0"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="40"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>0</midiChannel>
           </Channel>
         <Channel name="Bagpipes Section A478">
           <program value="1"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="40"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>1</midiChannel>
           </Channel>
         <Channel name="Bagpipes A466">
           <program value="2"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="40"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>2</midiChannel>
           </Channel>
         <Channel name="Bagpipes Section A466">
           <program value="3"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="40"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>3</midiChannel>
           </Channel>
         <Channel name="Bagpipes A440">
           <program value="4"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="40"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>4</midiChannel>
           </Channel>
         <Channel name="Bagpipes Section A440">
           <program value="5"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="40"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>5</midiChannel>
           </Channel>
         <Channel name="Practice Chanter A466">
           <program value="6"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="40"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>6</midiChannel>
           </Channel>
         <Channel name="Practice Chanters Section A466">
           <program value="7"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="40"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>7</midiChannel>
           </Channel>
         <Channel name="Practice Chanter A440">
           <program value="8"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="40"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>8</midiChannel>
           </Channel>
         <Channel name="Practice Chanters Section A440">
           <program value="9"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="40"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="40"/>
           <synti>Zerberus</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>10</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -209,6 +229,20 @@
         <trackName>Snare</trackName>
         <instrumentId>drum.pbsnare-drum</instrumentId>
         <useDrumset>1</useDrumset>
+        <Drum pitch="47">
+          <head>cross</head>
+          <line>1</line>
+          <voice>0</voice>
+          <name>Backstick L</name>
+          <stem>2</stem>
+          </Drum>
+        <Drum pitch="48">
+          <head>cross</head>
+          <line>-1</line>
+          <voice>0</voice>
+          <name>Backstick R</name>
+          <stem>2</stem>
+          </Drum>
         <Drum pitch="59">
           <head>normal</head>
           <line>1</line>
@@ -311,20 +345,6 @@
               </variant>
             </variants>
           </Drum>
-            <Drum pitch="48">
-                <head>cross</head>
-                <line>-1</line>
-                <voice>0</voice>
-                <name>Backstick R</name>
-                <stem>2</stem>
-            </Drum>
-            <Drum pitch="47">
-                <head>cross</head>
-                <line>1</line>
-                <voice>0</voice>
-                <name>Backstick L</name>
-                <stem>2</stem>
-            </Drum>
         <clef>PERC</clef>
         <singleNoteDynamics>0</singleNoteDynamics>
         <Articulation>
@@ -377,27 +397,35 @@
           </Articulation>
         <Channel name="Solo Snare Drum">
           <program value="10"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="100"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="100"/>
           <synti>Zerberus</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
         <Channel name="Snare Line">
           <program value="11"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="100"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="100"/>
           <synti>Zerberus</synti>
+          <midiPort>1</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
         <Channel name="Practice Pad">
           <program value="12"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="100"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="100"/>
           <synti>Zerberus</synti>
+          <midiPort>2</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
         <Channel name="Practice Pad Section">
           <program value="13"/>
-                <controller ctrl="7" value="90"/>
-                <controller ctrl="10" value="100"/>
+          <controller ctrl="7" value="90"/>
+          <controller ctrl="10" value="100"/>
           <synti>Zerberus</synti>
+          <midiPort>3</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -621,47 +649,138 @@
           <velocity>80</velocity>
           <gateTime>80</gateTime>
           </Articulation>
-        <Channel name="Mono Tenor A3">
+        <Channel name="Mono Tenor A3 (A478)">
           <program value="14"/>
-                <controller ctrl="7" value="100"/>
-                <controller ctrl="10" value="60"/>
+          <controller ctrl="10" value="60"/>
           <synti>Zerberus</synti>
+          <midiPort>4</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
-        <Channel name="Mono Tenor F#3">
+        <Channel name="Mono Tenor F#3 (A478)">
           <program value="15"/>
-                <controller ctrl="7" value="100"/>
-                <controller ctrl="10" value="60"/>
+          <controller ctrl="10" value="60"/>
           <synti>Zerberus</synti>
+          <midiPort>5</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
-        <Channel name="Mono Tenor E3">
+        <Channel name="Mono Tenor E3 (A478)">
           <program value="16"/>
-                <controller ctrl="7" value="100"/>
-                <controller ctrl="10" value="60"/>
+          <controller ctrl="10" value="60"/>
           <synti>Zerberus</synti>
+          <midiPort>6</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
-        <Channel name="Mono Tenor D3">
+        <Channel name="Mono Tenor D3 (A478)">
           <program value="17"/>
-                <controller ctrl="7" value="100"/>
-                <controller ctrl="10" value="60"/>
+          <controller ctrl="10" value="60"/>
           <synti>Zerberus</synti>
+          <midiPort>7</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
-        <Channel name="Mono Tenor C#3">
+        <Channel name="Mono Tenor C#3 (A478)">
           <program value="18"/>
-                <controller ctrl="7" value="100"/>
-                <controller ctrl="10" value="60"/>
+          <controller ctrl="10" value="60"/>
           <synti>Zerberus</synti>
+          <midiPort>8</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
-        <Channel name="Mono Tenor A2">
+        <Channel name="Mono Tenor A2 (A478)">
           <program value="19"/>
-                <controller ctrl="7" value="100"/>
-                <controller ctrl="10" value="60"/>
+          <controller ctrl="10" value="60"/>
           <synti>Zerberus</synti>
+          <midiPort>9</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
         <Channel name="Practice Pad">
           <program value="12"/>
-                <controller ctrl="7" value="100"/>
-                <controller ctrl="10" value="60"/>
+          <controller ctrl="10" value="60"/>
           <synti>Zerberus</synti>
+          <midiPort>10</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor A3 (A466)">
+          <program value="25"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>12</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor F#3 (A466)">
+          <program value="26"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>13</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor E3 (A466)">
+          <program value="27"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>14</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor D3 (A466)">
+          <program value="28"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>15</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor C#3 (A466)">
+          <program value="29"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>16</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor A2 (A466)">
+          <program value="30"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>17</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor A3 (A440)">
+          <program value="34"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>18</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor F#3 (A440)">
+          <program value="35"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>19</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor E3 (A440)">
+          <program value="36"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>20</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor D3 (A440)">
+          <program value="37"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>21</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor C#3 (A440)">
+          <program value="38"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>22</midiPort>
+          <midiChannel>9</midiChannel>
+          </Channel>
+        <Channel name="Mono Tenor A2 (A440)">
+          <program value="39"/>
+          <controller ctrl="10" value="60"/>
+          <synti>Zerberus</synti>
+          <midiPort>23</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -881,9 +1000,10 @@
           </Articulation>
         <Channel>
           <program value="24"/>
-                <controller ctrl="7" value="100"/>
-                <controller ctrl="10" value="100"/>
+          <controller ctrl="10" value="100"/>
           <synti>Zerberus</synti>
+          <midiPort>11</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
         </Instrument>
       </Part>

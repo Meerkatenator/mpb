@@ -293,32 +293,80 @@
           <velocity>80</velocity>
           <gateTime>80</gateTime>
           </Articulation>
-        <Channel name="Mono Tenor A3">
+        <Channel name="Mono Tenor A3 (A478)">
           <program value="14"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Mono Tenor F#3">
+        <Channel name="Mono Tenor F#3 (A478)">
           <program value="15"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Mono Tenor E3">
+        <Channel name="Mono Tenor E3 (A478)">
           <program value="16"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Mono Tenor D3">
+        <Channel name="Mono Tenor D3 (A478)">
           <program value="17"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Mono Tenor C#3">
+        <Channel name="Mono Tenor C#3 (A478)">
           <program value="18"/>
           <synti>Zerberus</synti>
           </Channel>
-        <Channel name="Mono Tenor A2">
+        <Channel name="Mono Tenor A2 (A478)">
           <program value="19"/>
           <synti>Zerberus</synti>
           </Channel>
         <Channel name="Practice Pad">
           <program value="12"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor A3 (A466)">
+          <program value="25"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor F#3 (A466)">
+          <program value="26"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor E3 (A466)">
+          <program value="27"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor D3 (A466)">
+          <program value="28"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor C#3 (A466)">
+          <program value="29"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor A2 (A466)">
+          <program value="30"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor A3 (A440)">
+          <program value="34"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor F#3 (A440)">
+          <program value="35"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor E3 (A440)">
+          <program value="36"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor D3 (A440)">
+          <program value="37"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor C#3 (A440)">
+          <program value="38"/>
+          <synti>Zerberus</synti>
+          </Channel>
+        <Channel name="Mono Tenor A2 (A440)">
+          <program value="39"/>
           <synti>Zerberus</synti>
           </Channel>
         </Instrument>
