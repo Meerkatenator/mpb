@@ -1,0 +1,199 @@
+//------------------------------------------------------------------------------
+// MPB Bass Drum Soundfont
+// Author    : Zac Jansheski and Kate Dudek
+// Copyright : Zac Jansheski and Kate Dudek
+// Date      : 2021/04/07
+// Comment   : Tenor and Bass Drum samples created by Kate Dudek, Tyler Bridge
+//				and Zac Jansheski
+//             
+//------------------------------------------------------------------------------
+
+// ************
+// ** LH Hit **
+// ************
+<group> key=b3  lovel=0  hivel=82  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=110 transpose=-3
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_7.ogg    seq_position=1  seq_length=6
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_8.ogg    seq_position=2  seq_length=6
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_9.ogg    seq_position=3  seq_length=6
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_10.ogg   seq_position=4  seq_length=6
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_11.ogg   seq_position=5  seq_length=6
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_p_12.ogg   seq_position=6  seq_length=6
+
+<group> key=b3  lovel=83  hivel=110  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=110 transpose=-3
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_9.ogg   seq_position=1   seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_10.ogg   seq_position=2  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_11.ogg   seq_position=3  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_12.ogg   seq_position=4  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_13.ogg   seq_position=5  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_14.ogg   seq_position=6  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_15.ogg   seq_position=7  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_m_16.ogg   seq_position=8  seq_length=8
+
+<group> key=b3  lovel=111  hivel=127  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=110 transpose=-3
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_10.ogg   seq_position=2  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_11.ogg   seq_position=3  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_12.ogg   seq_position=4  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_13.ogg   seq_position=5  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_14.ogg   seq_position=6  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_15.ogg   seq_position=7  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_16.ogg   seq_position=8  seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitL_f_17.ogg   seq_position=1  seq_length=8
+
+// ************
+// ** RH Hit **
+// ************
+<group> key=c4  lovel=0  hivel=82  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=110 transpose=-3
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_1.ogg   seq_position=1   seq_length=6
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_2.ogg   seq_position=2   seq_length=6
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_3.ogg   seq_position=3   seq_length=6
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_4.ogg   seq_position=4   seq_length=6
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_5.ogg   seq_position=5   seq_length=6
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_p_6.ogg   seq_position=6   seq_length=6
+
+<group> key=c4  lovel=83  hivel=110  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=110 transpose=-3
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_1.ogg   seq_position=1   seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_2.ogg   seq_position=2   seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_3.ogg   seq_position=3   seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_4.ogg   seq_position=4   seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_5.ogg   seq_position=5   seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_6.ogg   seq_position=6   seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_7.ogg   seq_position=7   seq_length=8
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_m_8.ogg   seq_position=8   seq_length=8
+
+<group> key=c4  lovel=111  hivel=127  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=1111 off_by=1112
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=110 transpose=-3
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_1.ogg   seq_position=1   seq_length=9
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_2.ogg   seq_position=2   seq_length=9
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_3.ogg   seq_position=3   seq_length=9
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_4.ogg   seq_position=4   seq_length=9
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_5.ogg   seq_position=5   seq_length=9
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_6.ogg   seq_position=6   seq_length=9
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_6.ogg   seq_position=7   seq_length=9
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_6.ogg   seq_position=8   seq_length=9
+<region> sample=MPB_Samples/Bass_Drum/Bass_HitR_f_6.ogg   seq_position=9   seq_length=9
+
+// *************
+// ** LH Roll **
+// *************
+
+<group> key=a3  group_volume=6 group=1111 off_by=1112
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=110 transpose=-3
+ampeg_attack=0.5
+ampeg_decay=0
+ampeg_release=0.35
+ampeg_sustain=100
+xf_cccurve=gain
+xfin_hicc1=127
+xfin_locc1=0
+xfout_hicc1=127
+xfout_locc1=127
+//loop_xfade=11
+
+<region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_1.ogg   seq_position=1 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+<region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_2.ogg   seq_position=2 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+<region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_3.ogg   seq_position=3 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+<region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_4.ogg   seq_position=4 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+
+<region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_1.ogg   seq_position=1 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+<region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_2.ogg   seq_position=2 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+<region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_3.ogg   seq_position=3 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+<region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_4.ogg   seq_position=4 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+
+<region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_1.ogg   seq_position=1 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+<region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_2.ogg   seq_position=2 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+<region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_3.ogg   seq_position=3 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+<region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_4.ogg   seq_position=4 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=168857 off_mode=normal
+
+
+
+// *************
+// ** RH Roll **
+// *************
+
+<group> key=a#3 group_volume=6 group=1111 off_by=1112
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=110 transpose=-3
+ampeg_attack=0.5
+ampeg_decay=0
+ampeg_release=0.35
+ampeg_sustain=100
+xf_cccurve=gain
+xfin_hicc1=127
+xfin_locc1=0
+xfout_hicc1=127
+xfout_locc1=127
+//loop_xfade=11
+
+<region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_1.ogg   seq_position=1 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+<region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_2.ogg   seq_position=2 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+<region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_3.ogg   seq_position=3 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+<region> lovel=0  hivel=82  sample=MPB_Samples/Bass_Drum/Bass_Roll_p_4.ogg   seq_position=4 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+
+<region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_1.ogg   seq_position=1 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+<region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_2.ogg   seq_position=2 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+<region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_3.ogg   seq_position=3 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+<region> lovel=83  hivel=110  sample=MPB_Samples/Bass_Drum/Bass_Roll_m_4.ogg   seq_position=4 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+
+<region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_1.ogg   seq_position=1 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+<region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_2.ogg   seq_position=2 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+<region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_3.ogg   seq_position=3 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+<region> lovel=111  hivel=127  sample=MPB_Samples/Bass_Drum/Bass_Roll_f_4.ogg   seq_position=4 seq_length=4
+  loop_mode=loop_continuous  loop_start=0  loop_end=68857 off_mode=normal
+
+
+// ************
+// ** Dampen **
+// ************
+
+<group> key=c#4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=1112
+<region> sample=MPB_Samples/Bass_Drum/Bass_dampen_1.ogg   seq_position=1   seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_dampen_2.ogg   seq_position=2   seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_dampen_3.ogg   seq_position=3   seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_dampen_4.ogg   seq_position=4   seq_length=4
+
+
+
+// **********************
+// ** Muted Hit (Stuff)**
+// **********************
+<group> key=d4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=1112
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_1.ogg    seq_position=1    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_2.ogg    seq_position=2    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_3.ogg    seq_position=3    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_4.ogg    seq_position=4    seq_length=4
+
+<group> key=d#4  lovel=0  hivel=127  ampeg_release=0.5  group_volume=0 loop_mode=one_shot group=8889 tune=110
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_1.ogg    seq_position=1    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_2.ogg    seq_position=2    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_3.ogg    seq_position=3    seq_length=4
+<region> sample=MPB_Samples/Bass_Drum/Bass_stuff_4.ogg    seq_position=4    seq_length=4
+
+
+
