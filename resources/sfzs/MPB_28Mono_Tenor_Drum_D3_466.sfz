@@ -11,7 +11,7 @@
 // ** LH Hit **
 // ************
 <group> key=b3  lovel=0  hivel=82  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=8887 off_by=8889
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9 
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitL_p_6.ogg   seq_length=5 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitL_p_7.ogg   seq_length=5 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitL_p_8.ogg   seq_length=5 seq_position=3
@@ -19,7 +19,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitL_p_10.ogg  seq_length=5 seq_position=5
 
 <group> key=b3  lovel=83  hivel=110  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=8887 off_by=8889
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9 
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitL_m_6.ogg   seq_length=5 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitL_m_7.ogg   seq_length=5 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitL_m_8.ogg   seq_length=5 seq_position=3
@@ -27,7 +27,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitL_m_10.ogg  seq_length=5 seq_position=5
 
 <group> key=b3  lovel=111  hivel=127  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=8887 off_by=8889 
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9 
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitL_f_9.ogg   seq_length=5 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitL_f_10.ogg   seq_length=5 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitL_f_11.ogg   seq_length=5 seq_position=3
@@ -38,7 +38,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9
 // ** RH Hit **
 // ************
 <group> key=c4   lovel=0  hivel=82  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=8887 off_by=8889
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9 
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitR_p_1.ogg   seq_length=5 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitR_p_2.ogg   seq_length=5 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitR_p_3.ogg   seq_length=5 seq_position=3
@@ -46,7 +46,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitR_p_5.ogg   seq_length=5 seq_position=5
 
 <group> key=c4  lovel=83  hivel=110  ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=8887 off_by=8889
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9 
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitR_m_1.ogg   seq_length=5 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitR_m_2.ogg   seq_length=5 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitR_m_3.ogg   seq_length=5 seq_position=3
@@ -54,7 +54,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitR_m_5.ogg   seq_length=5 seq_position=5
 
 <group> key=c4  lovel=111  hivel=127 ampeg_release=0.5  group_volume=6 loop_mode=one_shot group=8887 off_by=8889
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9 
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitR_f_1.ogg   seq_length=5 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitR_f_2.ogg   seq_length=5 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_HitR_f_3.ogg   seq_length=5 seq_position=3
@@ -65,7 +65,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9
 // ** LH Roll **
 // *************
 <group> key=a3  group_volume=6 group=8888 off_by=8889 off_by=8887
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9 
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-33 
 ampeg_attack=0.5
 ampeg_decay=0
 ampeg_release=0.35
@@ -78,19 +78,19 @@ xfout_locc1=127
 //loop_xfade=11
 
 <group> lovel=0 hivel=34 key=a3 loop_mode=loop_sustain loop_start=0 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain 
-group_volume=1 tune=248 transpose=-2 pan=-9 
+group_volume=1 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_1.ogg  seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_2.ogg  seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_1.ogg  seq_length=4 seq_position=3
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_4.ogg  seq_length=4 seq_position=4
 
-<group> lovel=35 hivel=90 key=a3 loop_mode=loop_sustain loop_start=0 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=1 tune=248 transpose=-2 pan=-9 
+<group> lovel=35 hivel=90 key=a3 loop_mode=loop_sustain loop_start=0 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=1 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_1.ogg  seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_2.ogg  seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_3.ogg  seq_length=4 seq_position=3
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_4.ogg  seq_length=4 seq_position=4
 
-<group> lovel=91 hivel=127 key=a3 loop_mode=loop_sustain loop_start=0 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=1 tune=248 transpose=-2 pan=-9 
+<group> lovel=91 hivel=127 key=a3 loop_mode=loop_sustain loop_start=0 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=1 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_1.ogg  seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_2.ogg  seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_3.ogg  seq_length=4 seq_position=3
@@ -101,7 +101,7 @@ group_volume=1 tune=248 transpose=-2 pan=-9
 // *************
 
 <group> key=a#3 group_volume=6 group=8888 off_by=8889 off_by=8887
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-9 
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=248 transpose=-2 pan=-33 
 ampeg_attack=0.5
 ampeg_decay=0
 ampeg_release=0.35
@@ -113,19 +113,19 @@ xfout_hicc1=127
 xfout_locc1=127
 //loop_xfade=11
 
-<group> lovel=0 hivel=34 key=a#3 loop_mode=loop_sustain loop_start=0 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=1 tune=248 transpose=-2 pan=-9 
+<group> lovel=0 hivel=34 key=a#3 loop_mode=loop_sustain loop_start=0 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=1 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_1.ogg  seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_2.ogg  seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_1.ogg  seq_length=4 seq_position=3
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_p_4.ogg  seq_length=4 seq_position=4
 
-<group> lovel=35 hivel=90 key=a#3 loop_mode=loop_sustain loop_start=0 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=1 tune=248 transpose=-2 pan=-9 
+<group> lovel=35 hivel=90 key=a#3 loop_mode=loop_sustain loop_start=0 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=1 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_1.ogg  seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_2.ogg  seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_3.ogg  seq_length=4 seq_position=3
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_m_4.ogg  seq_length=4 seq_position=4
 
-<group> lovel=91 hivel=127 key=a#3 loop_mode=loop_sustain loop_start=0 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=1 tune=248 transpose=-2 pan=-9 
+<group> lovel=91 hivel=127 key=a#3 loop_mode=loop_sustain loop_start=0 loop_end=157562 ampeg_decay=0.5 ampeg_release=0.5 loop_mode=loop_sustain group_volume=1 tune=248 transpose=-2 pan=-33 
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_1.ogg  seq_length=4 seq_position=1
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_2.ogg  seq_length=4 seq_position=2
 <region> sample=MPB_Samples/Tenor_18x14/Tenor_18x14_Roll_f_3.ogg  seq_length=4 seq_position=3
