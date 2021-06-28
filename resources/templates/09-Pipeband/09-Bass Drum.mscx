@@ -287,10 +287,18 @@
           <velocity>80</velocity>
           <gateTime>80</gateTime>
           </Articulation>
-        <Channel>
-          <program value="24"/>
-          <synti>Zerberus</synti>
-          </Channel>
+      <Channel name="Bass Drum (A478)">
+                <program value="24"/>
+                <synti>Zerberus</synti>
+            </Channel>
+			<Channel name="Bass Drum (A466)">
+                <program value="33"/>
+                <synti>Zerberus</synti>
+            </Channel>
+			<Channel name="Bass Drum (A440)">
+                <program value="42"/>
+                <synti>Zerberus</synti>
+            </Channel>		
         </Instrument>
       </Part>
     <Staff id="1">

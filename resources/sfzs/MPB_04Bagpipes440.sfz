@@ -11,62 +11,62 @@
 // ** Single Piper **
 // ******************
 //really a5
-<group> key=g5  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=g5 hikey=g5 group=2222 off_by=2222
+<group> key=g5  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=g5 hikey=g5 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_High_A_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //really g#5
-<group> key=f#5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=f#5 hikey=f#5 group=2222 off_by=2222
+<group> key=f#5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=f#5 hikey=f#5 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_G_sharp_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //really g5
-<group> key=f5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=f5 hikey=f5 group=2222 off_by=2222
+<group> key=f5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=f5 hikey=f5 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_High_G_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //really f#5
-<group> key=e5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=e5 hikey=e5 group=2222 off_by=2222
+<group> key=e5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=e5 hikey=e5 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_F_sharp_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //really f5
-<group> key=d#5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=d#5 hikey=d#5 group=2222 off_by=2222
+<group> key=d#5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=d#5 hikey=d#5 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_F_natural_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //really e5
-<group> key=d5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=c#5 hikey=d5 group=2222 off_by=2222
+<group> key=d5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=c#5 hikey=d5 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_E_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //really d5
-<group> key=c5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=c5 hikey=c5 group=2222 off_by=2222
+<group> key=c5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=c5 hikey=c5 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_D_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //really c#5
-<group> key=b4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=b4 hikey=b4 group=2222 off_by=2222
+<group> key=b4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=b4 hikey=b4 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_C_sharp_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //really c5
-<group> key=a#4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=a#4 hikey=a#4 group=2222 off_by=2222
+<group> key=a#4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=a#4 hikey=a#4 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_C_natural_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //really b4
-<group> key=a4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=a4 hikey=a4 group=2222 off_by=2222
+<group> key=a4  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=a4 hikey=a4 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_B_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //really a4
-<group> key=g4  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=g4 hikey=g#4 group=2222 off_by=2222
+<group> key=g4  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=g4 hikey=g#4 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_Low_A_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //really g4
-<group> key=f4  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=f4 hikey=f#4 group=2222 off_by=2222
+<group> key=f4  lovel=1  hivel=127  group_volume=0 loop_mode=loop_continuous lokey=f4 hikey=f#4 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_Low_G_A440.ogg  pan=30   seq_position=1  seq_length=1
 
@@ -76,16 +76,16 @@
 // ************
 
 //Drones Strike
-<group> key=f#3  lovel=1  hivel=127  group_volume=6   loop_mode=one_shot group=2220 off_by=2221
+<group> key=f#3  lovel=1  hivel=127  group_volume=6   loop_mode=one_shot group=2260 off_by=2261
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/1_bagpipe_Strike_in_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //Drones In 
 //really a3
-<group> key=g3  lovel=1  hivel=127  group_volume=-6   loop_mode=one_shot group=2221 off_by=2224
+<group> key=g3  lovel=1  hivel=127  group_volume=-6   loop_mode=one_shot group=2261 off_by=2264
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/Drones_A440.ogg  pan=30   seq_position=1  seq_length=1
 
 //Drones Cut-off (silence)
-<group> key=g#3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2224
+<group> key=g#3  lovel=1  hivel=127  group_volume=0   loop_mode=one_shot group=2264
 //really a#3
 <region> sample=MPB_Samples/Bagpipes_GHB_A440/Drones_silence.ogg  pan=30   seq_position=1  seq_length=1
 
