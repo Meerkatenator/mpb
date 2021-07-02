@@ -2,6 +2,6 @@
   "id": "mpb",
   "name": "MuseScore Pipeband",
   "description": "MuseScore Pipe Band extension provides soundfont, templates, custom pallettes, and instrument files to get the best experience when you are scoring for Pipe Bands",
-  "version": "0.0.18",
+  "version": "0.0.21",
   "tags": "pipeband, bagpipe, tenor drum, snare drum, bass drum, pipes, midsection, flourishing"
 }
