@@ -26,7 +26,7 @@
 <region> sample=MPB_Samples/Bagpipes_GHB_A466/1_bagpipe_High_G_A466.ogg seq_position=1  seq_length=1
 
 //really f#5
-<group> key=e5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=e5 hikey=e#5 off_mode=normal
+<group> key=e5  lovel=1  hivel=127  group_volume=0   loop_mode=loop_continuous lokey=e5 hikey=e5 off_mode=normal
 //RR1
 <region> sample=MPB_Samples/Bagpipes_GHB_A466/1_bagpipe_F_sharp_A466.ogg seq_position=1  seq_length=1
 
