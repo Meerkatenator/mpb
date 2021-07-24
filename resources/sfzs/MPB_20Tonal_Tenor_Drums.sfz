@@ -165,21 +165,21 @@
 // **************
 // low A 466 reference on this drum is tune=-530
 // 16x14 Tenor RH E (really e3 not d3)
-<group> lovel=0  hivel=82 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=0 tune=172 transpose=0 pan=25
+<group> lovel=0  hivel=82 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=0 tune=200 transpose=0 pan=25
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_p_1.ogg   seq_length=10 seq_position=1
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_p_2.ogg   seq_length=10 seq_position=3
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_p_3.ogg   seq_length=10 seq_position=5
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_p_4.ogg   seq_length=10 seq_position=7
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_p_5.ogg   seq_length=10 seq_position=9
 
-<group> lovel=83  hivel=110 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=0 tune=172 transpose=0 pan=25
+<group> lovel=83  hivel=110 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=0 tune=200 transpose=0 pan=25
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_m_1.ogg   seq_length=10 seq_position=1
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_m_2.ogg   seq_length=10 seq_position=3
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_m_3.ogg   seq_length=10 seq_position=5
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_m_4.ogg   seq_length=10 seq_position=7
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_m_5.ogg   seq_length=10 seq_position=9
 
-<group> lovel=111  hivel=127 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=-4 tune=172 transpose=0 pan=25
+<group> lovel=111  hivel=127 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=-4 tune=200 transpose=0 pan=25
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_f_1.ogg   seq_length=10 seq_position=1
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_f_2.ogg   seq_length=10 seq_position=3
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_f_3.ogg   seq_length=10 seq_position=5
@@ -187,21 +187,21 @@
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitR_f_5.ogg   seq_length=10 seq_position=9
 
 // 16x14 Tenor LH E (really e3 not d3)
-<group> lovel=0  hivel=82 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=0 tune=172 transpose=0 pan=25
+<group> lovel=0  hivel=82 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=0 tune=200 transpose=0 pan=25
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_p_11.ogg  seq_length=10 seq_position=2
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_p_11.ogg  seq_length=10 seq_position=4
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_p_8.ogg  seq_length=10 seq_position=6
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_p_9.ogg  seq_length=10 seq_position=8
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_p_10.ogg seq_length=10 seq_position=10
 
-<group> lovel=83  hivel=110 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=0 tune=172 transpose=0 pan=25
+<group> lovel=83  hivel=110 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=0 tune=200 transpose=0 pan=25
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_m_11.ogg   seq_length=10 seq_position=2
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_m_12.ogg   seq_length=10 seq_position=4
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_m_8.ogg   seq_length=10 seq_position=6
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_m_9.ogg   seq_length=10 seq_position=8
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_m_10.ogg  seq_length=10 seq_position=10
 
-<group> lovel=111  hivel=127 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=-4 tune=172 transpose=0 pan=25
+<group> lovel=111  hivel=127 key=d3 ampeg_attack=0.1 ampeg_decay=0.90021 ampeg_release=5 loop_mode=one_shot group_volume=-4 tune=200 transpose=0 pan=25
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_f_11.ogg   seq_length=10 seq_position=2
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_f_12.ogg   seq_length=10 seq_position=4
 <region> sample=MPB_Samples/Tenor_16x14/Tenor_16x14_HitL_f_8.ogg   seq_length=10 seq_position=6
