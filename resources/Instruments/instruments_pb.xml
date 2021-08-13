@@ -860,6 +860,70 @@
 				<stem>1</stem>
 				<shortcut>B</shortcut>
 			</Drum>
+			<Drum pitch="23">
+				<head>do</head>
+				<line>1</line>
+				<voice>0</voice>
+				<name>CMD: Ready</name>
+				<stem>1</stem>
+				<shortcut>C</shortcut>
+			</Drum>
+			<Drum pitch="24">
+				<head>re</head>
+				<line>1</line>
+				<voice>0</voice>
+				<name>CMD: By The Right</name>
+				<stem>1</stem>
+			</Drum>
+			<Drum pitch="25">
+				<head>mi</head>
+				<line>1</line>
+				<voice>0</voice>
+				<name>CMD: Quick</name>
+				<stem>1</stem>
+			</Drum>
+			<Drum pitch="26">
+				<head>fa</head>
+				<line>1</line>
+				<voice>0</voice>
+				<name>CMD: March</name>
+				<stem>1</stem>
+			</Drum>
+			<Drum pitch="27">
+				<head>so</head>
+				<line>1</line>
+				<voice>0</voice>
+				<name>CMD: One</name>
+				<stem>1</stem>
+			</Drum>
+			<Drum pitch="28">
+				<head>la</head>
+				<line>1</line>
+				<voice>0</voice>
+				<name>CMD: Two</name>
+				<stem>1</stem>
+			</Drum>	
+			<Drum pitch="29">
+				<head>ti</head>
+				<line>1</line>
+				<voice>0</voice>
+				<name>CMD: And</name>
+				<stem>1</stem>
+			</Drum>
+			<Drum pitch="30">
+				<head>cross</head>
+				<line>1</line>
+				<voice>0</voice>
+				<name>CMD: Three</name>
+				<stem>1</stem>
+			</Drum>
+			<Drum pitch="31">
+				<head>slash</head>
+				<line>1</line>
+				<voice>0</voice>
+				<name>CMD: Four</name>
+				<stem>1</stem>
+			</Drum>				
 			<Channel name="Metronome">
 				<program value="10"/>
 				<synti>Zerberus</synti>
