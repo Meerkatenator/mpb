@@ -182,12 +182,65 @@ fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 // ** Metronome **
 // ***************
 <group> loop_mode=one_shot  group_volume=5 group=2
-<region> key=a0   sample=MPB_samples/Auxiliary/metronome_1.ogg
+<region> key=a0   sample=MPB_samples/Auxiliary/metronome_1.ogg 
 <region> key=a#0  sample=MPB_samples/Auxiliary/metronome_2.ogg
 
-// ************
-// ** RH Tap **
-// ************
+//Command: Ready
+<group> key=b0 loop_mode=one_shot
+<region> sample=MPB_samples/Auxiliary/cmd_Ready-01.ogg seq_position=1  seq_length=3
+<region> sample=MPB_samples/Auxiliary/cmd_Ready-02.ogg seq_position=2  seq_length=3
+<region> sample=MPB_samples/Auxiliary/cmd_Ready-03.ogg seq_position=3  seq_length=3
+
+//Command: By The Right
+<group> key=c1 loop_mode=one_shot
+<region> sample=MPB_samples/Auxiliary/cmd_ByTheRight-01.ogg seq_position=1  seq_length=2
+<region> sample=MPB_samples/Auxiliary/cmd_ByTheRight-02.ogg seq_position=2  seq_length=2
+
+//Command: Quick
+<group> key=c#1 loop_mode=one_shot
+<region> sample=MPB_samples/Auxiliary/cmd_Quick-01.ogg seq_position=1  seq_length=2
+<region> sample=MPB_samples/Auxiliary/cmd_Quick-02.ogg seq_position=2  seq_length=2
+
+//Command: March
+<group> key=d1 loop_mode=one_shot
+<region> sample=MPB_samples/Auxiliary/cmd_March-01.ogg seq_position=1  seq_length=2
+<region> sample=MPB_samples/Auxiliary/cmd_March-02.ogg seq_position=2  seq_length=2
+
+//Command: One
+<group> key=d#1 loop_mode=one_shot
+<region> sample=MPB_samples/Auxiliary/cmd_One-01.ogg seq_position=1  seq_length=3
+<region> sample=MPB_samples/Auxiliary/cmd_One-02.ogg seq_position=2  seq_length=3
+<region> sample=MPB_samples/Auxiliary/cmd_One-03.ogg seq_position=3  seq_length=3
+
+
+//Command: Two
+<group> key=e1 loop_mode=one_shot
+<region> sample=MPB_samples/Auxiliary/cmd_Two-01.ogg seq_position=1  seq_length=4
+<region> sample=MPB_samples/Auxiliary/cmd_Two-02.ogg seq_position=2  seq_length=4
+<region> sample=MPB_samples/Auxiliary/cmd_Two-03.ogg seq_position=3  seq_length=4
+<region> sample=MPB_samples/Auxiliary/cmd_Two-04.ogg seq_position=4  seq_length=4
+
+//Command: And
+<group> key=f1 loop_mode=one_shot
+<region> sample=MPB_samples/Auxiliary/cmd_And-01.ogg seq_position=1  seq_length=4
+<region> sample=MPB_samples/Auxiliary/cmd_And-02.ogg seq_position=2  seq_length=4
+<region> sample=MPB_samples/Auxiliary/cmd_And-03.ogg seq_position=3  seq_length=4
+<region> sample=MPB_samples/Auxiliary/cmd_And-04.ogg seq_position=4  seq_length=4
+
+//Command: Three
+<group> key=f#1 loop_mode=one_shot
+<region> sample=MPB_samples/Auxiliary/cmd_Three-01.ogg seq_position=1  seq_length=2
+<region> sample=MPB_samples/Auxiliary/cmd_Three-02.ogg seq_position=2  seq_length=2
+
+//Command: Four
+<group> key=g1 loop_mode=one_shot
+<region> sample=MPB_samples/Auxiliary/cmd_Four-01.ogg seq_position=1  seq_length=2
+<region> sample=MPB_samples/Auxiliary/cmd_Four-02.ogg seq_position=2  seq_length=2
+
+
+// ******************
+// ** RH Backstick **
+// ******************
 
 <group> key=c3  lovel=0  hivel=42  loop_mode=one_shot group_volume=4 transpose=-1 tune=-50
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
@@ -212,9 +265,9 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
 <region> sample=MPB_Samples/Snare_Drum/PBSnare_Tap_RH_ff_2.ogg   seq_position=2  seq_length=2
 
 
-// ************
-// ** LH Tap **
-// ************
+// ******************
+// ** LH Backstick **
+// ******************
 
 <group> key=b2  lovel=0  hivel=42  loop_mode=one_shot group_volume=4 transpose=-1 tune=-50
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000 group=3333 off_by=3333
