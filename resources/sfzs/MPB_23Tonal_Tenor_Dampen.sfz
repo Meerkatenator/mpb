@@ -11,66 +11,73 @@
 // *****************************************************************************
 // Drum Dampen/Mute
 // *****************************************************************************
-// 14x12 high A (really a3 not g3)
-<group> lovel=0 hivel=127 key=g3 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=6 tune=100 transpose=0
-<region> sample=MPB_Samples/Tenor_Drum/A3/A3_mute_1.ogg seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/A3/A3_mute_2.ogg seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/A3/A3_mute_3.ogg seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/A3/A3_mute_4.ogg seq_length=4 seq_position=4
+// high B (really b3 not a3)
+<group> lovel=0 hivel=127 key=a3 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=0 tune=100 transpose=0
+<region> sample=MPB_Samples/Tenor_Drum/B3/B3_Mute_1.ogg seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/B3/B3_Mute_2.ogg seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/B3/B3_Mute_3.ogg seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/B3/B3_Mute_4.ogg seq_length=4 seq_position=4
 
-// 14x12 high G (really g3 not f3)
-<group> lovel=0 hivel=127 key=f3 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=6 tune=100 transpose=0
-<region> sample=MPB_Samples/Tenor_Drum/G3/G3_mute_1.ogg  seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/G3/G3_mute_2.ogg  seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/G3/G3_mute_3.ogg  seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/G3/G3_mute_4.ogg  seq_length=4 seq_position=4
+// high A (really a3 not g3)
+<group> lovel=0 hivel=127 key=g3 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=0 tune=100 transpose=0
+<region> sample=MPB_Samples/Tenor_Drum/A3/A3_Mute_1.ogg seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/A3/A3_Mute_2.ogg seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/A3/A3_Mute_3.ogg seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/A3/A3_Mute_4.ogg seq_length=4 seq_position=4
 
-// 16x12 F(#) (really f#3 not e3)
-<group> lovel=0 hivel=127 key=e3 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=6 tune=0 transpose=0
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_mute_1.ogg  seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_mute_2.ogg  seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_mute_3.ogg  seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_mute_4.ogg  seq_length=4 seq_position=4
+// high G (really g3 not f3)
+<group> lovel=0 hivel=127 key=f3 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=0 tune=100 transpose=0
+<region> sample=MPB_Samples/Tenor_Drum/G3/G3_Mute_1.ogg  seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/G3/G3_Mute_2.ogg  seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/G3/G3_Mute_3.ogg  seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/G3/G3_Mute_4.ogg  seq_length=4 seq_position=4
 
-// 16x14  E (really e3 not d3)
-<group> lovel=0 hivel=127 key=d3 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=6 tune=0 transpose=0
-<region> sample=MPB_Samples/Tenor_Drum/E3/E3_mute_1.ogg  seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/E3/E3_mute_2.ogg  seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/E3/E3_mute_3.ogg  seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/E3/E3_mute_4.ogg  seq_length=4 seq_position=4
+// F(#) (really f#3 not e3)
+<group> lovel=0 hivel=127 key=e3 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=0 tune=0 transpose=0
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_Mute_1.ogg  seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_Mute_2.ogg  seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_Mute_3.ogg  seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_Mute_4.ogg  seq_length=4 seq_position=4
 
-// 18x14 D (really d3 not c3)
-<group> lovel=0 hivel=127 key=c3 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=6 tune=0 transpose=0
-<region> sample=MPB_Samples/Tenor_Drum/D3/D3_mute_1.ogg seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/D3/D3_mute_2.ogg seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/D3/D3_mute_3.ogg seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/D3/D3_mute_4.ogg seq_length=4 seq_position=4
+// E (really e3 not d3)
+<group> lovel=0 hivel=127 key=d3 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=0 tune=0 transpose=0
+<region> sample=MPB_Samples/Tenor_Drum/E3/E3_Mute_1.ogg  seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/E3/E3_Mute_2.ogg  seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/E3/E3_Mute_3.ogg  seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/E3/E3_Mute_4.ogg  seq_length=4 seq_position=4
 
-// 18x14 C(#) (really c#3 not b2)
-<group> lovel=0 hivel=127 key=b2 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=6 tune=0 transpose=0 
-<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_mute_1.ogg seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_mute_2.ogg seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_mute_3.ogg seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_mute_4.ogg seq_length=4 seq_position=4
+// D (really d3 not c3)
+<group> lovel=0 hivel=127 key=c3 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=0 tune=0 transpose=0
+<region> sample=MPB_Samples/Tenor_Drum/D3/D3_Mute_1.ogg seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/D3/D3_Mute_2.ogg seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/D3/D3_Mute_3.ogg seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/D3/D3_Mute_4.ogg seq_length=4 seq_position=4
 
-// 20x14 B (really b2 not a2)
-<group> lovel=0 hivel=127 key=a2 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=6 tune=0 transpose=0
-<region> sample=MPB_Samples/Tenor_Drum/B2/B2_mute_1.ogg seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/B2/B2_mute_2.ogg seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/B2/B2_mute_3.ogg seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/B2/B2_mute_4.ogg seq_length=4 seq_position=4
+// C(#) (really c#3 not b2)
+<group> lovel=0 hivel=127 key=b2 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=0 tune=0 transpose=0 
+<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_Mute_1.ogg seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_Mute_2.ogg seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_Mute_3.ogg seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_Mute_4.ogg seq_length=4 seq_position=4
 
-// 20x14 low A (really a2 not g2)
-<group> lovel=0 hivel=127 key=g2 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=6 tune=0 transpose=0
-<region> sample=MPB_Samples/Tenor_Drum/A2/A2_mute_1.ogg seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/A2/A2_mute_2.ogg seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/A2/A2_mute_3.ogg seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/A2/A2_mute_4.ogg seq_length=4 seq_position=4
+// low B (really b2 not a2)
+<group> lovel=0 hivel=127 key=a2 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=0 tune=0 transpose=0
+<region> sample=MPB_Samples/Tenor_Drum/B2/B2_Mute_1.ogg seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/B2/B2_Mute_2.ogg seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/B2/B2_Mute_3.ogg seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/B2/B2_Mute_4.ogg seq_length=4 seq_position=4
 
-// 20x14 low G (really g2 not f2)
-<group> lovel=0 hivel=127 key=f2 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=6 tune=0 transpose=0 
-<region> sample=MPB_Samples/Tenor_Drum/G2/G2_mute_1.ogg seq_length=4 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/G2/G2_mute_2.ogg seq_length=4 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/G2/G2_mute_3.ogg seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/G2/G2_mute_4.ogg seq_length=4 seq_position=4
+// low A (really a2 not g2)
+<group> lovel=0 hivel=127 key=g2 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=0 tune=0 transpose=0
+<region> sample=MPB_Samples/Tenor_Drum/A2/A2_Mute_1.ogg seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/A2/A2_Mute_2.ogg seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/A2/A2_Mute_3.ogg seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/A2/A2_Mute_4.ogg seq_length=4 seq_position=4
+
+// low G (really g2 not f2)
+<group> lovel=0 hivel=127 key=f2 loop_mode=one_shot ampeg_decay=0.5 ampeg_release=0.5 group_volume=0 tune=0 transpose=0 
+<region> sample=MPB_Samples/Tenor_Drum/G2/G2_Mute_1.ogg seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/G2/G2_Mute_2.ogg seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/G2/G2_Mute_3.ogg seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/G2/G2_Mute_4.ogg seq_length=4 seq_position=4
 
