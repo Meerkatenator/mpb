@@ -10,50 +10,50 @@
 // ************
 // ** LH Hit **
 // ************
-<group> key=b3  lovel=0  hivel=82  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889
+<group> key=b3  lovel=0  hivel=50  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=0 transpose=0 pan=66 
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_p_1.ogg   seq_length=5 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_p_2.ogg   seq_length=5 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_p_3.ogg   seq_length=5 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_p_4.ogg   seq_length=5 seq_position=4
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_p_1.ogg   seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_p_2.ogg   seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_p_3.ogg   seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_p_4.ogg   seq_length=4 seq_position=4
 
-<group> key=b3  lovel=83  hivel=110  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889
+<group> key=b3  lovel=51  hivel=82  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=0 transpose=0 pan=66 
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_m_1.ogg   seq_length=5 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_m_2.ogg   seq_length=5 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_m_3.ogg   seq_length=5 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_m_4.ogg   seq_length=5 seq_position=4
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_m_1.ogg   seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_m_2.ogg   seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_m_3.ogg   seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_m_4.ogg   seq_length=4 seq_position=4
 
-<group> key=b3  lovel=111  hivel=127  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889 
+<group> key=b3  lovel=83  hivel=127  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889 
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=0 transpose=0 pan=66 
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_f_1.ogg   seq_length=5 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_f_2.ogg   seq_length=5 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_f_3.ogg   seq_length=5 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_f_4.ogg   seq_length=5 seq_position=4
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_f_1.ogg   seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_f_2.ogg   seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_f_3.ogg   seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitL_f_4.ogg   seq_length=4 seq_position=4
 
 // ************
 // ** RH Hit **
 // ************
-<group> key=c4  lovel=0  hivel=82  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889
+<group> key=c4  lovel=0  hivel=50  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=0 transpose=0 pan=66 
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_p_1.ogg   seq_length=5 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_p_2.ogg   seq_length=5 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_p_3.ogg   seq_length=5 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_p_4.ogg   seq_length=5 seq_position=4
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_p_1.ogg   seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_p_2.ogg   seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_p_3.ogg   seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_p_4.ogg   seq_length=4 seq_position=4
 
-<group> key=c4  lovel=83  hivel=110  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889
+<group> key=c4  lovel=51  hivel=82  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=0 transpose=0 pan=66 
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_m_1.ogg   seq_length=5 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_m_2.ogg   seq_length=5 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_m_3.ogg   seq_length=5 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_m_4.ogg   seq_length=5 seq_position=4
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_m_1.ogg   seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_m_2.ogg   seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_m_3.ogg   seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_m_4.ogg   seq_length=4 seq_position=4
 
-<group> key=c4  lovel=111  hivel=127  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889
+<group> key=c4  lovel=83  hivel=127  ampeg_release=0.5  group_volume=3 loop_mode=one_shot group=8887 off_by=8889
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 tune=0 transpose=0 pan=66 
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_f_1.ogg   seq_length=5 seq_position=1
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_f_2.ogg   seq_length=5 seq_position=2
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_f_3.ogg   seq_length=5 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_f_4.ogg   seq_length=5 seq_position=4
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_f_1.ogg   seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_f_2.ogg   seq_length=4 seq_position=2
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_f_3.ogg   seq_length=4 seq_position=3
+<region> sample=MPB_Samples/Tenor_Drum/F#3/F#3_HitR_f_4.ogg   seq_length=4 seq_position=4
 
 // *************
 // ** LH Roll **
