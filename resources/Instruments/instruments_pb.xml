@@ -534,8 +534,8 @@
             <description>MPB Tonal Tenors</description>
             <musicXMLid>drum.pbtonaltenors</musicXMLid>
             <clef>F</clef>
-            <aPitchRange>39-55</aPitchRange> <!-- 43-59 non-transposed for ms4-->
-            <pPitchRange>39-55</pPitchRange> <!-- 43-59 non-transposed for ms4-->
+            <aPitchRange>39-57</aPitchRange> 
+            <pPitchRange>39-57</pPitchRange> 
             <transposeDiatonic>-1</transposeDiatonic> 
             <transposeChromatic>-2</transposeChromatic> 			
             <barlineSpan>1</barlineSpan>
