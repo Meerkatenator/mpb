@@ -71,15 +71,14 @@ xfout_hicc1=127
 xfout_locc1=127
 //loop_xfade=11
 
-<group> lovel=0 hivel=34 key=a3 loop_mode=loop_continuous ampeg_decay=0.5 ampeg_release=0.5  
-group_volume=6 tune=0 transpose=0 pan=-100 
-<region> sample=MPB_Samples/Tenor_Drum/A2/A2_Roll_p_1.ogg  seq_length=4 seq_position=1
+<group> lovel=0 hivel=34 key=a3 loop_mode=loop_continuous ampeg_decay=0.5 ampeg_release=0.5  group_volume=6 tune=0 transpose=0 pan=-100 
+<region> sample=MPB_Samples/Tenor_Drum/A2/A2_Roll_p.ogg  seq_length=1 seq_position=1
 
 <group> lovel=35 hivel=90 key=a3 loop_mode=loop_continuous ampeg_decay=0.5 ampeg_release=0.5  group_volume=6 tune=0 transpose=0 pan=-100 
-<region> sample=MPB_Samples/Tenor_Drum/A2/A2_Roll_m_1.ogg  seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/A2/A2_Roll_m.ogg  seq_length=1 seq_position=1
 
 <group> lovel=91 hivel=127 key=a3 loop_mode=loop_continuous ampeg_decay=0.5 ampeg_release=0.5  group_volume=6 tune=0 transpose=0 pan=-100 
-<region> sample=MPB_Samples/Tenor_Drum/A2/A2_Roll_f_1.ogg  seq_length=4 seq_position=1
+<region> sample=MPB_Samples/Tenor_Drum/A2/A2_Roll_f.ogg  seq_length=1 seq_position=1
 
 // *************
 // ** RH Roll **
