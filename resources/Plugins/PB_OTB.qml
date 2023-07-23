@@ -77,7 +77,16 @@ MuseScore {
 
       requiresScore: true
 
-      property var the_note : null;  
+      Component.onCompleted : {
+            if (mscoreMajorVersion >= 4) {
+                  title = qsTr("PB_OTB") ;
+                  // thumbnailName = ".png";
+                  // categoryCode = "some_category";
+            }
+      }
+
+      property var the_note : null; 
+
       property var num_of_graces : null;    
       property var master_grace_length : 50;
       
@@ -262,6 +271,6 @@ onRun: {
             curScore.createPlayEvents();  // Needed to get MS to realize the appogg 1st time
             applyToNotesInSelection(appoggiatura)
             console.log("Byebye, PB_OTB: we did it! Gracenote length = ", master_grace_length);
-            Qt.quit();
+            quit();
          }
 }
