@@ -20,9 +20,19 @@ import MuseScore 3.0
 their pitch as per what I use in teaching Pipe Band Tenor Drumming.*/
 
 MuseScore {
-      version:  "3.0"
+      version:  "4.0"
       description: qsTr("This plugin colours notes in the selection depending on their pitch as per my Pipe Band Tenor Drum convention")
       menuPath: "Plugins.Notes.PB Colour Notes"
+
+      requiresScore: true
+
+      Component.onCompleted : {
+            if (mscoreMajorVersion >= 4) {
+                  title = qsTr("PB_colournotes") ;
+                  thumbnailName = "PB_colournotes.png";
+                  categoryCode = "pipeband";
+            }
+      }
 
       property string black  : "#000000" //colour unassigned
 	  property string red    : "#aa0000" //hiA
@@ -163,6 +173,6 @@ onRun: {
 
             applyToNotesInSelection(pbColourNotes)
 
-            Qt.quit();
+            quit();
          }
 }

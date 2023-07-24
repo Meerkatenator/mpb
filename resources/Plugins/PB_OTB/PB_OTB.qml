@@ -71,7 +71,7 @@ controversial.
 */
 
 MuseScore {
-      version:  "1.0"
+      version:  "4.0"
       description: qsTr("This plugin reduces the playback length of all appoggiature in the selection and makes main notes play on the beat")
       menuPath: "Plugins.Notes.PB_OTB"
 
@@ -80,8 +80,8 @@ MuseScore {
       Component.onCompleted : {
             if (mscoreMajorVersion >= 4) {
                   title = qsTr("PB_OTB") ;
-                  // thumbnailName = ".png";
-                  // categoryCode = "some_category";
+                  thumbnailName = "PB_OTB.png";
+                  categoryCode = "pipeband";
             }
       }
 
