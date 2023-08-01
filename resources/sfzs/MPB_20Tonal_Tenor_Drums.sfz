@@ -192,8 +192,8 @@ fil_type=lpf_1p  cutoff=150  fil_veltrack=8000 tune=0 transpose=0 pan=-25
 <region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_Hit_f_1.ogg   seq_length=4 seq_position=1
 //<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_Hit_f_2.ogg   seq_length=4 seq_position=2
 //<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_Hit_f_3.ogg   seq_length=4 seq_position=3
-<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_Hit_f_4.ogg   seq_length=4 seq_position=4
-
+//<region> sample=MPB_Samples/Tenor_Drum/C#3/C#3_Hit_f_4.ogg   seq_length=4 seq_position=4
+// kate was here
 
 // **************
 // ***  low B ***
